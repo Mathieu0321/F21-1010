@@ -1,12 +1,104 @@
 
+<style>
+.pagebreak { page-break-before: always; }
+.half { height: 200px; }
+</style>
+
+# Class: 1010 Intro Computer Science
+
 # Class Time
+
+Lecture: Tu/Th 11:10 AM - 12:25 - Room 310 Class Room Building (CR)
+
+Attendance is required.
 
 # Lab Times
 
+Lab 10: Tu 3:20pm - 5:10pm - Enzi STEM Room 315
+Lab 11: Tu 6:20pm - 8:10pm - Enzi STEM Room 315
+Lab 12: Th 3:20pm - 5:10pm - Enzi STEM Room 315
+Lab 13: Th 6:20pm - 8:10pm - Enzi STEM Room 315
+Lab 14: Fr 2:30pm - 4:20pm - Enzi STEM Room 315
+
+Attendance is required.
+
 # Final Time
 
+Our class at 11:10 a.m. – 12:25 p.m. Thursday the final will be
+December 16 10:15 a.m. – 12:15 p.m.  In this room.   
 
-#	 Raw Sylabus
+
+## Instructor
+
+- Prof Philip Schlump
+- Office: Office hours will be Tuesday, Thrusday from 9:00am to 10:45am and by appointment.   Appointments can include using zoom.com for remote office hours.
+- Contact via email (pschlump@uwyo.edu) or (for emergencies only): 720-209-7888 (my personal cell)
+and pschlump@gmail.com (personal email).  For using GIT and inviting me to have access to your files/projects use pschlump@uwyo.edu as the email address.
+- Class Time:  Turn off phones and other internet connected devices during class and lab.
+
+If you call me to set up an appointment, you will need to send me a SMS message
+first so that I enter your name into my contact list.  I get 10+ robo-calls a day and
+I will not answer a random number.  Text me with your name and that you are a student
+in 1010 class.
+
+## Overview of the class
+
+Python is becoming a more important language.  In some analysis is is the most
+important language.  Job sites show that Python is the most in-demand job.
+Python was designed to be easy to learn.
+
+xyzzy
+
+Throughout the class we will be using a number of tools.
+Visual Studio Code will be used for editing text and other files.
+Python 3.8 will be the version of Python that we are working with.  This is the Anaconda install version of Python.
+The exact version of Python is the Anaconda 64 bit release of Python.
+We will use TensorFlow 2.x.  
+Realistically you should install these tools on on your own computer.    They work on Mac,
+Windows, and Linux.   I do 80% of my development on a Linux system, 15%
+on Mac and 5% on Windows.  We will also use a tool called Jupyter Notebooks.
+This is a layer on top of Python.
+
+Visual Studio Code: https://code.visualstudio.com/download
+
+Python 3.8 - Anaconda: https://www.anaconda.com/products/individual
+
+xyzzy - Jupiter
+
+
+(You won't need this installed for a while, but...)
+TensorFlow 2.x: https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
+
+
+## Required texts
+
+We will be covering the first 1/2 of the book in learning Python
+(pages 1 ... 318).  The book can be purchased from Amazon if you need
+a paper copy.  *Python Crash Course* by Eric Mathers, 2nd edition.
+At this point in time Amazon lists it for $17.00 and notes that it
+is the best selling Python book of all time.  The Amazon link is:
+[https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=pd_sim_14_7](https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=pd_sim_14_7)
+
+There will be outside reading also.  I will provide links or .pdfs.
+
+## Required Projects
+
+Most of the class grade comes from the homework.  Specifically 30% of the semester grade is 
+from the midterm and the final.  15% from Midterm, 15% from Final.  The final is cumulative.
+
+## Extra credit
+
+No extra credit is planned at this time.
+
+<div class="pagebreak"> </div>
+
+
+#	Class Dates and Schedule.
+
+Note - This is the current "Plan" - if this is updated it will
+be announced in class and posted to the Github.com site for the
+class.
+
 
 | Date        | Lect. No | Description                             |
 |-------------|----------|-----------------------------------------|
@@ -235,5 +327,104 @@
 3. Visual Studio Code
 4. GIT
 5. VIM
+
+
+## Late work.
+
+Generally it is a good idea to get the homework done on time.   Normally I take 10% off for each
+week day that a homework is late until it is worth only 40% of the original points.  The last day
+for turning in homework is Dec 10 at Midnight.  No homework will be accepted after this point.  
+
+## Original work policy (in this class).
+
+Homework is turned in online via file upload.   The homework is really, really important.  Do your own 
+work.  That is how you learn.  If you use google or other web sources, then note where you got the
+code or answer from.  If you copy from the web, then expect that on a one-on-one basis I will be asking
+you how the code works.   Help each other.  It is legitimate in this class, (it may not be in other 
+classes), for you to help your fellow student.   If you do then note it in comments your code.  Code is very
+unique to each person.  If two of you turn in the same code - that is very bad.  If you note that
+you worked on it together - and then I ask each of you to explain how it works - that's alright.
+If you have questions about this email me.
+
+                         
+
+## Title IX – Duty to Report
+ 
+The University of Wyoming faculty are committed to helping create a safe learning environment for all students and for
+the university as a whole. If you have experienced any form of gender or sex-based discrimination or harassment,
+including sexual assault, sexual harassment, relationship violence, or stalking, know that help and support are
+available. The University has staff members trained to support survivors in navigating campus life, accessing health and
+counseling services, providing academic and housing accommodations, and more. The University strongly encourages all
+students to report any such incidents to the University. Please be aware that all University of Wyoming employees,
+including student staff, are required to report all Title IX related concerns to the Title IX Coordinator or their
+supervisor. This means that if you tell a faculty member about a situation of sexual harassment or sexual violence, or
+other related misconduct, the faculty member must share that information with the University’s Title IX Coordinator.
+UW’s Title IX Coordinator is Jim Osborn (Manager of Investigations, Equal Opportunity Report and Response). He is
+located in Room 320 of the Bureau of Mines Building, and can be reached via email at report-it@uwyo.edu or via phone at
+766-5200 or 766-5228. For more information, go to:
+[http://www.uwyo.edu/reportit/learn-more/faqs.html](http://www.uwyo.edu/reportit/learn-more/faqs.html) .
+
+## Attendance and Absence policies
+
+You have to watch the lectures and listen to the podcast.  This class has prerecorded lecture and audio
+that you are expected to watch/listen to.   This is your "required" attendance.
+
+### SARS-Cov-2 / COVID-19 Related Policies 
+
+During this pandemic, you must abide by all UW policies and public health rules
+put forward by the City of Laramie (or by Natrona County if at UW-Casper), the University of Wyoming
+and the State of Wyoming to promote the health and well-being of fellow students and your own personal
+self-care. Please review our current policy.
+As with other disruptive behaviors, we have the right to dismiss you from the classroom (Zoom and
+physical), or other class activities if you fail to abide by these COVID-19 policies. These behaviors will
+be referred to the Dean of Students Office using the UWYO Cares Reporting Form for Student Code of
+Conduct processes.
+
+### Syllabus Changes
+
+I will alert you to any possible course format changes in response to UW decisions
+about community safety during the semester.
+
+## Classroom Behavior Policy
+
+(This section is not really applicable to this class - we will have class discussions that this applies to)
+
+At all times, treat your presence in the classroom and your enrollment in this course as you would a job. Act
+professionally, arrive on time, pay attention, complete your work in a timely and professional manner. You will be
+respectful towards your classmates and instructor. Spirited debate and disagreement are to be expected in any classroom
+and all views will be heard fully, but at all times we will behave civilly and with respect towards one another.
+Personal attacks, offensive language, name-calling, and dismissive gestures are not warranted in a learning atmosphere.
+As the instructor, I have the right to dismiss you from the classroom.
+
+## Classroom Statement on Diversity
+
+The University of Wyoming values an educational environment that is diverse, equitable, and inclusive. The diversity
+that students and faculty bring to class, including age, country of origin, culture, disability, economic class,
+ethnicity, gender identity, immigration status, linguistic, political affiliation, race, religion, sexual orientation,
+veteran status, worldview, and other social and cultural diversity is valued, respected, and considered a resource for
+learning. 
+
+## Disability Support
+
+If you have a physical, learning, sensory or psychological disability and require accommodations, please register as
+soon as possible and provide documentation of your disability to Disability Support Services (DSS), Room 109 Knight
+Hall. You may also contact DSS at (307) 766-3073 or udss@uwyo.edu. Visit their website for more
+information: www.uwyo.edu/udss
+
+## Academic Dishonesty Policies
+
+Don't cheat on the exams. I expect you to take full advantage of all the online resources you can get your hands on.
+That includes Stack Overflow, Github etc. If you do use someone else's code, put in a link to where you found it.
+Don't cheat on the projects - do you own work.  Most of the learning in the class is from *doing* the projects.
+
+## Substantive changes to syllabus
+
+All deadlines, requirements, and course structure are subject to change if deemed necessary by the instructor. Students
+will be notified verbally in class, on our WyoCourses page announcement, and via email of these changes. I do travel
+during the semester. Class could be canceled or assignments due dates changed.
+
+# Copyright
+
+Copyright (C) University of Wyoming, 2021.
 
 
