@@ -245,7 +245,7 @@ class.
 
 This is the schedule for the lab.
 
-| Date           | Week | Description                              | 
+| Date           | Week | Description                              |
 |----------------|------|------------------------------------------|
 | *Week 1*       |      |                                          |
 | Aug 24, 26, 27 | 1    | Installation of Python, Compeer Setup    |
@@ -267,38 +267,57 @@ This is the schedule for the lab.
 |                |      | homework.                                |
 |                |      |                                          |
 | *Week 4*       | 4    | CSV/Dictionary? xyzzy?                   |
+| Sep 14, 16, 17 |      |                                          |
 |                |      |                                          |
 | *Week 5*       | 5    | SQLite3 Data Analysis                    |
+| Sep 21, 23, 24 |      |                                          |
 |                |      | Pull out data.  Draw Graphs.             |
 |                |      |                                          |
 | *Week 6*       | 6    | Search Genetic Data.                     |
+| Sep 28, 30,    |      |                                          |
+| Oct 1          |      |                                          |
 |                |      | Determine if person's genes have CF.     |
 |                |      |                                          |
 | *Week 7*       | 7    | Recursive Calculation                    |
+| Oct 5, 7, 8    |      |                                          |
 |                |      | Calculate Fibonacci                      |
 |                |      | Find the largest value in a list.        |
 |                |      |                                          |
 | *Week 8*       | 8    | A simple form with a web page and form.  |
+| Oct 12, 14, 15 |      |                                          |
 |                |      | Render a page with a form.               |
 |                |      | POST - save data to SQLite3.             |
 |                |      |                                          |
 | *Week 9*       | 9    | Tensor Flow Install - Hello World        |
+| Oct 19, 21, 22 |      |                                          |
 |                |      |                                          |
 | *Week 10*      | 10   | Data Analysis                            |
+| Oct 26, 28, 29 |      |                                          |
 |                |      |                                          |
 | *Week 11*      | 11   | Image Classification                     |
+| Nov 2, 4, 5    |      |                                          |
 |                |      |                                          |
 | *Week 12*      | 12   | Hand Writing Analysis                    |
+| Nov 9, 11, 12  |      |                                          |
 |                |      |                                          |
-| *Week 13*      | 13   | xyzzy                                    |
+| *Week 13*      | 13   | TBD.                                     |
+| Nov 16, 18, 19 |      |                                          |
 |                |      |                                          |
-| *Week 14*      | 14   | xyzzy                                    |
+| *Week 14*      | 14   | TBD.                                     |
+| Nov 30,        |      |                                          |
+| Dec 2,3        |      |                                          |
 |                |      |                                          |
 
 
 
+https://www.coursera.org/collections/tensorflow-keras-projects-beginners
+
+Predicting Hosing Prices
+
+Sentiment Analyst
 
 
+OOP: https://www.tutorialspoint.com/python/python_classes_objects.htm
 
 
 # Homework/Assignments
@@ -314,7 +333,16 @@ This is the schedule for the lab.
 |              |            |     | Due as a part of your lab.             |
 | 4            | Mon Sep 20 | 100 | Sort and Search Data                   |
 |              |            | 50  | Lab 3: Setup and use git and a branch. |  
-
+| 5            |            |     |                                        |
+| 6            |            |     |                                        |
+| 7            |            |     |                                        |
+| 8            |            |     |                                        |
+| 9            |            |     |                                        |
+| 10           |            |     |                                        |
+| 11           |            |     |                                        |
+| 12           |            |     |                                        |
+|              |            |     |                                        |
+| Total        |            | 999xyzzy    |                                        |
 
 
 # Install
