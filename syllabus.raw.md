@@ -15,9 +15,13 @@ Attendance is required.
 # Lab Times
 
 Lab 10: Tu 3:20pm - 5:10pm - Enzi STEM Room 315
+
 Lab 11: Tu 6:20pm - 8:10pm - Enzi STEM Room 315
+
 Lab 12: Th 3:20pm - 5:10pm - Enzi STEM Room 315
+
 Lab 13: Th 6:20pm - 8:10pm - Enzi STEM Room 315
+
 Lab 14: Fr 2:30pm - 4:20pm - Enzi STEM Room 315
 
 Attendance is required.
@@ -239,6 +243,8 @@ class.
 
 # Lab Schedule
 
+This is the schedule for the lab.
+
 | Date           | Week | Description                              | 
 |----------------|------|------------------------------------------|
 | *Week 1*       |      |                                          |
@@ -260,9 +266,9 @@ class.
 |                |      | Creating text file (Markdown) for        |
 |                |      | homework.                                |
 |                |      |                                          |
-| *Week 4*       | 4    | CSV/Dictionary? xyzzy?                     |
+| *Week 4*       | 4    | CSV/Dictionary? xyzzy?                   |
 |                |      |                                          |
-| *Week 5*       | 5    | SQLite3 Data Analysis                      |
+| *Week 5*       | 5    | SQLite3 Data Analysis                    |
 |                |      | Pull out data.  Draw Graphs.             |
 |                |      |                                          |
 | *Week 6*       | 6    | Search Genetic Data.                     |
@@ -278,15 +284,15 @@ class.
 |                |      |                                          |
 | *Week 9*       | 9    | Tensor Flow Install - Hello World        |
 |                |      |                                          |
-| *Week 10*      | 10   | Data Analysis                              |
+| *Week 10*      | 10   | Data Analysis                            |
 |                |      |                                          |
-| *Week 11*      | 11   | Image Classification                       |
+| *Week 11*      | 11   | Image Classification                     |
 |                |      |                                          |
-| *Week 12*      | 12   | Hand Writing Analysis                      |
+| *Week 12*      | 12   | Hand Writing Analysis                    |
 |                |      |                                          |
-| *Week 13*      | 13   | xyzzy                                      |
+| *Week 13*      | 13   | xyzzy                                    |
 |                |      |                                          |
-| *Week 14*      | 14   | xyzzy                                      |
+| *Week 14*      | 14   | xyzzy                                    |
 |                |      |                                          |
 
 
