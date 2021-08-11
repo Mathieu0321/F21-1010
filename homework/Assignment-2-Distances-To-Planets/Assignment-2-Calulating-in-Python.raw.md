@@ -1,14 +1,17 @@
-# Homework X
 
-Due: 
+m4_include(../../setup.m4)
 
-Points: 200 total.
+# Homework 2 - Distances to Planets and Stars
+
+Due: Mon Sep 13
+
+Points: 200 total.  100pts for Assignment, 100 in lab.
 
 # The Solar system and Exoplanets
 
 Lots of you have seen models in school of the solar system.
 
-[!Planets2013.svg](Planets2013.svg)
+![Planets2013.svg.png](./Planets2013.svg.png)
 
 [Image From Wikipedia!](https://creativecommons.org/licenses/by-sa/3.0/deed.en)  That is fun!!!
 
@@ -25,7 +28,7 @@ of a tennis ball as our model Sun and then calculate
 the sizes of the planets and distances to other
 stars.
 
-For our calculations a tennis ball is 2.575 inches in diameter.
+For our calculations a tennis ball is 2.75 inches in diameter.
 Note that some of our data is diameter and some is radius.
 Diameter is radius times 2.
 
@@ -73,7 +76,11 @@ The Sun is 865,370 miles (1,391,400km) in diameter.
 
 To convert kilometers to miles multiply the miles by 0.62137119.
 
+To convert from miles to kilometers multiply by 1.60934 .
 
+A mile is 80 chains, a chain is 22 yards.   A yard is 3 feet so a mile is 5280 feet.
+An acre is 10 square chains.  All very convenient.  10 chains is 1 furlong.
+so an acre is 1 furlong by 1 furlong.
 
 Let us do some calculation and fix this misconception.
 
@@ -102,20 +109,44 @@ Find in the article where the author describes 35 light years as "close" to us.
 
 ## Program
 
-1. 75pts - Write a program that will:
+100pts total - Assignment 2.  Turned in by upland your files as a .zip archive on
+the banner/wyoweb system.
+
+Part 1: 75pts - Write a program that will:
+0. Create a directory/folder for this code
+0. Call the main program in the folder, `main.py`.
+0. Create a file with the conversion code in it, `conv.py`.
+1. use a "def" in `conv.py` for the conversions
+2. Have a test section at the bottom to test the function.
+	- Write automated test code that will check that your conversion is correct.
+	- Make it so that if you just run the conversion code it will run the test.
+3. The main program will
 	- Print out a prompt for the value.
 	- Read in from the terminal a value in kilometers.
-	- Apply a conversion from that unit to tennis ball model.
+	- Apply a conversion from that unit to tennis ball model. (Call the function)
 	- Output a value in miles, kilometers and feet plus inches (or fractions of an inch).
-	- Write automated test code that will check that your conversion is correct.
-2. 25pts - Write a program that will:
-	- Print out a prompt for the value.
-	- Read in a value in light years.
-	- Convert that to miles and kilometers.  Print the result.
-	- Convert to the tennis ball model units and print out the value in miles, kilometers and feet plus inches (or fractions of an inch).
-	- Write automated test code that will check that your conversion is correct.
 
-## Questions
+Part 2. 25pts - Write a program that will:
+Use the same technique as the above with different values for reading in
+light years and print out the output in miles and kilometers.  This means
+creating a new directory for this 2nd set of code.  Creating a set of files,
+one with the main program and a file for each of the conversions.  The conversions
+are light-years-to-miles and miles-to-kilometers.
+Read in light years, print out miles and kilometers in the main program.
+Call the conversion from the main program.  Implement test code in
+each of the conversion programs. 
+
+## Questions: to be answer in lab.
+
+Questions are answered by doing a write up as a .md or .markdown (text) file in lab.
+The writeup should be written in Visual Studio Code (VS Code).
+
+Use markdown [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/) for the formatting of your
+text file answers.
+
+This portion should be turned in as a part of your lab.
+
+It is worth 100pts.
 
 1. 5pts - What is the closest star to planet Earth?  Think! It shines on you every day.
 2. 10pts - Approximately how many exoplanets have been identified? (Use Google)
@@ -145,9 +176,7 @@ Find in the article where the author describes 35 light years as "close" to us.
 12. 10pts - Ligo detected a black hole merger [https://www.ligo.caltech.edu/news/ligo20200902](https://www.ligo.caltech.edu/news/ligo20200902)
    of gw190521.  How many light years is that away from earth? (See: [https://en.wikipedia.org/wiki/GW190521](https://en.wikipedia.org/wiki/GW190521).  How far away is that in miles?  Use 1,000,000,000 for a billion.
 
-Write up your answers in a text file (not Microsoft Word, or .pdf) and turn in the answers and
-your two python program that you used for calculating.  Use markdown [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/) for the formatting of your
-text file answers.
+Write up your answers in a text file (not Microsoft Word, or .pdf).
 
 
 

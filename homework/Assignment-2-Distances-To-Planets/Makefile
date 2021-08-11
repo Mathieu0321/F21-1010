@@ -1,6 +1,6 @@
 
 PP=`pwd`
-FN=Assignment-2-Calulating-in-Python.md
+FN=Assignment-2-Calulating-in-Python
 # FN1=syllabus-5010
 # DIR=../F20-1015
 DIR=./../../

@@ -28,8 +28,7 @@ Attendance is required.
 
 # Final Time
 
-Our class at 11:10 a.m. – 12:25 p.m. Thursday the final will be
-December 16 10:15 a.m. – 12:15 p.m.  In this room.   
+Thursday the final will be December 16 10:15 a.m. – 12:15 p.m.  In this room.
 
 
 ## Instructor
@@ -51,23 +50,36 @@ Python is becoming a more important language.  In some analysis is is the most
 important language.  Job sites show that Python is the most in-demand job.
 Python was designed to be easy to learn.
 
-xyzzy
+In this class we will cover the basics of programming, automated testing,
+source code control (git), and how to convert requirements into programs.
+Some time will be spent using a variety of tools that are common to
+most modern software development.
+
+In the second half of the class we will focus on using TensorFlow 2.x.  and Kereas
+a library on top of TensorFlow that makes the creation of data pipelines and
+machine learning relatively easy.   A significant emphasis will also be on using
+Pandas and NumPy to engineer data so that it is suitable for use in a
+machine learning context.   The experience with advanced data manipulation
+libraries like Pandas and NumPy is useful outside the area of Machine Learning.
 
 Throughout the class we will be using a number of tools.
 Visual Studio Code will be used for editing text and other files.
 Python 3.8 will be the version of Python that we are working with.  This is the Anaconda install version of Python.
 The exact version of Python is the Anaconda 64 bit release of Python.
-We will use TensorFlow 2.x.  
+We will use TensorFlow 2.x.
 Realistically you should install these tools on on your own computer.    They work on Mac,
 Windows, and Linux.   I do 80% of my development on a Linux system, 15%
 on Mac and 5% on Windows.  We will also use a tool called Jupyter Notebooks.
 This is a layer on top of Python.
 
-Visual Studio Code: https://code.visualstudio.com/download
+Visual Studio Code:
+[https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
-Python 3.8 - Anaconda: https://www.anaconda.com/products/individual
+Python 3.8 - Anaconda:
+[https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
 
-xyzzy - Jupiter
+Iron Python and Jupyter Notebooks:
+[https://jupyter.org/install](https://jupyter.org/install)
 
 
 (You won't need this installed for a while, but...)
@@ -85,9 +97,14 @@ is the best selling Python book of all time.  The Amazon link is:
 
 There will be outside reading also.  I will provide links or .pdfs.
 
-## Required Projects
+## Required Activity
 
-Most of the class grade comes from the homework.  Specifically 30% of the semester grade is 
+You are expected/required to visit office hours at least once during the semester.
+Come with a question - any question.  It need not be class related.
+
+## Homework is Required
+
+Most of the class grade comes from the homework.  Specifically 30% of the semester grade is
 from the midterm and the final.  15% from Midterm, 15% from Final.  The final is cumulative.
 
 ## Extra credit
@@ -123,6 +140,7 @@ class.
 |             |          | Unit Conversions.  Mikes to km.         |
 |             |          | Big Numbers.  Encryption.               |
 |             |          | A Model of Solar System                 |
+|             |          | How computers represent data.           |
 |             |          | *Textbook Chapter 2*                    |
 |             |          |                                         |
 | Thr Sep 2   | 4        | Lists.  Data Structures.                |
@@ -160,6 +178,8 @@ class.
 |             |          |                                         |
 | Thr Sep 23  |          | NO CLASS - Wyoming Hack-A-Thon.         |
 |             |          | Yes you still have lab(s).              |
+|             |          | You should go and attend some of the    |
+|             |          | Hack-A-Thon.                            |
 |             |          |                                         |
 |             |          |                                         |
 | *Week 6*    |          |                                         |
@@ -188,52 +208,59 @@ class.
 |             |          | A bit of bottle.                        |
 |             |          |                                         |
 |             |          |                                         |
-| *Week 9*    |          |                                         <!-- ML / TF basics --> |
-| Tue Oct 19  |          |                                         |
-|             |          |                                         |
-| Thr Oct 21  |          |                                         |
-|             |          |                                         |
-|             |          |                                         |
-| *Week 10*   |          |                                         |
-| Tue Oct 26  |          |                                         |
-|             |          |                                         |
-| Thr Oct 28  |          |                                         |
+| *Week 9*    | 17       | Understanding data.                     |
+| Tue Oct 19  |          | Data Engineering.                       |
+|             |          | What is TensorFLow (TF) what is a       |
+|             |          | Tensor.                                 |
 |             |          |                                         |
 |             |          |                                         |
-|             |          |                                         |
-| *Week 11*   |          |                                         |
-| Tue Nov 2   |          |                                         |
-|             |          |                                         |
-| Thr Nov 4   |          |                                         |
+| Thr Oct 21  | 18       | Example of Classification.              |
+|             |          | Uses of ML in the real world.           |
 |             |          |                                         |
 |             |          |                                         |
+| *Week 10*   | 19       | Overfit and Underfit.                   |
+| Tue Oct 26  |          | Using Pandas and NumPy.                 |
 |             |          |                                         |
-| *Week 12*   |          |                                         |
-| Tue Nov 9   |          |                                         |
-|             |          |                                         |
-| Thr Nov 11  |          |                                         |
-|             |          |                                         |
-|             |          |                                         |
-|             |          |                                         |
-| *Week 13*   |          |                                         |
-| Tue Nov 16  |          |                                         |
-|             |          |                                         |
-| Thr Nov 18  |          |                                         |
+| Thr Oct 28  | 20       | Building a data Pipeline.               |
+|             |          | Managing data.  Image data.             |
+|             |          | Test data. CSV files.                   |
 |             |          |                                         |
 |             |          |                                         |
-| Nov 22-26   |          | Thanksgiving Break.                     |
+| *Week 11*   | 21       | Limitations of Machine Learning.        |
+| Tue Nov 2   |          | "You are a Thing and I Love You"        |
+|             |          | Machine learning and social context.    |
+|             |          | ML and the law.                         |
+|             |          |                                         |
+| Thr Nov 4   | 22       | ML and future of work.                  |
 |             |          |                                         |
 |             |          |                                         |
-| *Week 14*   |          |                                         |
+|             |          |                                         |
+| *Week 12*   | 23       | Regression with TF.                     |
+| Tue Nov 9   |          | Predicting Housing Prices.              |
+|             |          |                                         |
+| Thr Nov 11  | 24       | Real world example of ML.               |
+|             |          |                                         |
+|             |          |                                         |
+|             |          |                                         |
+| *Week 13*   | 25       | Text Classification with TF Hub.        |
+| Tue Nov 16  |          | Reuse of Models.                        |
+|             |          |                                         |
+| Thr Nov 18  | 26       | ML and Privacy.                         |
+|             |          |                                         |
+|             |          |                                         |
+| Nov 22-26   | 27       | Thanksgiving Break.                     |
+|             |          |                                         |
+|             |          |                                         |
+| *Week 14*   | 28       | Sentiment Analysis.                     |
 | Tue Nov 30  |          |                                         |
 |             |          |                                         |
-| Thr Dec 3   |          |                                         |
+| Thr Dec 3   | 29       | Computer Security / Authentication.     |
 |             |          |                                         |
 |             |          |                                         |
-| *Week 15*   |          |                                         |
-| Tue Dec 7   |          |                                         |
+| *Week 15*   | 30       | Blockchain and economic impact.         |
+| Tue Dec 7   |          | Future of Computing.                    |
 |             |          |                                         |
-| Thr Dec 9   |          | Final Review.                           |
+| Thr Dec 9   | 31       | Final Review.                           |
 |             |          |                                         |
 
 
@@ -266,7 +293,7 @@ This is the schedule for the lab.
 |                |      | Creating text file (Markdown) for        |
 |                |      | homework.                                |
 |                |      |                                          |
-| *Week 4*       | 4    | CSV/Dictionary? xyzzy?                   |
+| *Week 4*       | 4    | CSV reading and a Dictionary             |
 | Sep 14, 16, 17 |      |                                          |
 |                |      |                                          |
 | *Week 5*       | 5    | SQLite3 Data Analysis                    |
@@ -300,61 +327,77 @@ This is the schedule for the lab.
 | *Week 12*      | 12   | Hand Writing Analysis                    |
 | Nov 9, 11, 12  |      |                                          |
 |                |      |                                          |
-| *Week 13*      | 13   | TBD.                                     |
+| *Week 13*      | 13   | Sentiment Analysis Part 1.               |
 | Nov 16, 18, 19 |      |                                          |
 |                |      |                                          |
-| *Week 14*      | 14   | TBD.                                     |
-| Nov 30,        |      |                                          |
+| *Week 14*      | 14   | Sentiment Analysis Part 2.               |
+| Nov 30,        |      | Compeer Security Worksheet.              |
 | Dec 2,3        |      |                                          |
 |                |      |                                          |
 
 
 
-https://www.coursera.org/collections/tensorflow-keras-projects-beginners
-
-Predicting Hosing Prices
-
-Sentiment Analyst
+## Homework/Assignments
 
 
-OOP: https://www.tutorialspoint.com/python/python_classes_objects.htm
+| Assignment # | Date Due   | Pts  |  Description                                       |
+|--------------|------------|------|----------------------------------------------------|
+| 1            | Mon Aug 30 | 100  | Lab 1: Hello World in Python                       |
+|              |            |      | Due as a part of your lab.                         |
+| 2            | Mon Sep  6 | 100  | Assignment 1: Basic Unit Conversion                |
+|              |            | 100  | Lab 3: Testing of Unit Conversion.                 |
+| 3            | Mon Sep 13 | 100  | Assignment 2: Distance to Planets (with test code) |
+|              |            | 100  | Lab 3: Planet/Star Distances questions Due.        |
+|              |            |      | Due as a part of your lab.                         |
+| 4            | Mon Sep 20 | 100  | Sort and Search Data                               |
+|              |            | 100  | Lab 4: Setup and use git and a branch.             |
+| 5            | Mon Sep 27 |      |                                                    xyzzy |
+|              |            | 100  | Lab 5: xyzzy xyzzy |
+| 6            | Mon Oct 4  |      |                                                    xyzzy |
+|              |            | 100  | Lab 6: xyzzy xyzzy |
+| 7            | Mon Oct 11 |      |                                                    xyzzy |
+|              |            | 100  | Lab 7: xyzzy |
+| 8            | Mon Oct 18 |      |                                                    xyzzy |
+|              |            | 100  | Lab 8: xyzzy |
+| 9            | Mon Oct 26 |      |                                                    xyzzy |
+|              |            | 100  | Lab 9: xyzzy |
+| 10           | Mon Nov 1  |      |                                                    xyzzy |
+|              |            | 100  | Lab 10: xyzzy |
+| 11           | Mon Nov 8  |      |                                                    xyzzy |
+|              |            | 100  | Lab 11: xyzzy |
+| 12           | Mon Nov 15 |      |                                                    xyzzy |
+|              |            | 100  | Lab 12: xyzzy |
+| 13           | Mon Nov 29 |      |                                                    xyzzy |
+|              |            | 100  | Lab 13: xyzzy |
+| 14           | Mon Dec 6  |      |                                                    xyzzy |
+|              |            | 100  | Lab 14: xyzzy |
+|              |            |      |                                                    |
+| Total        |            | 2800 |                                                    |
 
 
-# Homework/Assignments
+## Grading
+
+| Points | Percentage of Semester Grade| Description            |
+|-------:|:---------------------------:|:-----------------------|
+| 1400   |            35%              | Homework / Assignments |
+| 1400   |            35%              | Labs                   |
+|  600   |            15%              | Midterm                |
+|  600   |            15%              | Final                  |
+
+4000 points total for the semester.
+
+| Letter Grade | Point Range  |
+|--------------|--------------|
+| A            | 4000 to 3600 |
+| B            | 3599 to 3200 |
+| C            | 3199 to 2800 |
+| D            | 2799 to 2400 |
+| F            | 2399 and below |
+
+## Install
 
 
-| Assignment # | Date Due   | Pts |  Description                           |
-|--------------|------------|-----|----------------------------------------|
-| 1            | Mon Aug 30 | 50  | Lab 1: Hello World in Python           |
-|              |            |     | Due as a part of your lab.             |
-| 2            | Mon Sep  6 | 100 | Basic Unit Conversion                  |
-| 3            | Mon Sep 13 | 100 | Distance to Planets (with test code)   |
-|              |            | 100 | Lab 2: Planet Paper Due.               |
-|              |            |     | Due as a part of your lab.             |
-| 4            | Mon Sep 20 | 100 | Sort and Search Data                   |
-|              |            | 50  | Lab 3: Setup and use git and a branch. |  
-| 5            |            |     |                                        |
-| 6            |            |     |                                        |
-| 7            |            |     |                                        |
-| 8            |            |     |                                        |
-| 9            |            |     |                                        |
-| 10           |            |     |                                        |
-| 11           |            |     |                                        |
-| 12           |            |     |                                        |
-|              |            |     |                                        |
-| Total        |            | 999xyzzy    |                                        |
-
-
-# Install
-
-## Python Packages to Install
-
-1. pandas
-2. numpy
-3. bottle
-4. SQLite3
-
-## Tools
+### Tools
 
 1. Anaconda Python
 2. Iron Python (Jupyter Notebooks)
@@ -362,28 +405,46 @@ OOP: https://www.tutorialspoint.com/python/python_classes_objects.htm
 4. GIT
 5. VIM
 
+### Python Packages to Install
+
+This is not a complete list but we will use all of the following Python Libraries.
+You should import all of these in your "Hello World" so that you verify that
+you have them installed.
+
+1. pandas
+2. numpy
+3. bottle
+4. SQLite3
+5. tensorflow
+6. keras
+7. matplotlib
 
 ## Late work.
 
 Generally it is a good idea to get the homework done on time.   Normally I take 10% off for each
 week day that a homework is late until it is worth only 40% of the original points.  The last day
-for turning in homework is Dec 10 at Midnight.  No homework will be accepted after this point.  
+for turning in homework is Dec 10 at Midnight.  No homework will be accepted after this point.
 
 ## Original work policy (in this class).
 
-Homework is turned in online via file upload.   The homework is really, really important.  Do your own 
+Homework is turned in online via file upload.   The homework is really, really important.  Do your own
 work.  That is how you learn.  If you use google or other web sources, then note where you got the
 code or answer from.  If you copy from the web, then expect that on a one-on-one basis I will be asking
-you how the code works.   Help each other.  It is legitimate in this class, (it may not be in other 
+you how the code works.   Help each other.  It is legitimate in this class, (it may not be in other
 classes), for you to help your fellow student.   If you do then note it in comments your code.  Code is very
 unique to each person.  If two of you turn in the same code - that is very bad.  If you note that
 you worked on it together - and then I ask each of you to explain how it works - that's alright.
-If you have questions about this email me.
+If you have questions about this email me.   If you use code from the web then expect that I will be
+asking about what the copyright and license terms are for the code.  Not all code that is published
+can be reused.    Also be aware that I put hidden data flaws into assignments.  For example
+the accurate size of a tennis ball is 2.575 inches.  In previous years I have used 2.5, 2.6 and
+ this year 2.75 inches.  If you ask a previous year student for the answers and turn that in
+you will have  wrong result.  If you just copy from the web you will have a wrong result.
 
-                         
+
 
 ## Title IX – Duty to Report
- 
+
 The University of Wyoming faculty are committed to helping create a safe learning environment for all students and for
 the university as a whole. If you have experienced any form of gender or sex-based discrimination or harassment,
 including sexual assault, sexual harassment, relationship violence, or stalking, know that help and support are
@@ -403,7 +464,7 @@ located in Room 320 of the Bureau of Mines Building, and can be reached via emai
 You have to watch the lectures and listen to the podcast.  This class has prerecorded lecture and audio
 that you are expected to watch/listen to.   This is your "required" attendance.
 
-### SARS-Cov-2 / COVID-19 Related Policies 
+### SARS-Cov-2 / COVID-19 Related Policies
 
 During this pandemic, you must abide by all UW policies and public health rules
 put forward by the City of Laramie (or by Natrona County if at UW-Casper), the University of Wyoming
@@ -436,7 +497,7 @@ The University of Wyoming values an educational environment that is diverse, equ
 that students and faculty bring to class, including age, country of origin, culture, disability, economic class,
 ethnicity, gender identity, immigration status, linguistic, political affiliation, race, religion, sexual orientation,
 veteran status, worldview, and other social and cultural diversity is valued, respected, and considered a resource for
-learning. 
+learning.
 
 ## Disability Support
 

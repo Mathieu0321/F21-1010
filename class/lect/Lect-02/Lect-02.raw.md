@@ -5,6 +5,10 @@ m4_include(../../../setup.m4)
 
 ## Video of This 
 
+Don's expect a video for every lecture.  That is a lot of work.
+You will need this code later in the class.
+
+
 ## Overview
 
 I have a pre-record video of this is lecture if you want to go back
@@ -13,7 +17,7 @@ a lot of chapters in the book, 1, 2, 3, some 4, some 5, some 6 and
 some 7 all in one set of examples.
 
 Also the lecture notes are online in the lect-02 github.
-[https://github.com/Univ-Wyo-Education/F21-1010/class/lect/lect-02](https://github.com/Univ-Wyo-Education/F21-1010/class/lect/lect-02)
+[https://github.com/Univ-Wyo-Education/F21-1010/tree/main/class/lect/Lect-02](https://github.com/Univ-Wyo-Education/F21-1010/tree/main/class/lect/Lect-02)
 
 There is a ./conv directory that has a series of steps where you can 
 go back to this and see the code as I develop it.
@@ -37,6 +41,20 @@ boat and operate it."
 Python is a formal language.  It uses a rigorous syntax.   As humans
 we are not used to this.  
 
+One of the realities of development is that you are not using "one" tool.
+vim - for editing, or notepad++ on windows (don't use notepad it will mess you up).
+VSCode - for debugging - and building and running projects.
+Python - command line for running programs.  
+Jupiter Notebooks (Iron Python) for mixing code and output in a human readable form. 
+Different types of files.  .py for python, .txt for text, .csv for comma separated
+values, .mk for markdown, images in .svg and .jpg and .png etc.  
+
+## Software Engineering
+
+This is a very "software engineering" approach to code development.
+Learning to code effectively is a "process".   Creativity tends to be
+innate - it is a talent.   Programming is a set of skills.
+
 ## Topics Covered
 
 1. Files and Directories
@@ -48,18 +66,27 @@ we are not used to this.
 7. Basic testing
 8. Functions - parameters - return values
 9. if
-10. if / else
-11. ':' starts a block
-12. Indentation
-13. a = a + 1 - not algebra
-14. Files
-15. Import of files
-16. Input
-17. Output
-18. Formatting of output
-19. Patterns in code
-20. Fast and Slow Learning
+10. Comparison for equality, `==` operator.  Also `!=` not equal.
+11. if / else
+12. ':' starts a block
+13. Indentation
+14. a = a + 1 - not algebra
+15. Files
+16. Import of files
+17. Input
+18. Output
+19. Formatting of output
+20. Patterns in code
+21. Fast and Slow Learning
 
+
+## Requirements
+
+Implement a python faction that will convert from miles to 
+kilometers and return that value.
+
+Implement a program that will use the function, prompt for
+input in miles and then print out the result in kilometers.
 
 ## Step 1
 
@@ -72,7 +99,7 @@ In our case k1 and k2 are 0.  So we just get X * C
 ### Demo - lookup conversion from miles to kilometers
 
 ```
-m4_inclue(conv/step-1.py)
+m4_include(conv/step-1.py)
 ```
 
 ### Demo - of this as a visualization
@@ -82,19 +109,19 @@ m4_inclue(conv/step-1.py)
 ## Step 2 - Input with error
 
 ```
-14_inclue(conv/step-2.py)
+m4_include(conv/step-2.py)
 ```
 
 ## Step 3 - Fixed error / Types
 
 ```
-m4_inclue(conv/step-3.py)
+m4_include(conv/step-3.py)
 ```
 
 ## Step 4 - Make a function
 
 ```
-m4_inclue(conv/step-4.py)
+m4_include(conv/step-4.py)
 ```
 
 ## Step 5 - Make Reusable Code
@@ -102,13 +129,13 @@ m4_inclue(conv/step-4.py)
 step-5.py:
 
 ```
-m4_inclue(conv/step-5.py)
+m4_include(conv/step-5.py)
 ```
 
 conv/mi_to_km.py:
 
 ```
-m4_inclue(conv/mi_to_km.py)
+m4_include(conv/mi_to_km.py)
 ```
 
 
