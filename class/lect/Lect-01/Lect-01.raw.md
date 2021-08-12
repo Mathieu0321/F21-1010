@@ -53,22 +53,12 @@ on a boat on the eat cost and Caribbean.
 
 <div class="pagebreak"></div>
 
-![]()
-
-<div class="pagebreak"></div>
-
-Where is his office?
-
-What is the syllabus for the class.
-
-Why Computer Science?
-
-A little on Jobs In Computer Science?
-
-A little on Making Money In Computer Science?
-
-A little on making money.
+![img_144_3237ed1-dolphins-and-agii.jpg](./img_144_3237ed1-dolphins-and-agii.jpg)
+<br>Image (C) Philip Schlump, 2011.
 
 
+# Copyright
+
+Copyright (C) University of Wyoming, 2021.
 
 
