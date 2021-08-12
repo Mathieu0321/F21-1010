@@ -128,6 +128,7 @@ class.
 |             |          | Why Computer Science.                   |
 |             |          | Your first program (Excel/Google Sheet) |
 |             |          | Your first program - Python.            |
+|             |          | Lab starts next week!                   |
 |             |          |                                         |
 | Thr Aug 26  | 2        | Python Mental Model.                    |
 |             |          | Basic Operators.                        |
@@ -267,24 +268,25 @@ class.
 
 
 
-
 # Lab Schedule
 
 This is the schedule for the lab.
 
 | Date           | Week | Description                              |
 |----------------|------|------------------------------------------|
-| *Week 1*       |      |                                          |
-| Aug 24, 26, 27 | 1    | Installation of Python, Compeer Setup    |
-|                |      | Hello World Program.                     |
+| *Week 2*       |      |                                          |
+| Aug 31, Sep 2, | 2    | Installation of Python, Compeer Setup    |
+| Sep 3          |      | Hello World Program.                     |
+|                |      | Lab Goal: Be able to edit a file.        |
 |                |      | Lab Goal: Be able to write a program.    |
 |                |      |                                          |
-| *Week 2*       |      |                                          |
-| Aug 31, Sep 2, | 2    | File System.                             |
-| Sep 3          |      | Editing Text Files.                      |
+| *Week 3*       |      |                                          |
+| Sep 7, 9, 10   | 3    | File System.                             |
+|                |      | Editing Text Files.                      |
 |                |      | Lab Goal: Be able to write a program.    |
 |                |      | 1st part of Unit Conversion.             |
 |                |      |                                          |
+|----------------|------|------------------------------------------|
 | *Week 3*       |      |                                          |
 | Sep 7, 9, 10   | 3    | Solar System Distances Lab.              |
 |                |      | Lab Write and Test 2 Program(s).         |
