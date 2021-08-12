@@ -418,6 +418,7 @@ you have them installed.
 5. tensorflow
 6. keras
 7. matplotlib
+8. BeautifluSoup
 
 ## Late work.
 

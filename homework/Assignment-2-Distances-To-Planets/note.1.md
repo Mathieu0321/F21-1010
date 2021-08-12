@@ -4,7 +4,7 @@ python
 Python 3.8.3 (default, Jul  2 2020, 16:21:59) 
 [GCC 7.3.0] :: Anaconda, Inc. on linux
 Type "help", "copyright", "credits" or "license" for more information.
->>> sund=685370
+>>> sund=685370			# Wong Value!
 >>> tb=2.75
 >>> tb_feet = tb/12
 >>> tb_feet
