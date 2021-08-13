@@ -139,6 +139,12 @@ m4_include(conv/mi_to_km.py)
 ```
 
 
+## This is the BEST time ever to be in this field
+
+Blockchain, Growth, IoT, AI / Machine Larning!
+
+[https://youtu.be/eAn_oiZwUXA](https://youtu.be/eAn_oiZwUXA)
+
 # Copyright
 
 Copyright (C) University of Wyoming, 2021.
