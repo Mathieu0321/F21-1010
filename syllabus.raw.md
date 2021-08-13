@@ -175,6 +175,8 @@ class.
 |             |          |                                         |
 | *Week 5*    |          |                                         |
 | Tue Sep 21  | 10       | Control Flow / Loops                    |
+|             |          | How DNA encodes proteins.               |
+|             |          | Fetch/Execute cycle and loops.          |
 |             |          | *Textbook Chapter 7 - Loops*            |
 |             |          |                                         |
 | Thr Sep 23  |          | NO CLASS - Wyoming Hack-A-Thon.         |
@@ -270,7 +272,10 @@ class.
 
 # Lab Schedule
 
-This is the schedule for the lab.
+This is the schedule for the lab.  Lab assignments should be turned
+in during lab but you have until the following Monday at midnight
+to get them turned in.  They are uploaded to the wyoweb (instructure) site.
+
 
 | Date           | Week | Description                              |
 |----------------|------|------------------------------------------|
@@ -286,96 +291,155 @@ This is the schedule for the lab.
 |                |      | Lab Goal: Be able to write a program.    |
 |                |      | 1st part of Unit Conversion.             |
 |                |      |                                          |
-|----------------|------|------------------------------------------|
 | *Week 3*       |      |                                          |
-| Sep 7, 9, 10   | 3    | Solar System Distances Lab.              |
+| Sep 14, 16, 17 | 3    | Solar System Distances Lab.              |
 |                |      | Lab Write and Test 2 Program(s).         |
 |                |      | Get output of Test.                      |
 |                |      | Run Programs to answer Lab Questions.    |
 |                |      | Creating text file (Markdown) for        |
 |                |      | homework.                                |
 |                |      |                                          |
+|                |      |                                          |
 | *Week 4*       | 4    | CSV reading and a Dictionary             |
-| Sep 14, 16, 17 |      |                                          |
+| Sep 21, 23, 24 |      |                                          |
+|                |      |                                          |
 |                |      |                                          |
 | *Week 5*       | 5    | SQLite3 Data Analysis                    |
-| Sep 21, 23, 24 |      |                                          |
-|                |      | Pull out data.  Draw Graphs.             |
+| Sep 28, 30,    |      |                                          |
+| Oct 1          |      | Pull out data.  Draw Graphs.             |
+|                |      |                                          |
 |                |      |                                          |
 | *Week 6*       | 6    | Search Genetic Data.                     |
-| Sep 28, 30,    |      |                                          |
-| Oct 1          |      |                                          |
-|                |      | Determine if person's genes have CF.     |
+| Oct 5, 7, 8    |      | Determine if Steffie Lee has CF.         |
+|                |      |                                          |
 |                |      |                                          |
 | *Week 7*       | 7    | Recursive Calculation                    |
-| Oct 5, 7, 8    |      |                                          |
-|                |      | Calculate Fibonacci                      |
+| Oct 12, 14, 15 |      | Calculate Fibonacci                      |
 |                |      | Find the largest value in a list.        |
 |                |      |                                          |
+|                |      |                                          |
 | *Week 8*       | 8    | A simple form with a web page and form.  |
-| Oct 12, 14, 15 |      |                                          |
-|                |      | Render a page with a form.               |
+| Oct 19, 21, 22 |      | Render a page with a form.               |
 |                |      | POST - save data to SQLite3.             |
 |                |      |                                          |
+|                |      |                                          |
 | *Week 9*       | 9    | Tensor Flow Install - Hello World        |
-| Oct 19, 21, 22 |      |                                          |
+| Oct 26, 28, 29 |      | Basic test of TensorFlow                 |
+|                |      | Read some data, draw a graph.            |
+|                |      |                                          |
 |                |      |                                          |
 | *Week 10*      | 10   | Data Analysis                            |
-| Oct 26, 28, 29 |      |                                          |
-|                |      |                                          |
-| *Week 11*      | 11   | Image Classification                     |
 | Nov 2, 4, 5    |      |                                          |
 |                |      |                                          |
-| *Week 12*      | 12   | Hand Writing Analysis                    |
+|                |      |                                          |
+| *Week 11*      | 11   | Image Classification                     |
 | Nov 9, 11, 12  |      |                                          |
 |                |      |                                          |
-| *Week 13*      | 13   | Sentiment Analysis Part 1.               |
+|                |      |                                          |
+| *Week 12*      | 12   | Hand Writing Analysis                    |
 | Nov 16, 18, 19 |      |                                          |
 |                |      |                                          |
-| *Week 14*      | 14   | Sentiment Analysis Part 2.               |
+|                |      |                                          |
+| *Week 13*      | 13   | Sentiment Analysis.                      |
 | Nov 30,        |      | Compeer Security Worksheet.              |
 | Dec 2,3        |      |                                          |
 |                |      |                                          |
+|                |      |                                          |
+| *Week 14*      | 14   | TBD.  Makeup lab?                        |
+| Dec 7, 9, 10   |      |                                          |
+|                |      |                                          |
 
 
 
-## Homework/Assignments
+
+
+
+
+
+## Homework/Assignments Due Dates
+
+Note that the lab would be the week prior to this due date.  It is preferred
+if you get your lab work done and turned in during the lab.  
 
 
 | Assignment # | Date Due   | Pts  |  Description                                       |
 |--------------|------------|------|----------------------------------------------------|
-| 1            | Mon Aug 30 | 100  | Lab 1: Hello World in Python                       |
+| 1            | Mon Sep 6  | 100  | Lab 1: Hello World in Python                       |
 |              |            |      | Due as a part of your lab.                         |
-| 2            | Mon Sep  6 | 100  | Assignment 1: Basic Unit Conversion                |
-|              |            | 100  | Lab 3: Testing of Unit Conversion.                 |
-| 3            | Mon Sep 13 | 100  | Assignment 2: Distance to Planets (with test code) |
+|              |            |      |                                                    |
+| 2            | Mon Sep 13 | 100  | Assignment 1: Basic Unit Conversion                |
+|              |            | 100  | Lab 2: Testing of Unit Conversion.                 |
+|              |            |      |                                                    |
+| 3            | Mon Sep 20 | 100  | Assignment 2: Distance to Planets (with test code) |
 |              |            | 100  | Lab 3: Planet/Star Distances questions Due.        |
 |              |            |      | Due as a part of your lab.                         |
-| 4            | Mon Sep 20 | 100  | Sort and Search Data                               |
+|              |            |      |                                                    |
+| 4            | Mon Sep 27 | 100  | xyzzy |
 |              |            | 100  | Lab 4: Setup and use git and a branch.             |
-| 5            | Mon Sep 27 |      |                                                    xyzzy |
-|              |            | 100  | Lab 5: xyzzy xyzzy |
-| 6            | Mon Oct 4  |      |                                                    xyzzy |
-|              |            | 100  | Lab 6: xyzzy xyzzy |
-| 7            | Mon Oct 11 |      |                                                    xyzzy |
+|              |            |      |                                                    |
+| 5            | Mon Oct 4  | 100  | Sort and Search data. Read csv, sort, output.      |
+|              |            | 100  | Lab 5: Read/Edit CSV file.  File formats.          |
+|              |            |      |                                                    |
+| 6            | Mon Oct 11 | 100  | Search genetic data.                               |
+|              |            | 100  | Lab 6: Convert genetic codes to proteins.          |
+|              |            |      |                                                    |
+| 7            | Mon Oct 18 | 100  |                                                    xyzzy |
 |              |            | 100  | Lab 7: xyzzy |
-| 8            | Mon Oct 18 |      |                                                    xyzzy |
+|              |            |      |                                                    |
+| 8            | Mon Oct 26 | 100  |                                                    xyzzy |
 |              |            | 100  | Lab 8: xyzzy |
-| 9            | Mon Oct 26 |      |                                                    xyzzy |
+|              |            |      |                                                    |
+| 9            | Mon Nov 1  | 100  |                                                    xyzzy |
 |              |            | 100  | Lab 9: xyzzy |
-| 10           | Mon Nov 1  |      |                                                    xyzzy |
+|              |            |      |                                                    |
+| 10           | Mon Nov 8  | 100  |                                                    xyzzy |
 |              |            | 100  | Lab 10: xyzzy |
-| 11           | Mon Nov 8  |      |                                                    xyzzy |
+|              |            |      |                                                    |
+| 11           | Mon Nov 15 | 100  |                                                    xyzzy |
 |              |            | 100  | Lab 11: xyzzy |
-| 12           | Mon Nov 15 |      |                                                    xyzzy |
+|              |            |      |                                                    |
+| 12           | Mon Nov 22 | 100  |                                                    xyzzy |
 |              |            | 100  | Lab 12: xyzzy |
-| 13           | Mon Nov 29 |      |                                                    xyzzy |
+|              |            |      |                                                    |
+| 13           | Mon Nov 29 | 100  |                                                    xyzzy |
 |              |            | 100  | Lab 13: xyzzy |
-| 14           | Mon Dec 6  |      |                                                    xyzzy |
+|              |            |      |                                                    |
+| 14           | Mon Dec 6  | 200  | Sentiment Analysis.                                |
 |              |            | 100  | Lab 14: xyzzy |
+|              |            |      |                                                    |
 |              |            |      |                                                    |
 | Total        |            | 2800 |                                                    |
 
+
+
+
+Possible: https://github.com/T101J/Translating_RNA_to_Protein.git
+
+
+   September 2021     
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30        
+                      
+    October 2021      
+Su Mo Tu We Th Fr Sa  
+                1  2  
+ 3  4  5  6  7  8  9  
+10 11 12 13 14 15 16  
+17 18 19 20 21 22 23  
+24 25 26 27 28 29 30  
+31                    
+   November 2021      
+Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6  
+ 7  8  9 10 11 12 13  
+14 15 16 17 18 19 20  
+21 22 23 24 25 26 27  
+28 29 30              
+                      
 
 ## Grading
 
