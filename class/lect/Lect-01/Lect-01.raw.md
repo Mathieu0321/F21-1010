@@ -57,6 +57,16 @@ on a boat on the eat cost and Caribbean.
 <br>Image (C) Philip Schlump, 2011.
 
 
+## How the Gig economy works
+
+Who is me article in Time: [https://time.com/6085525/big-tech-data-centers/](https://time.com/6085525/big-tech-data-centers/)
+
+1. Jobs  are never permanent.  Contracts have a fixed end date.  Labor laws in us say that a "Contractor" is a "temporary" only if they work for less than 18 months and then have 6 months off.
+2. Burdened cost.  At UW it is 1.48 - other people will have 1.52 to 1.58 is common.  So you get a "job" the cost to the business is Pay(gross) * 1.48.  100k a year means that the business cost is 148000 a year.   As a contractor you get X + 148000 per year - but you have to pay your own matching tax, your health insurance, your retirement etc.
+3. Big businesses have lots of leverage v.s. small city organizations.
+4. Cost of Replacement is very high.  It costs $25k to $50k to hire a new person.
+5. Jobs are only worth what the "kind" of a job pays.   If a programmer pays 100k to 105k that is it.  If you as a programmer are way better than others you still get 100k to 105k.   If you want more then you have to get out of the "employee" mentality and build some form of a business.
+
 # Copyright
 
 Copyright (C) University of Wyoming, 2021.
