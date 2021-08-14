@@ -2,6 +2,13 @@
 <style>
 .pagebreak { page-break-before: always; }
 .half { height: 200px; }
+.markdown-body {
+	font-size: 12px;
+}
+.markdown-body td {
+	font-size: 12px;
+}
+
 </style>
 
 # Class: 1010 Intro Computer Science
@@ -34,7 +41,8 @@ Thursday the final will be December 16 10:15 a.m. – 12:15 p.m.  In this room.
 ## Instructor
 
 - Prof Philip Schlump
-- Office: Office hours will be Tuesday, Thrusday from 9:00am to 10:45am and by appointment.   Appointments can include using zoom.com for remote office hours.
+- Office: 4081B in the Engineering Building.   My office is right across the hall from the Computer Science Department Office.
+- Office hours will be Tuesday from 9:00am to 10:45am, Thursday from 8:00am to 9:00am and by appointment.   Appointments can include using zoom.com for remote office hours.
 - Contact via email (pschlump@uwyo.edu) or (for emergencies only): 720-209-7888 (my personal cell)
 and pschlump@gmail.com (personal email).  For using GIT and inviting me to have access to your files/projects use pschlump@uwyo.edu as the email address.
 - Class Time:  Turn off phones and other internet connected devices during class and lab.
@@ -89,11 +97,10 @@ TensorFlow 2.x: https://tensorflow-object-detection-api-tutorial.readthedocs.io/
 ## Required texts
 
 We will be covering the first 1/2 of the book in learning Python
-(pages 1 ... 318).  The book can be purchased from Amazon if you need
-a paper copy.  *Python Crash Course* by Eric Mathers, 2nd edition.
-At this point in time Amazon lists it for $17.00 and notes that it
-is the best selling Python book of all time.  The Amazon link is:
-[https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=pd_sim_14_7](https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=pd_sim_14_7)
+(pages 1 ... 318).  
+*Python Crash Course* by Eric Mathers, 2nd edition.
+At this point in time Amazon notes that it
+is the best selling Python book of all time.  
 
 There will be outside reading also.  I will provide links or .pdfs.
 
@@ -269,6 +276,9 @@ class.
 
 
 
+<div class="pagebreak"> </div>
+
+
 
 # Lab Schedule
 
@@ -355,6 +365,9 @@ to get them turned in.  They are uploaded to the wyoweb (instructure) site.
 
 
 
+<div class="pagebreak"> </div>
+
+
 
 ## Homework/Assignments Due Dates
 
@@ -374,44 +387,56 @@ if you get your lab work done and turned in during the lab.
 |              |            | 100  | Lab 3: Planet/Star Distances questions Due.        |
 |              |            |      | Due as a part of your lab.                         |
 |              |            |      |                                                    |
-| 4            | Mon Sep 27 | 100  | xyzzy |
+| 4            | Mon Sep 27 | 100  | Read in a matrix and add up values.                |
+|              |            |      | Other List programs.                               |
 |              |            | 100  | Lab 4: Setup and use git and a branch.             |
 |              |            |      |                                                    |
 | 5            | Mon Oct 4  | 100  | Sort and Search data. Read csv, sort, output.      |
 |              |            | 100  | Lab 5: Read/Edit CSV file.  File formats.          |
+|              |            |      | Using a text editor (vim)                          |
 |              |            |      |                                                    |
 | 6            | Mon Oct 11 | 100  | Search genetic data.                               |
 |              |            | 100  | Lab 6: Convert genetic codes to proteins.          |
 |              |            |      |                                                    |
-| 7            | Mon Oct 18 | 100  |                                                    xyzzy |
-|              |            | 100  | Lab 7: xyzzy |
+| 7            | Mon Oct 18 | 100  | Recursion Calculating Fibinachi Numbers            |
+|              |            | 100  | Lab 7: Recursive sort - quicksort.                 |
 |              |            |      |                                                    |
-| 8            | Mon Oct 26 | 100  |                                                    xyzzy |
-|              |            | 100  | Lab 8: xyzzy |
+| 8            | Mon Oct 26 | 100  | Web server - Serve simple page with bottle.        |
+|              |            | 100  | Lab 8: Better HTML and CSS.                        |
 |              |            |      |                                                    |
-| 9            | Mon Nov 1  | 100  |                                                    xyzzy |
-|              |            | 100  | Lab 9: xyzzy |
+| 9            | Mon Nov 1  | 100  | OOP - why and how - Battery Management System.     |
+|              |            | 100  | Lab 9: Tensor Flow Install and test.               |
 |              |            |      |                                                    |
-| 10           | Mon Nov 8  | 100  |                                                    xyzzy |
-|              |            | 100  | Lab 10: xyzzy |
+| 10           | Mon Nov 8  | 100  | Data analysis and graphs.  Regression.             |
+|              |            | 100  | Lab 10: Correlation is not causation.              |
 |              |            |      |                                                    |
-| 11           | Mon Nov 15 | 100  |                                                    xyzzy |
-|              |            | 100  | Lab 11: xyzzy |
+| 11           | Mon Nov 15 | 100  | Image Clasification.                               |
+|              |            | 100  | Lab 11: xImage Clasification.                      |
 |              |            |      |                                                    |
-| 12           | Mon Nov 22 | 100  |                                                    xyzzy |
-|              |            | 100  | Lab 12: xyzzy |
+| 12           | Mon Nov 22 | 100  | Hand writing analysis.                             |
+|              |            | 100  | Lab 12: Hand writing analysis.                     |
 |              |            |      |                                                    |
-| 13           | Mon Nov 29 | 100  |                                                    xyzzy |
-|              |            | 100  | Lab 13: xyzzy |
+| 13           | Mon Nov 29 | 100  | Web Scraping.                                      |
+|              |            | 100  | Lab 13: Using Web Sceraping for Sentiment.         |
 |              |            |      |                                                    |
 | 14           | Mon Dec 6  | 200  | Sentiment Analysis.                                |
-|              |            | 100  | Lab 14: xyzzy |
+|              |            | 100  | Lab 14: Sentiment Analysis.                        |
 |              |            |      |                                                    |
 |              |            |      |                                                    |
 | Total        |            | 2800 |                                                    |
 
 
 
+<div class="pagebreak"> </div>
+
+
+<!--
+
+Lists
+https://www.pyforschool.com/assignment/lists.html
+
+OOP
+	https://sea-c45-python.readthedocs.io/en/latest/session6.html
 
 Possible: https://github.com/T101J/Translating_RNA_to_Protein.git
 
@@ -440,6 +465,9 @@ Su Mo Tu We Th Fr Sa
 21 22 23 24 25 26 27  
 28 29 30              
                       
+
+
+-->
 
 ## Grading
 
@@ -494,17 +522,17 @@ for turning in homework is Dec 10 at Midnight.  No homework will be accepted aft
 
 ## Original work policy (in this class).
 
-Homework is turned in online via file upload.   The homework is really, really important.  Do your own
-work.  That is how you learn.  If you use google or other web sources, then note where you got the
-code or answer from.  If you copy from the web, then expect that on a one-on-one basis I will be asking
-you how the code works.   Help each other.  It is legitimate in this class, (it may not be in other
-classes), for you to help your fellow student.   If you do then note it in comments your code.  Code is very
-unique to each person.  If two of you turn in the same code - that is very bad.  If you note that
-you worked on it together - and then I ask each of you to explain how it works - that's alright.
-If you have questions about this email me.   If you use code from the web then expect that I will be
-asking about what the copyright and license terms are for the code.  Not all code that is published
-can be reused.    Also be aware that I put hidden data flaws into assignments.  For example
-the accurate size of a tennis ball is 2.575 inches.  In previous years I have used 2.5, 2.6 and
+Homework is turned in online via file upload.   The homework is really, really important.  Do your own work.
+That is how you learn.  If you use google or other web sources, then note where you got the code or answer from.
+If you copy from the web, then expect that on a one-on-one basis I will be asking you how the code works.   You can
+help each other on homework and in the Lab.  Tests (Midterm and Final) you are not allowed to help each other.
+It is legitimate in this class to use the web for homework and lab work, (it may not be in other classes).   If you
+do then note it in comments your code.  Code is very unique to each person.  If two of you turn in the same code
+and do not clearly note that you helped each other - that is very bad.  If you note that you worked on it together
+- and then I ask each of you to explain how it works - that's alright.  If you have questions about this email me.
+If you use code from the web then expect that I will be asking about what the copyright and license terms are for the
+code.  Not all code that is published can be reused.    Also be aware that I put hidden data flaws into assignments.
+For example the accurate size of a tennis ball is 2.575 inches.  In previous years I have used 2.5, 2.6 and
  this year 2.75 inches.  If you ask a previous year student for the answers and turn that in
 you will have  wrong result.  If you just copy from the web you will have a wrong result.
 
@@ -525,27 +553,6 @@ UW’s Title IX Coordinator is Jim Osborn (Manager of Investigations, Equal Oppo
 located in Room 320 of the Bureau of Mines Building, and can be reached via email at report-it@uwyo.edu or via phone at
 766-5200 or 766-5228. For more information, go to:
 [http://www.uwyo.edu/reportit/learn-more/faqs.html](http://www.uwyo.edu/reportit/learn-more/faqs.html) .
-
-## Attendance and Absence policies
-
-You have to watch the lectures and listen to the podcast.  This class has prerecorded lecture and audio
-that you are expected to watch/listen to.   This is your "required" attendance.
-
-### SARS-Cov-2 / COVID-19 Related Policies
-
-During this pandemic, you must abide by all UW policies and public health rules
-put forward by the City of Laramie (or by Natrona County if at UW-Casper), the University of Wyoming
-and the State of Wyoming to promote the health and well-being of fellow students and your own personal
-self-care. Please review our current policy.
-As with other disruptive behaviors, we have the right to dismiss you from the classroom (Zoom and
-physical), or other class activities if you fail to abide by these COVID-19 policies. These behaviors will
-be referred to the Dean of Students Office using the UWYO Cares Reporting Form for Student Code of
-Conduct processes.
-
-### Syllabus Changes
-
-I will alert you to any possible course format changes in response to UW decisions
-about community safety during the semester.
 
 ## Classroom Behavior Policy
 
