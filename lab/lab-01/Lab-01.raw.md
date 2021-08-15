@@ -140,9 +140,38 @@ At the command line:
 $ python hello-world.py
 ```
 
+Modify the file to be:
+
+```
+m4_include(hello-world.py)
+```
+
+Run it again.
+
+Use a '#' pound-sign to create a line with your name on it.
+
+```
+
+# Author: Jagadish Bapanapally
+# Author: Philip Schlump
+
+m4_include(hello-world.py)
+```
+
+Run it again.
+
+If ti works the turn this in as a part of your lab.
 
 # Lab Questions
 
-1. What part of software installation causes the most frustration?
-2. 
+Use the editor and write up an answer to:
+
+1. What is your name?
+2. What part of software installation causes the most frustration?
+3. Did you remember to put your name in your code as a comment?
+
+Save the file and upload this as a part of your lab work.
+
+
+
 
