@@ -26,11 +26,13 @@ performs 400,000,000 requests a second.  That is scale.
 A list in python.
 
 ```
->>> cars = ['Tesla','Bmw','Mercedes-Benz','Aion']
->>> cars
->>> print(cars)
->>> cars.sort()
->>> print(cars)
+m4_include(cars.py)
+```
+
+An important note about upper/lower case characters.
+
+```
+m4_include(cars2.py)
 ```
 
 ## What are lists - syntax for them.
@@ -38,19 +40,13 @@ A list in python.
 Use square for lists, round for tuples.
 
 ```
-list1 = [ "abc", 3 ]
+m4_include(a-list.py)
 ```
 
 ## Accessing the elements in a list.
 
 ```
-a = list1[0]
-list1[0] = "def"
-list1.remove ( 3 )
-list1.append ( 4 )
-print ( list1 )
-del list1[1:2]
-print ( list1 )
+m4_include(list-mod.py)
 ```
 
 The value inside the `list1[0]` - in the square brackets is often referred to as the subscript.
@@ -58,20 +54,7 @@ The value inside the `list1[0]` - in the square brackets is often referred to as
 ## List Comprehensions
 
 ```
-list1 = [ 4, 2, 20, 1,0,10,3 ]
-
-l2 = [ i for i in list1 if i < 10 ]
-print ( l2 )
-
-for i in range(10):
-	print i
-
-sqr = [ i*i for i in range(10) ]
-sqr2 = [ i**2 for i in range(10) ]
-
-obj = ["Even" if i%2==0 else "Odd" for i in range(10)]
-print(obj)
-
+m4_include(list-comp.py)
 ```
 
 ## Let's build a list program.
@@ -81,6 +64,15 @@ print(obj)
 3. The code -- open the file, read the file, return the list.
 4. Let's test this chunk.
 5. Let's print out all the even numbers in the list.
+
+```
+$ mkdir ex1
+$ cd ex1
+```
+
+```
+$ vi data1.txt
+```
 
 ## Let's build a string - list processor.
 

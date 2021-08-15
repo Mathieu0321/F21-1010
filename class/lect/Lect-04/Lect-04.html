@@ -732,36 +732,55 @@ performs 400,000,000 requests a second.  That is scale.</p>
 
 <p>A list in python.</p>
 
-<pre><code>&gt;&gt;&gt; cars = ['Tesla','Bmw','Mercedes-Benz','Aion']
-&gt;&gt;&gt; cars
-&gt;&gt;&gt; print(cars)
-&gt;&gt;&gt; cars.sort()
-&gt;&gt;&gt; print(cars)
+<pre><code>
+cars = ['Tesla','Bmw','Mercedes-Benz','Aion']
+cars
+print(cars)
+cars.sort()
+print(cars)
+
+</code></pre>
+
+<p>An important note about upper/lower case characters.</p>
+
+<pre><code>
+
+cars = ['Tesla','bmw','Mercedes-Benz','Aion']
+cars
+print(cars)
+cars.sort()
+print(cars)
+
 </code></pre>
 
 <h2>What are lists - syntax for them.</h2>
 
 <p>Use square for lists, round for tuples.</p>
 
-<pre><code>list1 = [ &quot;abc&quot;, 3 ]
+<pre><code>
+list1 = [ &quot;abc&quot;, 3 ]
+
 </code></pre>
 
 <h2>Accessing the elements in a list.</h2>
 
-<pre><code>a = list1[0]
+<pre><code>
+a = list1[0]
 list1[0] = &quot;def&quot;
 list1.remove ( 3 )
 list1.append ( 4 )
 print ( list1 )
 del list1[1:2]
 print ( list1 )
+
 </code></pre>
 
 <p>The value inside the <code>list1[0]</code> - in the square brackets is often referred to as the subscript.</p>
 
 <h2>List Comprehensions</h2>
 
-<pre><code>list1 = [ 4, 2, 20, 1,0,10,3 ]
+<pre><code>
+list1 = [ 4, 2, 20, 1,0,10,3 ]
 
 l2 = [ i for i in list1 if i &lt; 10 ]
 print ( l2 )
@@ -784,7 +803,15 @@ print(obj)
 <li>An input file to read from.</li>
 <li>The code -- open the file, read the file, return the list.</li>
 <li>Let&rsquo;s test this chunk.</li>
-<li>Let&rsquo;s print out all the even numbers in the list.</li>
+
+<li><p>Let&rsquo;s print out all the even numbers in the list.</p>
+
+<pre><code>$ mkdir ex1
+$ cd ex1
+</code></pre>
+
+<pre><code>$ vi data1.txt
+</code></pre></li>
 </ol>
 
 <h2>Let&rsquo;s build a string - list processor.</h2>
