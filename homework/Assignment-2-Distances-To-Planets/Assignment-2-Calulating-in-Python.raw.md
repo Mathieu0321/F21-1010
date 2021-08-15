@@ -139,7 +139,7 @@ each of the conversion programs.
 ## Questions: to be answer in lab.
 
 Questions are answered by doing a write up as a .md or .markdown (text) file in lab.
-The writeup should be written in Visual Studio Code (VS Code).
+The write-up should be written in Visual Studio Code (VS Code).
 
 Use markdown [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/) for the formatting of your
 text file answers.
@@ -195,3 +195,6 @@ Write up your answers in a text file (not Microsoft Word, or .pdf).
 
 
 
+# Copyright
+
+Copyright (C) University of Wyoming, 2021.

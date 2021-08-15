@@ -708,278 +708,192 @@ ol {
 
 <div class="markdown-body">
 
-<h1>Homework 2 - Distances to Planets and Stars</h1>
+<h1>Lab 01 - Setup a development environment</h1>
 
-<p>Due: Mon Sep 13</p>
+<p>The first step is to build a development environment.  Most software installations are done on remote servers.
+These serves do not have a GUI at all and all of this work is done at the command line.   Some systems, like
+IoT systems, are too small to use a GUI - again all the work is done at the command line.</p>
 
-<p>Points: 200 total.  100pts for Assignment, 100 in lab.</p>
+<p>The command line has advantages.  It can be scripted so that you can re-produce your results.  It is also
+easier to document.</p>
 
-<h1>The Solar system and Exoplanets</h1>
+<p>This is going to be broken up based on the operating system you are working with.</p>
 
-<p>Lots of you have seen models in school of the solar system.</p>
+<h2>Windows</h2>
 
-<p><img src="./Planets2013.svg.png" alt="Planets2013.svg.png" /></p>
+<p>On Windows the command line is the Power Shell.   There are 2 different security levels that the power
+shell can run under.  The first is as your login user.  The 2nd is as an administrative user.</p>
 
-<p><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Image From Wikipedia!</a>  That is fun!!!</p>
+<p>There is an older command line, command.com, that can also be used for this.</p>
 
-<div class="pagebreak"></div>
-
-<p>But very inaccurate.  Whenever you have a model you have
-inaccuracies.  That is not to say that it is not useful.
-This is useful in showing the relative size and the order
-of the planets in our solar system.</p>
-
-<p>It is way, way, way off in giving you a sence of the scale of
-the solar system.  In our model we will use the size
-of a tennis ball as our model Sun and then calculate
-the sizes of the planets and distances to other
-stars.</p>
-
-<p>For our calculations a tennis ball is 2.75 inches in diameter.
-Note that some of our data is diameter and some is radius.
-Diameter is radius times 2.</p>
-
-<p>All of our calculations need to be carefully checked.  Read:
-<a href="https://www.simscale.com/blog/2017/12/nasa-mars-climate-orbiter-metric/">https://www.simscale.com/blog/2017/12/nasa-mars-climate-orbiter-metric/</a>
-Unit conversion errors are a serious thing.  $125 million probe lost because of a conversion error between metric and English units.</p>
-
-<h2>Sizes</h2>
-
-<p>The sizes of the planets in our solar system:</p>
-
-<table>
-<thead>
-<tr>
-<th>Planet</th>
-<th align="left">Radius</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Mercury</td>
-<td align="left">1,516mi (2,440km)</td>
-<td align="left">about <sup>1</sup>&frasl;<sub>3</sub> the size of Earth</td>
-</tr>
-
-<tr>
-<td>Venus</td>
-<td align="left">3,760mi (6,052km)</td>
-<td align="left">only slightly smaller than Earth</td>
-</tr>
-
-<tr>
-<td>Earth</td>
-<td align="left">3,959mi (6,371km)</td>
-<td align="left">a nice place to live, about the size of Earth</td>
-</tr>
-
-<tr>
-<td>Mars</td>
-<td align="left">2,106mi (3,390km)</td>
-<td align="left">about half the size of Earth</td>
-</tr>
-
-<tr>
-<td>Jupiter</td>
-<td align="left">43,441mi (69,911km)</td>
-<td align="left">11x Earth’s size</td>
-</tr>
-
-<tr>
-<td>Saturn</td>
-<td align="left">36,184mi (58,232km)</td>
-<td align="left">9x larger than Earth</td>
-</tr>
-
-<tr>
-<td>Uranus</td>
-<td align="left">15,759mi (25,362km)</td>
-<td align="left">4x Earth’s size</td>
-</tr>
-
-<tr>
-<td>Neptune</td>
-<td align="left">15,299mi (24,622km)</td>
-<td align="left">only slightly smaller than Uranus</td>
-</tr>
-</tbody>
-</table>
-
-<p>The Sun is 865,370 miles (1,391,400km) in diameter.</p>
-
-<h2>Planet Distances from the Sun</h2>
-
-<table>
-<thead>
-<tr>
-<th>Planet</th>
-<th align="right">Distance from Sun (km)</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Mercury</td>
-<td align="right">57,900,000</td>
-</tr>
-
-<tr>
-<td>Venus</td>
-<td align="right">108,200,000</td>
-</tr>
-
-<tr>
-<td>Earth</td>
-<td align="right">149,600,000</td>
-</tr>
-
-<tr>
-<td>Mars</td>
-<td align="right">227,900,000</td>
-</tr>
-
-<tr>
-<td>Jupiter</td>
-<td align="right">778,600,000</td>
-</tr>
-
-<tr>
-<td>Saturn</td>
-<td align="right">1,433,500,000</td>
-</tr>
-
-<tr>
-<td>Uranus</td>
-<td align="right">2,872,500,000</td>
-</tr>
-
-<tr>
-<td>Neptune</td>
-<td align="right">4,495,100,000</td>
-</tr>
-</tbody>
-</table>
-
-<h2>Miles/Kilometers per Light Year</h2>
-
-<p>5,878,625,352,016,794 miles per light year.</p>
-
-<p>9,460,730,472,580,800 km per light year.</p>
-
-<h2>Conversions</h2>
-
-<p>To convert kilometers to miles multiply the miles by 0.62137119.</p>
-
-<p>To convert from miles to kilometers multiply by 1.60934 .</p>
-
-<p>A mile is 80 chains, a chain is 22 yards.   A yard is 3 feet so a mile is 5280 feet.
-An acre is 10 square chains.  All very convenient.  10 chains is 1 furlong.
-so an acre is 1 furlong by 1 furlong.</p>
-
-<p>Let us do some calculation and fix this misconception.</p>
-
-<p>Read about the TRAPPIST-1 star system.
-<a href="https://exoplanets.nasa.gov/trappist1/">https://exoplanets.nasa.gov/trappist1/</a></p>
-
-<p>There is a set of exoplantes that have been found around
-a star that is 35 light years from our local star (The Sun).
-Read the article: <a href="https://earthsky.org/astronomy-essentials/how-far-is-a-light-year/">https://earthsky.org/astronomy-essentials/how-far-is-a-light-year/</a>
-Find in the article where the author describes 35 light years as &ldquo;close&rdquo; to us.</p>
-
-<h2>Learning Goals</h2>
+<p>It is important that you configure your system for development.</p>
 
 <ol>
-<li>Read in a value, calculate on it, print out results.</li>
-<li>Testing of a program.</li>
-<li>Printing out of results.</li>
-<li>Debugging.</li>
-<li>Use of a function in Python.</li>
-<li>Editing text files.</li>
-<li>What are files.</li>
-<li>Organization of code.</li>
-<li>Calculation with big numbers.</li>
-<li>Differences between integer and float.  Data Types. String data types.</li>
-<li>A model of how big the solar system is.</li>
+<li>Setup so that PowerShell can run .ps scripts.</li>
+<li>Configure your desktop explore shows all files and shows file extensions.  The file extension
+is the last few characters after the last dot (.) in a file name.   In windows 10 there is a
+configuration superficially for development that will set this and a few other settings to make
+your life easier.</li>
+<li>For a lot of stuff we will use the Linux/Unix &lsquo;bash&rsquo; shell - this will be installed as a
+part of our &lsquo;git&rsquo; install a little bit later.  &lsquo;bash&rsquo; is the same shell that is used on
+many Mac and most Linux systems.</li>
 </ol>
 
-<h2>Program</h2>
+<p>TODO - navigate to this.</p>
 
-<p>100pts total - Assignment 2.  Turned in by upland your files as a .zip archive on
-the banner/wyoweb system.</p>
+<p>TODO - screen capture for this.</p>
 
-<p>Part 1: 75pts - Write a program that will:
-0. Create a directory/folder for this code
-0. Call the main program in the folder, <code>main.py</code>.
-0. Create a file with the conversion code in it, <code>conv.py</code>.
-1. use a &ldquo;def&rdquo; in <code>conv.py</code> for the conversions
-2. Have a test section at the bottom to test the function.
-    - Write automated test code that will check that your conversion is correct.
-    - Make it so that if you just run the conversion code it will run the test.
-3. The main program will
-    - Print out a prompt for the value.
-    - Read in from the terminal a value in kilometers.
-    - Apply a conversion from that unit to tennis ball model. (Call the function)
-    - Output a value in miles, kilometers and feet plus inches (or fractions of an inch).</p>
+<h3>Package Manager</h3>
 
-<p>Part 2. 25pts - Write a program that will:
-Use the same technique as the above with different values for reading in
-light years and print out the output in miles and kilometers.  This means
-creating a new directory for this 2nd set of code.  Creating a set of files,
-one with the main program and a file for each of the conversions.  The conversions
-are light-years-to-miles and miles-to-kilometers.
-Read in light years, print out miles and kilometers in the main program.
-Call the conversion from the main program.  Implement test code in
-each of the conversion programs.</p>
+<p>Windows is lacking a package manager.  We need to install chocolate as the package manager.</p>
 
-<h2>Questions: to be answer in lab.</h2>
+<p>Install chocolatey for Windows 10, this is a package manager.  You will need to determine if your system is 32 bit or 64 bit.  This will be true for most of the Windows Installs. <a href="https://chocolatey.org/install">https://chocolatey.org/install</a></p>
 
-<p>Questions are answered by doing a write up as a .md or .markdown (text) file in lab.
-The write-up should be written in Visual Studio Code (VS Code).</p>
+<h3>Install Google Chrome</h3>
 
-<p>Use markdown <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a> for the formatting of your
-text file answers.</p>
+<p>A number of tools depend on the Google Chrome portability library.</p>
 
-<p>This portion should be turned in as a part of your lab.</p>
+<p>Install Chrome (if you have not already done it) <a href="https://www.google.com/chrome/?brand=CHBD&amp;gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&amp;gclsrc=aw.ds">https://www.google.com/chrome/?brand=CHBD&amp;gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&amp;gclsrc=aw.ds</a></p>
 
-<p>It is worth 100pts.</p>
+<h3>Source code control</h3>
+
+<p>We will be using &lsquo;<a href="https://github.com'">https://github.com'</a> for class handouts and for turning working with files
+through the semester.  The underlying system that github uses is &lsquo;git&rsquo;.    You will need to
+to to &lsquo;<a href="https://github.com'">https://github.com'</a> and create a free account on the site.</p>
+
+<p>Bring up this page in the &ldquo;chrome&rdquo; browser with <a href="xyzzy">xyzzy</a></p>
+
+<p>Determine what version of windows you have, the 32 bit or 64 bit version.  <a href="https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808">https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808</a> has an explanation.</p>
+
+<p>You will also need the windows &lsquo;git&rsquo; tools installed.  <a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a>
+in chrome will start the download as soon as you go to the page.  Run the installer.  You should end up with a MinGW Bash
+shell icon on your desktop.</p>
+
+<p>git for windows (Includes MinGW and bash) <a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a></p>
 
 <ol>
-<li>5pts - What is the closest star to planet Earth?  Think! It shines on you every day.</li>
-<li>10pts - Approximately how many exoplanets have been identified? (Use Google)
-Explain why you think this answer from Google and other sources
-is valid.   Find a list of Kupier belt objects.  How many are there?
-How far is it to the Kupier Belt in miles and kilometers?  How far is it to the Oort Cloud in miles and kilometers?</li>
-<li>10pts - How far is it to the Trappist-1 system In Light Years?
-In miles and kilometers in our model, how far to this system?</li>
-<li>10pts - At the speed of light how far is it from Laramie to Tokyo Japan?  Answer in fractions of a second.</li>
-<li>10pts - If the Sun in our model is the size of a tennis ball, then
-how far is to Proxima Centauri 4.3 light years from us?
-In Miles and in kilometers?   In Feet and meters?<br />
-Calculate for our tennis ball model  the number of miles<br />
-that 4.3 light years represents.  Using Google Maps - find a city
-that is approximately the same number of miles from
-Laramie to that city as our model calculates.   How
-long will it take you to drive from Laramie to that city? Use appriximate number of hours of driving time from Google Maps.
-Will you be able to see the tennis ball from that location? (Yes/No)</li>
-<li>5pts - Using the same calculation, L 95-59 is 35 light years
-from Earth. Use your program to calcualte the number
-of miles and kilometers to L 95-59.   For the tennis ball model calculate the number of miles in our model to L 95-59?</li>
-<li>15pts - If the Sun is a tennis ball, how big are each of the planets - in inches or thousandths of an inch?</li>
-<li>5pts - How big is the Moon in thousandths of inches in our model and how far from Earth in inches?</li>
-<li>5pts -How far is it to the Kupier Belt in miles and kilometers?  How far in miles in the tennis ball model?  If you are in Prixies Pasture at the &ldquo;family&rdquo; statue, put the Sun there - where will the Kupier Belt be?</li>
-<li>5pts - How far is it to the Oort Cloud in miles and kilometers? How far in miles in the tennis ball model? If you are in Prixies Pasture at the &ldquo;family&rdquo; statue, put the Sun there - where will the Oort Cloud be?</li>
-<li>10pts - Cygnus-x-1 is at the center of the Milky Way Galaxy, 29,000 light years from earth.   How many miles is that?</li>
-<li>10pts - Ligo detected a black hole merger <a href="https://www.ligo.caltech.edu/news/ligo20200902">https://www.ligo.caltech.edu/news/ligo20200902</a>
-of gw190521.  How many light years is that away from earth? (See: <a href="https://en.wikipedia.org/wiki/GW190521">https://en.wikipedia.org/wiki/GW190521</a>.  How far away is that in miles?  Use 1,000,000,000 for a billion.</li>
+<li><p>Install VS Code <a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a></p></li>
+
+<li><p>Install Anaconda Python  <a href="https://www.anaconda.com/products/individual">https://www.anaconda.com/products/individual</a></p></li>
+
+<li><p>Install &ldquo;vim&rdquo;, <a href="https://www.vim.org/download.php#pc">https://www.vim.org/download.php#pc</a>
+A good guide to vim on windows <a href="https://www.freecodecamp.org/news/vim-windows-install-powershell/">https://www.freecodecamp.org/news/vim-windows-install-powershell/</a></p></li>
 </ol>
 
-<p>Write up your answers in a text file (not Microsoft Word, or .pdf).</p>
+<h1>Install Packages in Python</h1>
 
-<h1>Copyright</h1>
+<p>The installation manager for Python is &ldquo;pip&rdquo;.</p>
 
-<p>Copyright &copy; University of Wyoming, 2021.</p>
+<p>On Mac/Linux:</p>
+
+<pre><code>$ conda install -c conda-forge tensorflow 
+</code></pre>
+
+<p>On Windows:</p>
+
+<pre><code>C:\&gt; conda install -c conda-forge tensorflow 
+</code></pre>
+
+<h2>Installation on a Mac</h2>
+
+<ol>
+<li>Install XCode (Apple Store)  On your Apple Mac bring up the Apple Store.  Search for &ldquo;XCode&rdquo; - it is free. Install.</li>
+<li>Install brew / git.  Search for &ldquo;mac brew&rdquo;.  Cut and paste the line.  Bring up a &ldquo;terminal&rdquo; - In the finder brows to your /Applications, then in the Utilities you will find a terminal.  Paste the &ldquo;brew&rdquo; install line into that.  Run.   Now at the command line do <code>$ brew install git</code>. <a href="https://brew.sh/">https://brew.sh/</a></li>
+<li>Install iTerm2 - Search for &ldquo;iterm2&rdquo; and follow the instructions to install a better terminal.  Use that instead of the Mac default Terminal application.  <a href="https://www.iterm2.com/">https://www.iterm2.com/</a></li>
+
+<li><p>Install Chrome (if you have not already done it)  (Search for &ldquo;Download Chrome&rdquo; - follow googles instructions) <a href="https://www.google.com/chrome/?brand=CHBD&amp;gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&amp;gclsrc=aw.ds">https://www.google.com/chrome/?brand=CHBD&amp;gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&amp;gclsrc=aw.ds</a></p></li>
+
+<li><p>Install VS Code. Search for &ldquo;Visual Studio Code&rdquo; Install.  The add the &ldquo;Python Package to it&rdquo;.  I also installed the &ldquo;Python Lint&rdquo; package.  <a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a></p></li>
+
+<li><p>Install Anaconda Python.  Search for  &ldquo;Mac Install Anaconda Python&rdquo; - install the anaconda package (Takes a while).  <a href="https://www.anaconda.com/products/individual">https://www.anaconda.com/products/individual</a></p></li>
+
+<li><p>Install &ldquo;vim&rdquo; <a href="https://github.com/macvim-dev/macvim/releases/tag/snapshot-171">https://github.com/macvim-dev/macvim/releases/tag/snapshot-171</a></p></li>
+
+<li><p>Install &ldquo;iTerm 2.x&rdquo;</p></li>
+</ol>
+
+<h3>Linux Installs.</h3>
+
+<p>This depends on the kind of Linux Ubuntu, RedHat, CentOs, Arch etc, that you have.  Let&rsquo;s get together and figure out hat detail and work on it one-on-one.</p>
+
+<h2>Configure and Demo of Using Debugger</h2>
+
+<ol>
+<li>Configure VS Code (common) (Note on Windows the path (if you have to enter it) is <code>C:\anaconda3\python.exe</code>  Usually VS Code will give you a drop down menu to pick from.</li>
+<li>Use VS Code debugger (common)</li>
+</ol>
+
+<h1>Simple Hello world Program</h1>
+
+<p>Edit a file called <code>hello-world.py</code> and put the following in it:</p>
+
+<pre><code>import sys
+print ( &quot;hello world&quot; )
+print ( sys.version )
+</code></pre>
+
+<p>At the command line:</p>
+
+<pre><code>$ python hello-world.py
+</code></pre>
+
+<p>Modify the file to be:</p>
+
+<pre><code>import sys
+import tensorflow as tf
+import  pandas
+import  numpy
+import  bottle
+import  sqlite3
+import  tensorflow
+import  keras
+import  matplotlib
+from bs4 import BeautifulSoup
+
+print ( &quot;hello world&quot; )
+print ( sys.version )
+
+</code></pre>
+
+<p>Run it again.</p>
+
+<p>Use a &lsquo;#&rsquo; pound-sign to create a line with your name on it.</p>
+
+<pre><code>
+# Author: Jagadish Bapanapally
+# Author: Philip Schlump
+
+import sys
+import tensorflow as tf
+import  pandas
+import  numpy
+import  bottle
+import  sqlite3
+import  tensorflow
+import  keras
+import  matplotlib
+from bs4 import BeautifulSoup
+
+print ( &quot;hello world&quot; )
+print ( sys.version )
+
+</code></pre>
+
+<p>Run it again.</p>
+
+<p>If ti works the turn this in as a part of your lab.</p>
+
+<h1>Lab Questions</h1>
+
+<p>Use the editor and write up an answer to:</p>
+
+<ol>
+<li>What is your name?</li>
+<li>What part of software installation causes the most frustration?</li>
+<li>Did you remember to put your name in your code as a comment?</li>
+</ol>
+
+<p>Save the file and upload this as a part of your lab work.</p>
 
 </div>
 
