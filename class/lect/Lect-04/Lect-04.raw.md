@@ -66,6 +66,7 @@ m4_include(list-comp.py)
 5. Let's print out all the even numbers in the list.
 
 ```
+$ pwd
 $ mkdir ex1
 $ cd ex1
 ```
@@ -74,9 +75,19 @@ $ cd ex1
 $ vi data1.txt
 ```
 
+```
+$ vi ex1.py
+```
+
 ## Let's build a string - list processor.
 
-Strings are list.
+Strings are list of characters.
+```
+$ pwd
+$ cd ..
+$ mkdir ex2
+$ cd ex2
+```
 
 1. Switch directories.
 1. Let's create a directory for the program to be in.
@@ -88,6 +99,13 @@ Strings are list.
 ## Let's build a matrix add.
 
 You can have lists inside lists.
+
+```
+$ pwd
+$ cd ..
+$ mkdir ex3
+$ cd ex3
+```
 
 1. Switch directories.
 1. Let's create a directory for the program to be in.
