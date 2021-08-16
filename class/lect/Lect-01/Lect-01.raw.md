@@ -3,6 +3,8 @@ m4_include(../../../setup.m4)
 
 # Lecture 01 - Intro To Class
 
+[https://xkcd.com/353/](https://xkcd.com/353/)
+
 Who is Prof Philip Schlump?  
 
 Can you make Money at computer science?
