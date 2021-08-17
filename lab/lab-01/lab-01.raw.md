@@ -76,6 +76,7 @@ git for windows (Includes MinGW and bash) [https://git-scm.com/download/win](htt
 
 7. Install "vim", [https://www.vim.org/download.php#pc](https://www.vim.org/download.php#pc)
 A good guide to vim on windows [https://www.freecodecamp.org/news/vim-windows-install-powershell/](https://www.freecodecamp.org/news/vim-windows-install-powershell/)
+An interactive tutorial on using vim [https://www.openvim.com/](https://www.openvim.com/)
 
 
 

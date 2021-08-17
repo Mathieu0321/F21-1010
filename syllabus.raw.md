@@ -166,7 +166,7 @@ class.
 |             |          | *Textbook Chapter 11 - Testing*         |
 |             |          |                                         |
 | Thr Sep 9   | 7        | More on Lists, Dictionaries Maps.       |
-|             |          | Very basic use of Git.                  |
+|             |          | Very basic use of git.                  |
 |             |          | *Textbook Chapter 4*                    |
 |             |          |                                         |
 |             |          |                                         |
@@ -311,7 +311,7 @@ to get them turned in.  They are uploaded to the wyoweb (instructure) site.
 |                |      |                                          |
 |                |      |                                          |
 | *Week 4*       | 4    | CSV reading and a Dictionary             |
-| Sep 21, 23, 24 |      |                                          |
+| Sep 21, 23, 24 |      | Basic use of Git/Github.com              |
 |                |      |                                          |
 |                |      |                                          |
 | *Week 5*       | 5    | SQLite3 Data Analysis                    |
