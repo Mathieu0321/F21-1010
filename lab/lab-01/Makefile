@@ -12,7 +12,7 @@ all: ${FN}.html ${FN}.pdf
 #${FN1}.html 
 
 %.pdf: %.md
-	~/bin/md-to-pdf.sh $<
+	echo ~/bin/md-to-pdf.sh $<
 
 %.md: %.raw.md $(PY) $(IMG)
 	m4 -P $< >$@

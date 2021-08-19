@@ -44,45 +44,126 @@ Install chocolatey for Windows 10, this is a package manager.  You will need to 
 
 A number of tools depend on the Google Chrome portability library.  
 
-Install Chrome (if you have not already done it) [https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds)
+1. Install Chrome (if you have not already done it) [https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds)
 
 
 ### Source code control
 
-We will be using 'https://github.com' for class handouts and for turning working with files
+1. We will be using 'https://github.com' for class handouts and for turning working with files
 through the semester.  The underlying system that github uses is 'git'.    You will need to
 to to 'https://github.com' and create a free account on the site.
-
-
-Bring up this page in the "chrome" browser with [xyzzy](xyzzy)
-
-Determine what version of windows you have, the 32 bit or 64 bit version.  [https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) has an explanation.
-
-You will also need the windows 'git' tools installed.  [https://git-scm.com/download/win](https://git-scm.com/download/win)
+2. Bring up this page in the "chrome" browser with [https://github.com/Univ-Wyo-Education/F21-1010/tree/main/lab/lab-01](https://github.com/Univ-Wyo-Education/F21-1010/tree/main/lab/lab-01)
+3. Determine what version of windows you have, the 32 bit or 64 bit version.  [https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) has an explanation.
+4.  You will also need the windows 'git' tools installed.  [https://git-scm.com/download/win](https://git-scm.com/download/win)
 in chrome will start the download as soon as you go to the page.  Run the installer.  You should end up with a MinGW Bash
 shell icon on your desktop.
-
-git for windows (Includes MinGW and bash) [https://git-scm.com/download/win](https://git-scm.com/download/win)
-
-
-
-
-
-
-
 5. Install VS Code [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
-
 6. Install Anaconda Python  [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
-
 7. Install "vim", [https://www.vim.org/download.php#pc](https://www.vim.org/download.php#pc)
 A good guide to vim on windows [https://www.freecodecamp.org/news/vim-windows-install-powershell/](https://www.freecodecamp.org/news/vim-windows-install-powershell/)
 An interactive tutorial on using vim [https://www.openvim.com/](https://www.openvim.com/)
 
 
 
-# Install Packages in Python
 
-The installation manager for Python is "pip".
+## Installation on a Mac
+
+We will be using 'https://github.com' for class handouts and for turning working with files
+through the semester.  The underlying system that github uses is 'git'.    You will need to
+to to 'https://github.com' and create a free account on the site.
+
+1. Install XCode (Apple Store)  On your Apple Mac bring up the Apple Store.  Search for "XCode" - it is free. Install.  Once you install XCode you need to start it
+and accept the license terms for XCode.  XCode is free but it requires the "Accept" before it will allow you to run software.   Open the finder in /Applications/Utilities
+and click on Terminal.  The enter: `xcode-select —install` to install the command line tools.
+2. Install brew.  Search for "mac brew".  Cut and paste the line.  Bring up a "terminal" - In the finder brows to your /Applications, then in the Utilities you will find a terminal.  Paste the "brew" install line into that.  Run.   
+3. Now at the command line (in Terminal) do `$ brew install git`. [https://brew.sh/](https://brew.sh/)
+6. Install "iTerm 2.x" [https://iterm2.com/](https://iterm2.com/)   Since this terminal will be used during the semester please configure it to be in you tool bar.  
+3. Install Chrome (if you have not already done it)  (Search for "Download Chrome" - follow googles instructions) [https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds)
+5. Bring up this page in the "chrome" browser with [https://github.com/Univ-Wyo-Education/F21-1010/tree/main/lab/lab-01](https://github.com/Univ-Wyo-Education/F21-1010/tree/main/lab/lab-01)   Navigate around in the site - this is where all the lectures, assignments and lab handouts are built.
+4. Install VS Code. Search for "Visual Studio Code" Install.  The add the "Python Package to it".  I also installed the "Python Lint" package.  [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
+5. Install Anaconda Python.  Search for  "Mac Install Anaconda Python" - install the anaconda package (Takes a while).  [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
+6. Install "vim" [https://github.com/macvim-dev/macvim/releases/tag/snapshot-171](https://github.com/macvim-dev/macvim/releases/tag/snapshot-171)
+
+
+
+
+
+### Linux Installs.
+
+This depends on the kind of Linux Ubuntu, RedHat, CentOs, Arch etc, that you have.  Let's get together and figure out hat detail and work on it one-on-one.
+
+
+
+## Correct Version of Python
+
+First check that you have the correct version of Python!   Your system may have an old 
+version of python already on it.  All Mac's do.
+
+```
+$ python --version
+Python 3.8.3 (default, Jul  2 2020, 16:21:59) 
+[GCC 7.3.0] :: Anaconda, Inc. on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> quit()
+```
+
+You should see "Python 3.8.3" at the top.   If you don't then we need to fix your
+path so that when you run python you are getting to the version that we just 
+installed.
+
+On a Mac (assuming that you have the latest version of the OS installed)
+you need to set the "PATH" in the `~/.zshrc` file and then re-start iTerm2.
+If you installed Anaconda python in `/Users/pschlmp/Anaconda3` (note my
+username in this - use your own username) then the path will need to be
+set to:
+
+```
+export PATH="/home/pschlump/anaconda3/bin:$PATH"
+```
+
+On Windows the path is set as a global system environment variable in
+the System Variables.   
+See [https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/)
+
+
+
+
+## Install Packages in Python (Both Windows and Mac)
+
+
+The installation manager for Python is "pip".  There are 2 ways to run "pip".
+In the terminal:
+
+On Mac:
+
+```
+$  pip --install <package>
+```
+
+or:
+
+```
+$ python -m pip --install <package>
+```
+
+On Windows:
+
+
+```
+C:\>  pip --install <package>
+```
+
+or:
+
+```
+C:\> python -m pip --install <package>
+```
+
+Most of our installs of python packages will use "pip".
+
+The exception is installing TensorFlow.  It requires more steps to install and
+we will use the "conda" installer that came with the Anaconda version of Python.
+
 
 On Mac/Linux:
 ```
@@ -96,26 +177,23 @@ C:\> conda install -c conda-forge tensorflow
 ```
 
 
-## Installation on a Mac
+The set of things to install with pip :
 
-1. Install XCode (Apple Store)  On your Apple Mac bring up the Apple Store.  Search for "XCode" - it is free. Install.
-2. Install brew / git.  Search for "mac brew".  Cut and paste the line.  Bring up a "terminal" - In the finder brows to your /Applications, then in the Utilities you will find a terminal.  Paste the "brew" install line into that.  Run.   Now at the command line do `$ brew install git`. [https://brew.sh/](https://brew.sh/)
-3. Install iTerm2 - Search for "iterm2" and follow the instructions to install a better terminal.  Use that instead of the Mac default Terminal application.  [https://www.iterm2.com/](https://www.iterm2.com/)
-3. Install Chrome (if you have not already done it)  (Search for "Download Chrome" - follow googles instructions) [https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds)
+```
+pip --install pandas
+pip --install numpy
+pip --install bottle
+pip --install sqlite3
+pip --install matplotlib
+pip --install bs4 
+```
 
-4. Install VS Code. Search for "Visual Studio Code" Install.  The add the "Python Package to it".  I also installed the "Python Lint" package.  [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
-5. Install Anaconda Python.  Search for  "Mac Install Anaconda Python" - install the anaconda package (Takes a while).  [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
+Then
 
-6. Install "vim" [https://github.com/macvim-dev/macvim/releases/tag/snapshot-171](https://github.com/macvim-dev/macvim/releases/tag/snapshot-171)
-6. Install "iTerm 2.x"
+```
+$ conda install -c conda-forge tensorflow 
+```
 
-
-
-
-
-### Linux Installs.
-
-This depends on the kind of Linux Ubuntu, RedHat, CentOs, Arch etc, that you have.  Let's get together and figure out hat detail and work on it one-on-one.
 
 ## Configure and Demo of Using Debugger
 
@@ -161,18 +239,21 @@ m4_include(hello-world.py)
 
 Run it again.
 
-If ti works the turn this in as a part of your lab.
+If it works the turn this in as a part of your lab.
 
 # Lab Questions
 
 Use the editor and write up an answer to:
 
-1. What is your name?
+1. Your name?   Did you put it in the comments at the top of your code.  That is important if you want to get credit for the assignment!
 2. What part of software installation causes the most frustration?
-3. Did you remember to put your name in your code as a comment?
 
 Save the file and upload this as a part of your lab work.
 
 
 
+
+# Copyright
+
+Copyright (C) University of Wyoming, 2021.
 
