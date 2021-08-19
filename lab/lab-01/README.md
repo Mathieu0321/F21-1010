@@ -1,5 +1,17 @@
 
-m4_include(../../setup.m4)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Lab 01 - Setup a development environment
 
@@ -144,7 +156,20 @@ $ python hello-world.py
 Modify the file to be:
 
 ```
-m4_include(hello-world.py)
+import sys
+import tensorflow as tf
+import  pandas
+import  numpy
+import  bottle
+import  sqlite3
+import  tensorflow
+import  keras
+import  matplotlib
+from bs4 import BeautifulSoup
+
+print ( "hello world" )
+print ( sys.version )
+
 ```
 
 Run it again.
@@ -156,7 +181,20 @@ Use a '#' pound-sign to create a line with your name on it.
 # Author: Jagadish Bapanapally
 # Author: Philip Schlump
 
-m4_include(hello-world.py)
+import sys
+import tensorflow as tf
+import  pandas
+import  numpy
+import  bottle
+import  sqlite3
+import  tensorflow
+import  keras
+import  matplotlib
+from bs4 import BeautifulSoup
+
+print ( "hello world" )
+print ( sys.version )
+
 ```
 
 Run it again.

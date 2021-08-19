@@ -16,6 +16,7 @@ all: ${FN}.html ${FN}.pdf
 
 %.md: %.raw.md $(PY) $(IMG)
 	m4 -P $< >$@
+	cp $@ README.md
 
 %.html: %.md
 	blackfriday-tool ./$< $@
