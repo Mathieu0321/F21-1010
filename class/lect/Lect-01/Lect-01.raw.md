@@ -9,6 +9,10 @@ Who is Prof Philip Schlump?
 
 Can you make Money at computer science?
 
+Yes - it pays.
+The level of opportunity has never been better.
+
+
 What it takes to be successful? 
 Success is Easy to explain.  Be willing to do what other people 
 are unwilling to do.  How this applies to you - right
@@ -22,7 +26,7 @@ a process that you can practices and learn.
 You practice and you learn to program.   You lean a valuable
 skill.  This is valuable.  On average a UW graduate will
 make $86,200.00 in this field.   You can expect to get
-raises for about 6 years.  An average of $120,000.00 
+raises for about 6 years.  An average of $112,000.00 
 a year.   Will you make more if you move to NYNY - yep.
 Will you make less in Omaha NE - yep.  Cost of living is
 different in each location.
@@ -33,15 +37,19 @@ build a business.  Consulting can pay way more than
 just a job.  My last consulting gig was 14.5 months at
 $16,000.00 a month.  If you want to make more than 
 that you need to start and run a successful business.
+Don't think that a "successful business" means just a
+computer company.   I have a friend in Denver, with a
+masters in Computer Science from UW that now owns
+9 Great Clips - each making more than $50k per year.
+She is no longer doing development work.
 
 In a consulting business I did a contract with Time
 Warner.  I had 23 folks that I placed with them. On
 average I made 41.20 and hour for 6 months on each
-hour of other peoples work.  That 6 months I made
-just under a million dollars.  That is before tax.
+hour of other peoples work.  I leave the math to you.
 
-I built a product company - that I sold for $20 million.
-I got about 28% of that.  Do you think there were hard
+I built a VC funded product company.
+Do you think there were hard
 times in balding that.  You bet.  At one point I went out
 on a trip to sell the software.  We had $38.15 in the
 bank account.  With a little over $10k due in 2 weeks 
