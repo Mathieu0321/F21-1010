@@ -1,0 +1,27 @@
+
+filepath = 'sample2.txt'
+filepath = 'GCF_000001405.39_GRCh38.p41214_genomic.s44a-21.fna'
+
+with open(filepath) as fp:
+    line = fp.readline()
+    pattern = 'ACTGGCTGGCCTAGTGACTTCCAGCTGCACAGCTATCGACCCAGGGCTGGACAGCCCCTGCCTGGC'
+    found = False
+    line_no = 0
+    while line and not found:
+        line_no = line_no + 1
+
+        # Process the line
+        # print("Line {}: {}".format(line_no, line.strip()))
+
+        line = line.strip()
+
+        if (line.find(pattern) != -1): 
+            print (f"Contains {pattern} at {line_no} ") 
+            found = True
+
+        # Read in next line
+        line = fp.readline()
+
+    if not found:
+        print ( "Did not find the genetic pattern" )
+
