@@ -708,264 +708,66 @@ ol {
 
 <div class="markdown-body">
 
-<h1>Lecture 2 - converting values</h1>
+<h1>Personal Security</h1>
 
-<h2>Why Python instead of Java?</h2>
+<h2>TIAA</h2>
 
-<p>Python pays better.</p>
+<p>Quote:</p>
 
-<h2>Overview</h2>
+<h3>Two-step verification via text or phone</h3>
 
-<p>You may want to refer back to the record video of this is lecture if you want to go back
-to it.  We are going to cover a bunch of stuff - that is in
-a lot of chapters in the book, 1, 2, 3, some 4, some 5, some 6 and
-some 7 all in one set of examples.</p>
+<p>Verify your identity each time you log in using a temporary identification code sent to you via text or a phone call.</p>
 
-<p>Also the lecture notes are online in the lect-02 github.
-<a href="https://github.com/Univ-Wyo-Education/F21-1010/tree/main/class/lect/Lect-02">https://github.com/Univ-Wyo-Education/F21-1010/tree/main/class/lect/Lect-02</a></p>
+<p>This helps ensure no one can access your account fraudulently, even if they did have your password.</p>
 
-<p>There is a ./conv directory that has a series of steps where you can
-go back to this and see the code as I develop it.</p>
+<h2>University of Wyoming</h2>
 
-<h3>The &ldquo;Process&rdquo; that we often use</h3>
+<p>Yes you can get a &ldquo;number&rdquo; sent to you via SMS.</p>
+
+<h1>Phones rely on you not loosing your number.</h1>
 
 <ol>
-<li>Collect Requirements</li>
-<li>Produce a &ldquo;design&rdquo; / or a Requirements Document</li>
-<li>Convert Requirements into a Prototype</li>
-<li>Take the Prototype and build test data from it</li>
-<li>Build the &ldquo;application&rdquo; from the Prototype</li>
-<li>Build automated tests</li>
-<li>Document results</li>
+<li>The number is &ldquo;public&rdquo;</li>
+<li>Anybody can &ldquo;call&rdquo; the phone company and claim to be you.  The phone company will ask</li>
+<li>Last 4 digits of SSN</li>
+<li>Mothers madden name</li>
+<li>Previous home address</li>
+<li>or about 4 other &ldquo;easily&rdquo; found chunks of data</li>
+<li>Then the malicious actor provides the &ldquo;key&rdquo; of of a new SIM card for a burner phone and takes over your phone number.</li>
+<li>Then the reset your email account - &lsquo;Recover Password&rdquo; - sends them a 6 digit conformation to the new phone number.</li>
+<li>Now they recover the password to X using your email.</li>
 </ol>
 
-<h3>Demo - of this in browser.</h3>
+<h1>from the NIST standards</h1>
 
-<p>A lot of what happens when you program seems so simple - until you
-have to learn a non-human language.  Programs are formal languages.
-English is an informal language.   For example I can make a sentence
-that most of you will not understand, at first, but with some explanation
-I can show that it is using proper English crammer.</p>
+<p><a href="https://stealthbits.com/blog/nist-password-guidelines/">https://stealthbits.com/blog/nist-password-guidelines/</a></p>
 
-<p>&ldquo;The old man the boat.&rdquo;</p>
+<h3>No More Hints or Knowledge-based Authentication (KBA)</h3>
 
-<p>In this context the old is a type of person.  &ldquo;man&rdquo; is to get on board
-the boat and operate it.  It is a verb.</p>
+<p>Although password hints were intended to allow users to create more
+complex passwords, they ultimately caused users to leave hints that
+practically gave passwords away. To prevent this, password hints
+shouldn’t be used in any form. This also includes knowledge-based
+authentication (KBA), such as questions like “What was the name of
+your first pet?”.</p>
 
-<p>So&hellip; The sentence is roughly equivalent to &ldquo;The old people get on the
-boat and operate it.&rdquo;</p>
+<h3>Password Managers &amp; Two Factor Authentication (2FA)</h3>
 
-<p>Python is a formal language.  It uses a rigorous syntax.   As humans
-we are not used to this.</p>
+<p>To account for the growing popularity of password managers, users
+should be able to paste passwords. Previously it was common to
+prevent the ability to paste in password fields, which made the use
+of these services difficult.</p>
 
-<p>One of the realities of development is that you are not using &ldquo;one&rdquo; tool.
-vim - for editing, or notepad++ on windows (don&rsquo;t use notepad it will mess you up).
-VSCode - for debugging - and building and running projects.
-Python - command line for running programs.<br />
-Jupiter Notebooks (Iron Python) for mixing code and output in a human readable form.
-Different types of files.  .py for python, .txt for text, .csv for comma separated
-values, .mk for markdown, images in .svg and .jpg and .png etc.</p>
+<p>Regarding two factor authentication (2FA), SMS is no longer considered
+a secure option. In the place of SMS, one-time code
+provider/authenticators, such as Google Authenticator or Okta Verify,
+should be permitted.</p>
 
-<h2>Software Engineering</h2>
+<h1>How stuff is breached:</h1>
 
-<p>This is a very &ldquo;software engineering&rdquo; approach to code development.
-Learning to code effectively is a &ldquo;process&rdquo;.   Creativity tends to be
-innate - it is a talent.   Programming is a set of skills.</p>
-
-<h2>Topics Covered</h2>
-
-<ol>
-<li>Files and Directories</li>
-<li>Editing</li>
-<li>Operators, <code>*</code> is multiply.</li>
-<li>Other operators like <code>+</code>, <code>-</code>, <code>/</code>, <code>%</code>, and unary <code>-</code>.  There are more.</li>
-<li><code>def</code> code reusability</li>
-<li>Float, int and string data types</li>
-<li>Basic testing</li>
-<li>Functions - parameters - return values</li>
-<li>if</li>
-<li>Comparison for equality, <code>==</code> operator.  Also <code>!=</code> not equal.</li>
-<li>if / else</li>
-<li>&lsquo;:&rsquo; starts a block</li>
-<li>Indentation</li>
-<li>a = a + 1 - not algebra</li>
-<li>Files</li>
-<li>Import of files</li>
-<li>Input</li>
-<li>Output</li>
-<li>Formatting of output</li>
-<li>Patterns in code</li>
-<li>Fast and Slow Learning</li>
-</ol>
-
-<h2>Requirements</h2>
-
-<p>Implement a python function that will convert from miles to
-kilometers and return that value.</p>
-
-<p>Implement a program that will use the function, prompt for
-input in miles and then print out the result in kilometers.</p>
-
-<h2>Step 1</h2>
-
-<p>Convert from miles to kilometers.</p>
-
-<p>Conversion generally is ( ( X + k1 ) * C ) + k2</p>
-
-<p>In our case k1 and k2 are 0.  So we just get X * C</p>
-
-<h3>Demo - lookup conversion from miles to kilometers</h3>
-
-<pre><code>
-# Step 1 - constants
-
-miles = 3
-conv = 1.60934
-km = miles * conv
-
-
-</code></pre>
-
-<h3>Demo - of this as a visualization</h3>
-
-<h2>Step 2 - Input with error</h2>
-
-<pre><code>
-# Step 2 - will error with type error
-
-print ( &quot;Enter Miles&quot; )
-
-miles = input()
-
-conv = 1.60934
-km = miles * conv
-
-print ( &quot;km = {}&quot;.format(km) )
-
-
-</code></pre>
-
-<h2>Step 3 - Fixed error / Types</h2>
-
-<pre><code>
-# Step 3 - inline after fixing type
-
-print ( &quot;Enter Miles&quot; )
-
-miles_str = input()
-miles = int(miles_str)
-conv = 1.60934
-km = miles * conv
-
-print ( &quot;km = {}&quot;.format(km) )
-
-</code></pre>
-
-<h2>Step 4 - Make a function</h2>
-
-<pre><code>
-# Step 4 - After making a function
-
-def mi_to_km ( mi ):
-    conv = 1.60934
-    km = mi * conv
-    return (km)
-
-print ( &quot;Enter Miles&quot; )
-
-miles_str = input()
-miles = int(miles_str)
-
-km = mi_to_km(miles)
-
-print ( &quot;km = {}&quot;.format(km) )
-
-</code></pre>
-
-<h2>Step 5 - Make Reusable Code</h2>
-
-<p>step-5.py:</p>
-
-<pre><code>
-# Step 5 - with function and a test.
-
-import mi_to_km
-
-print ( &quot;Enter Miles&quot; )
-
-miles_str = input()
-miles = int(miles_str)
-
-km = mi_to_km.mi_to_km(miles)
-
-print ( &quot;km = {}&quot;.format(km) )
-
-</code></pre>
-
-<p>conv/mi_to_km.py:</p>
-
-<pre><code>
-# mi_to_km converts from miles as an integer or float to kilometers.  
-def mi_to_km ( mi ):
-    conv = 1.60934
-    km = mi * conv
-    return (km)
-
-# Automated Test
-if __name__ == &quot;__main__&quot;:
-    n_err = 0
-    x = mi_to_km ( 3 )
-    if x !=  4.82802:
-        n_err = n_err + 1
-        print ( &quot;Error: Test 1: conversion not working, expected {} got {}&quot;.format (  4.82802, x ) )
-    x = mi_to_km ( 0 )
-    if x != 0:
-        n_err = n_err + 1
-        print ( &quot;Error: Test 2: conversion not working, expected {} got {}&quot;.format ( 0, x ) )
-
-    if n_err == 0 :
-        print ( &quot;PASS&quot; )
-    else:
-        print ( &quot;FAILED&quot; )
-
-
-</code></pre>
-
-<h2>Step 6 - Add documentation</h2>
-
-<p>This is really a little step in this program - but a really important one for this class..</p>
-
-<pre><code>
-# Author: Philip Schlump
-# Email: pschlump@uwyo.edu
-
-# Main program to read in values and convert from miles (mi) to kilometers (km)
-
-# Step 5 - with function and a test.
-
-import mi_to_km
-
-print ( &quot;Enter Miles&quot; )
-
-miles_str = input()
-miles = int(miles_str)
-
-km = mi_to_km.mi_to_km(miles)
-
-print ( &quot;km = {}&quot;.format(km) )
-
-
-</code></pre>
-
-<h2>This is the BEST time ever to be in this field</h2>
-
-<p>Blockchain, Growth, IoT, AI / Machine Larning!</p>
-
-<p><a href="https://youtu.be/eAn_oiZwUXA">https://youtu.be/eAn_oiZwUXA</a></p>
-
-<h1>Copyright</h1>
-
-<p>Copyright &copy; University of Wyoming, 2021.</p>
+<p>80% of breaches involve weak or compromised passwords and the top
+10 common passwords still including ‘123456’, ‘password’, and
+‘qwerty’.</p>
 
 </div>
 

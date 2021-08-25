@@ -3,15 +3,13 @@ m4_include(../../../setup.m4)
 
 # Lecture 2 - converting values
 
-## Video of This 
+## Why Python instead of Java?
 
-Don's expect a video for every lecture.  That is a lot of work.
-You will need this code later in the class.
-
+Python pays better.
 
 ## Overview
 
-I have a pre-record video of this is lecture if you want to go back
+You may want to refer back to the record video of this is lecture if you want to go back
 to it.  We are going to cover a bunch of stuff - that is in
 a lot of chapters in the book, 1, 2, 3, some 4, some 5, some 6 and
 some 7 all in one set of examples.
@@ -21,6 +19,16 @@ Also the lecture notes are online in the lect-02 github.
 
 There is a ./conv directory that has a series of steps where you can 
 go back to this and see the code as I develop it.
+
+### The "Process" that we often use
+
+1. Collect Requirements
+2. Produce a "design" / or a Requirements Document
+3. Convert Requirements into a Prototype
+4. Take the Prototype and build test data from it
+5. Build the "application" from the Prototype
+6. Build automated tests
+7. Document results
 
 ### Demo - of this in browser.
 
@@ -82,7 +90,7 @@ innate - it is a talent.   Programming is a set of skills.
 
 ## Requirements
 
-Implement a python faction that will convert from miles to 
+Implement a python function that will convert from miles to 
 kilometers and return that value.
 
 Implement a program that will use the function, prompt for
@@ -138,6 +146,13 @@ conv/mi_to_km.py:
 m4_include(conv/mi_to_km.py)
 ```
 
+## Step 6 - Add documentation
+
+This is really a little step in this program - but a really important one for this class..
+
+```
+m4_include(conv/step-6.py)
+```
 
 ## This is the BEST time ever to be in this field
 

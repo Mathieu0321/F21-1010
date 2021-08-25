@@ -1,15 +1,14 @@
 
 PP=`pwd`
 FN=Lect-02
-# FN1=syllabus-5010
+FN1=intellegence
+FN2=security
 # DIR=../F20-1015
 DIR=../../../
 IMG=
 PY=
 
-all: ${FN}.html ${FN}.pdf
-
-#${FN1}.html 
+all: ${FN}.html ${FN}.pdf ${FN1}.html ${FN1}.pdf ${FN2}.html ${FN2}.pdf
 
 %.pdf: %.md
 	~/bin/md-to-pdf.sh $<
@@ -17,7 +16,7 @@ all: ${FN}.html ${FN}.pdf
 %.md: %.raw.md $(PY) $(IMG)
 	m4 -P $< >$@
 
-%.html: %.md
+%.html: %.md 
 	blackfriday-tool ./$< $@
 	echo cat ./${DIR}/css/md.css $@ >/tmp/$@
 	cat ./${DIR}/css/pre ./${DIR}/css/markdown.css ./${DIR}/css/post ./${DIR}/css/md.css ./${DIR}/css/hpre $@ ./${DIR}/css/hpost >/tmp/$@
