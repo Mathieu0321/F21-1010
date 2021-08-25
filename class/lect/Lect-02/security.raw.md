@@ -30,7 +30,13 @@ Yes you can get a "number" sent to you via SMS.
 
 # from the NIST standards
 
+Summary that I will quot from (readable):
+
 [https://stealthbits.com/blog/nist-password-guidelines/](https://stealthbits.com/blog/nist-password-guidelines/)
+
+Actual guidelines by National Institute of Standards (NIST):
+
+[https://pages.nist.gov/800-63-3/sp800-63b.html](https://pages.nist.gov/800-63-3/sp800-63b.html)
 
 ### No More Hints or Knowledge-based Authentication (KBA)
 
