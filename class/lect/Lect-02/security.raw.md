@@ -61,3 +61,13 @@ should be permitted.
 ‘qwerty’. 
 
 
+## Biometrics
+
+This is fingerprints, iris scans and other things.
+
+1. You can't change them.  OMB lost 5.5 million biometrics probably to the China - in a single breach.
+2. They can be remotely "collected".
+
+This means that this should be a "username" not a "password"
+
+
