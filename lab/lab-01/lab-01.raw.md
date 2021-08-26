@@ -81,6 +81,27 @@ to to 'https://github.com' and create a free account on the site.
 4.  You will also need the windows 'git' tools installed.  [https://git-scm.com/download/win](https://git-scm.com/download/win)
 in chrome will start the download as soon as you go to the page.  Run the installer.  You should end up with a MinGW Bash
 shell icon on your desktop.
+
+After downloading the git tools setup file, double click on it:
+
+![git installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/git-tools.jpg)
+
+![git installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/git-tools-1.jpg)
+
+![git installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/git-tools-2.jpg)
+
+![git installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/git-tools-3.jpg)
+
+![git installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/git-tools-4.jpg)
+
+![git installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/git-tools-5.jpg)
+
+![git installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/git-tools-6.jpg)
+
+![git installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/git-tools-7.jpg)
+
+![git installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/git-tools-8.jpg)
+
 5. Install VS Code [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 6. Install Anaconda Python  [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
 7. Install "vim", [https://www.vim.org/download.php#pc](https://www.vim.org/download.php#pc)
