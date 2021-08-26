@@ -29,7 +29,7 @@ your life easier.
 
 Open file explorer and click on view on the top of the explorer and the click on view and then select details:
 
-![Folder setup](D:\1010-windows\powershell\folder-setup.jpeg)
+![Folder setup](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/folder-setup.jpg)
 
 3. For a lot of stuff we will use the Linux/Unix 'bash' shell - this will be installed as a
 part of our 'git' install a little bit later.  'bash' is the same shell that is used on
