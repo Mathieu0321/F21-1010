@@ -103,8 +103,13 @@ After downloading the git tools setup file, double click on it:
 ![git installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/git-tools-8.jpg)
 
 5. Install VS Code [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
-6. Install Anaconda Python  [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
-7. Install "vim", [https://www.vim.org/download.php#pc](https://www.vim.org/download.php#pc)
+
+Download vs code and double click on the setup file:
+
+![vscode installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vscode-1.png)
+
+7. Install Anaconda Python  [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
+8. Install "vim", [https://www.vim.org/download.php#pc](https://www.vim.org/download.php#pc)
 A good guide to vim on windows [https://www.freecodecamp.org/news/vim-windows-install-powershell/](https://www.freecodecamp.org/news/vim-windows-install-powershell/)
 An interactive tutorial on using vim [https://www.openvim.com/](https://www.openvim.com/)
 
