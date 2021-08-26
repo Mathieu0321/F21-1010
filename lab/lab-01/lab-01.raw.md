@@ -60,6 +60,16 @@ A number of tools depend on the Google Chrome portability library.
 
 ![Chrome installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/chrome-installtion.jpg)
 
+![Chrome installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/chrome-installtion-1.jpg)
+
+![Chrome installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/chrome-installtion-2.jpg)
+
+![Chrome installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/chrome-installtion-4.jpg)
+
+![Chrome installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/chrome-installtion-5.jpg)
+
+![Chrome installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/chrome-installtion-6.jpg)
+
 
 ### Source code control
 
