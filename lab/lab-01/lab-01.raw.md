@@ -123,7 +123,30 @@ Download vs code and double click on the setup file:
 ![vscode installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vscode-8.png)
 
 7. Install Anaconda Python  [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
-8. Install "vim", [https://www.vim.org/download.php#pc](https://www.vim.org/download.php#pc)
+
+![anaconda installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/anaconda-1.png)
+
+![anaconda installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/anaconda-2.png)
+
+![anaconda installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/anaconda-3.png)
+
+![anaconda installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/anaconda-4.png)
+
+![anaconda installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/anaconda-5.png)
+
+![anaconda installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/anaconda-6.png)
+
+![anaconda installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/anaconda-7.png)
+
+![anaconda installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/anaconda-8.png)
+
+![anaconda installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/anaconda-9.png)
+
+![anaconda installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/anaconda-10.png)
+
+![anaconda installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/anaconda-11.png)
+
+9. Install "vim", [https://www.vim.org/download.php#pc](https://www.vim.org/download.php#pc)
 A good guide to vim on windows [https://www.freecodecamp.org/news/vim-windows-install-powershell/](https://www.freecodecamp.org/news/vim-windows-install-powershell/)
 An interactive tutorial on using vim [https://www.openvim.com/](https://www.openvim.com/)
 
