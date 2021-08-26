@@ -26,6 +26,11 @@ It is important that you configure your system for development.
 is the last few characters after the last dot (.) in a file name.   In windows 10 there is a
 configuration superficially for development that will set this and a few other settings to make
 your life easier.
+
+Open file explorer and click on view on the top of the explorer and the click on view and then select details:
+
+![Folder setup](D:\1010-windows\powershell\folder-setup.jpeg)
+
 3. For a lot of stuff we will use the Linux/Unix 'bash' shell - this will be installed as a
 part of our 'git' install a little bit later.  'bash' is the same shell that is used on
 many Mac and most Linux systems.
