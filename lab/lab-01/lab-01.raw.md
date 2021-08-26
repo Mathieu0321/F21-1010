@@ -108,6 +108,20 @@ Download vs code and double click on the setup file:
 
 ![vscode installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vscode-1.png)
 
+![vscode installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vscode-2.png)
+
+![vscode installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vscode-3.png)
+
+![vscode installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vscode-4.png)
+
+![vscode installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vscode-5.png)
+
+![vscode installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vscode-6.png)
+
+![vscode installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vscode-7.png)
+
+![vscode installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vscode-8.png)
+
 7. Install Anaconda Python  [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
 8. Install "vim", [https://www.vim.org/download.php#pc](https://www.vim.org/download.php#pc)
 A good guide to vim on windows [https://www.freecodecamp.org/news/vim-windows-install-powershell/](https://www.freecodecamp.org/news/vim-windows-install-powershell/)
