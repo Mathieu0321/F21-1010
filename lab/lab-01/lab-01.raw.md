@@ -35,6 +35,15 @@ In the same folder click on view and then go to options and then click on change
 
 ![Folder setup](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/folder-setup-2.jpg)
 
+Then click on Apply to folders:
+
+![Folder setup](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/folder-setup-3.jpg)
+
+Then click yes:
+
+![Folder setup](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/folder-setup-4.jpg)
+
+
 3. For a lot of stuff we will use the Linux/Unix 'bash' shell - this will be installed as a
 part of our 'git' install a little bit later.  'bash' is the same shell that is used on
 many Mac and most Linux systems.
