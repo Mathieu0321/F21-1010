@@ -58,7 +58,7 @@ A number of tools depend on the Google Chrome portability library.
 
 1. Install Chrome (if you have not already done it) [https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds)
 
-![Chrome installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/chrome-installation.jpg)
+![Chrome installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/chrome-installtion.jpg)
 
 
 ### Source code control
