@@ -150,6 +150,22 @@ Download vs code and double click on the setup file:
 A good guide to vim on windows [https://www.freecodecamp.org/news/vim-windows-install-powershell/](https://www.freecodecamp.org/news/vim-windows-install-powershell/)
 An interactive tutorial on using vim [https://www.openvim.com/](https://www.openvim.com/)
 
+![vim installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vim-1.png)
+
+![vim installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vim-2.png)
+
+![vim installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vim-3.png)
+
+![vim installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vim-4.png)
+
+![vim installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vim-5.png)
+
+![vim installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vim-6.png)
+
+![vim installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vim-7.png)
+
+![vim installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/vim-8.png)
+
 
 
 
