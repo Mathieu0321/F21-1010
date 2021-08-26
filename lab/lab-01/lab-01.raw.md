@@ -34,12 +34,6 @@ TODO - navigate to this.
 
 TODO - screen capture for this.
 
-### Package Manager
-
-Windows is lacking a package manager.  We need to install chocolate as the package manager.
-
-Install chocolatey for Windows 10, this is a package manager.  You will need to determine if your system is 32 bit or 64 bit.  This will be true for most of the Windows Installs. [https://chocolatey.org/install](https://chocolatey.org/install)
-
 ###  Install Google Chrome
 
 A number of tools depend on the Google Chrome portability library.  
