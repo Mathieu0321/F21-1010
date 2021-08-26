@@ -31,6 +31,10 @@ Open file explorer and click on view on the top of the explorer and the click on
 
 ![Folder setup](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/folder-setup.jpg)
 
+In the same folder click on view and then go to options and then click on change folders and search options:
+
+![Folder setup](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/folder-setup-2.jpg)
+
 3. For a lot of stuff we will use the Linux/Unix 'bash' shell - this will be installed as a
 part of our 'git' install a little bit later.  'bash' is the same shell that is used on
 many Mac and most Linux systems.
