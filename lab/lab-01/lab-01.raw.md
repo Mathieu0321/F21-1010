@@ -22,6 +22,13 @@ There is an older command line, command.com, but it will not work for most of th
 It is important that you configure your system for development.
 
 1. Setup so that PowerShell can run .ps scripts.
+
+![powershell installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/powershell-0.jpg)
+
+![powershell installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/powershell-1.jpg)
+
+![powershell installation](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/lab/lab-01/powershell-2.jpg)
+
 2. Configure your desktop explore shows all files and shows file extensions.  The file extension
 is the last few characters after the last dot (.) in a file name.   In windows 10 there is a
 configuration superficially for development that will set this and a few other settings to make
