@@ -174,14 +174,14 @@ class.
 | Tue Sep 14  | 8        | Control Flow / If Statements            |
 |             |          | *Textbook Chapter 5*                    |
 |             |          |                                         |
-| Tue Sep 16  | 9        | Dictionaries                            |
+| Tue Sep 16  | 9        | Control Flow / Loops                    |
 |             |          | Outside Data - SQLite3                  |
 |             |          | Outside Data - Pandas                   |
 |             |          | *Textbook Chapter 6*                    |
 |             |          |                                         |
 |             |          |                                         |
 | *Week 5*    |          |                                         |
-| Tue Sep 21  | 10       | Control Flow / Loops                    |
+| Tue Sep 21  | 10       | Dictionaries                            |
 |             |          | How DNA encodes proteins.               |
 |             |          | Fetch/Execute cycle and loops.          |
 |             |          | *Textbook Chapter 7 - Loops*            |
@@ -388,7 +388,7 @@ if you get your lab work done and turned in during the lab.
 |              |            |      | Due as a part of your lab.                         |
 |              |            |      |                                                    |
 | 4            | Mon Sep 27 | 100  | Read in a matrix and add up values.                |
-|              |            |      | Other List programs.                               |
+|              |            |      | Model spread of virus.                             |
 |              |            | 100  | Lab 4: Setup and use git and a branch.             |
 |              |            |      |                                                    |
 | 5            | Mon Oct 4  | 100  | Sort and Search data. Read csv, sort, output.      |
