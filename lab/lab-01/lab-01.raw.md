@@ -236,13 +236,24 @@ and click on Terminal.  The enter: `xcode-select —install` to install the comm
 
 ![iterm installation](./iterm-8.png)
 
-
-
 8. Install Chrome (if you have not already done it)  (Search for "Download Chrome" - follow googles instructions) [https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds)
 9. Bring up this page in the "chrome" browser with [.)   Navigate around in the site - this is where all the lectures, assignments and lab handouts are built.
 10. Install VS Code. Search for "Visual Studio Code" Install.  The add the "Python Package to it".  I also installed the "Python Lint" package.  [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
-11. Install Anaconda Python.  Search for  "Mac Install Anaconda Python" - install the anaconda package (Takes a while).  [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
-12. Install "vim" [https://github.com/macvim-dev/macvim/releases/tag/snapshot-171](https://github.com/macvim-dev/macvim/releases/tag/snapshot-171)
+
+![vscode installation](./vscodem-1.png)
+
+![vscode installation](./vscodem-2.png)
+
+![vscode installation](./vscodem-3.png)
+
+![vscode installation](./vscodem-4.png)
+
+![vscode installation](./vscodem-5.png)
+
+![vscode installation](./vscodem-6.png)
+
+12. Install Anaconda Python.  Search for  "Mac Install Anaconda Python" - install the anaconda package (Takes a while).  [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
+13. Install "vim" [https://github.com/macvim-dev/macvim/releases/tag/snapshot-171](https://github.com/macvim-dev/macvim/releases/tag/snapshot-171)
 
 
 
