@@ -253,7 +253,34 @@ and click on Terminal.  The enter: `xcode-select —install` to install the comm
 ![vscode installation](./vscodem-6.png)
 
 12. Install Anaconda Python.  Search for  "Mac Install Anaconda Python" - install the anaconda package (Takes a while).  [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
-13. Install "vim" [https://github.com/macvim-dev/macvim/releases/tag/snapshot-171](https://github.com/macvim-dev/macvim/releases/tag/snapshot-171)
+
+![anaconda installation](./anacondam-1.png)
+
+![anaconda installation](./anacondam-2.png)
+
+![anaconda installation](./anacondam-3.png)
+
+![anaconda installation](./anacondam-4.png)
+
+![anaconda installation](./anacondam-5.png)
+
+![anaconda installation](./anacondam-6.png)
+
+![anaconda installation](./anacondam-7.png)
+
+![anaconda installation](./anacondam-8.png)
+
+![anaconda installation](./anacondam-9.png)
+
+![anaconda installation](./anacondam-10.png)
+
+![anaconda installation](./anacondam-11.png)
+
+![anaconda installation](./anacondam-12.png)
+
+![anaconda installation](./anacondam-13.png)
+
+14. Install "vim" [https://github.com/macvim-dev/macvim/releases/tag/snapshot-171](https://github.com/macvim-dev/macvim/releases/tag/snapshot-171)
 
 
 
