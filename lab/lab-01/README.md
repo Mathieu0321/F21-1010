@@ -34,23 +34,38 @@ There is an older command line, command.com, but it will not work for most of th
 It is important that you configure your system for development.
 
 1. Setup so that PowerShell can run .ps scripts.
+
+![powershell installation](./powershell-0.jpg)
+
+![powershell installation](./powershell-1.jpg)
+
+![powershell installation](./powershell-2.jpg)
+
 2. Configure your desktop explore shows all files and shows file extensions.  The file extension
 is the last few characters after the last dot (.) in a file name.   In windows 10 there is a
 configuration superficially for development that will set this and a few other settings to make
 your life easier.
+
+Open file explorer and click on view on the top of the explorer and the click on view and then select details:
+
+![Folder setup](./folder-setup.jpg)
+
+In the same folder click on view and then go to options and then click on change folders and search options:
+
+![Folder setup](./folder-setup-2.jpg)
+
+Then click on Apply to folders:
+
+![Folder setup](./folder-setup-3.jpg)
+
+Then click yes:
+
+![Folder setup](./folder-setup-4.jpg)
+
+
 3. For a lot of stuff we will use the Linux/Unix 'bash' shell - this will be installed as a
 part of our 'git' install a little bit later.  'bash' is the same shell that is used on
 many Mac and most Linux systems.
-
-TODO - navigate to this.
-
-TODO - screen capture for this.
-
-### Package Manager
-
-Windows is lacking a package manager.  We need to install chocolate as the package manager.
-
-Install chocolatey for Windows 10, this is a package manager.  You will need to determine if your system is 32 bit or 64 bit.  This will be true for most of the Windows Installs. [https://chocolatey.org/install](https://chocolatey.org/install)
 
 ###  Install Google Chrome
 
@@ -58,22 +73,113 @@ A number of tools depend on the Google Chrome portability library.
 
 1. Install Chrome (if you have not already done it) [https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds)
 
+![Chrome installation](./chrome-installtion.jpg)
+
+![Chrome installation](./chrome-installtion-1.jpg)
+
+![Chrome installation](./chrome-installtion-2.jpg)
+
+![Chrome installation](./chrome-installtion-4.jpg)
+
+![Chrome installation](./chrome-installtion-5.jpg)
+
+![Chrome installation](./chrome-installtion-6.jpg)
+
 
 ### Source code control
 
 1. We will be using 'https://github.com' for class handouts and for turning working with files
 through the semester.  The underlying system that github uses is 'git'.    You will need to
 to to 'https://github.com' and create a free account on the site.
-2. Bring up this page in the "chrome" browser with [https://github.com/Univ-Wyo-Education/F21-1010/tree/main/lab/lab-01](https://github.com/Univ-Wyo-Education/F21-1010/tree/main/lab/lab-01)
+2. Bring up this page in the "chrome" browser with [.)
 3. Determine what version of windows you have, the 32 bit or 64 bit version.  [https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808) has an explanation.
 4.  You will also need the windows 'git' tools installed.  [https://git-scm.com/download/win](https://git-scm.com/download/win)
 in chrome will start the download as soon as you go to the page.  Run the installer.  You should end up with a MinGW Bash
 shell icon on your desktop.
+
+After downloading the git tools setup file, double click on it:
+
+![git installation](./git-tools.jpg)
+
+![git installation](./git-tools-1.jpg)
+
+![git installation](./git-tools-2.jpg)
+
+![git installation](./git-tools-3.jpg)
+
+![git installation](./git-tools-4.jpg)
+
+![git installation](./git-tools-5.jpg)
+
+![git installation](./git-tools-6.jpg)
+
+![git installation](./git-tools-7.jpg)
+
+![git installation](./git-tools-8.jpg)
+
 5. Install VS Code [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
-6. Install Anaconda Python  [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
-7. Install "vim", [https://www.vim.org/download.php#pc](https://www.vim.org/download.php#pc)
+
+Download vs code and double click on the setup file:
+
+![vscode installation](./vscode-1.png)
+
+![vscode installation](./vscode-2.png)
+
+![vscode installation](./vscode-3.png)
+
+![vscode installation](./vscode-4.png)
+
+![vscode installation](./vscode-5.png)
+
+![vscode installation](./vscode-6.png)
+
+![vscode installation](./vscode-7.png)
+
+![vscode installation](./vscode-8.png)
+
+7. Install Anaconda Python  [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
+
+![anaconda installation](./anaconda-1.png)
+
+![anaconda installation](./anaconda-2.png)
+
+![anaconda installation](./anaconda-3.png)
+
+![anaconda installation](./anaconda-4.png)
+
+![anaconda installation](./anaconda-5.png)
+
+![anaconda installation](./anaconda-6.png)
+
+![anaconda installation](./anaconda-7.png)
+
+![anaconda installation](./anaconda-8.png)
+
+![anaconda installation](./anaconda-9.png)
+
+![anaconda installation](./anaconda-10.png)
+
+![anaconda installation](./anaconda-11.png)
+
+9. Install "vim", [https://www.vim.org/download.php#pc](https://www.vim.org/download.php#pc)
 A good guide to vim on windows [https://www.freecodecamp.org/news/vim-windows-install-powershell/](https://www.freecodecamp.org/news/vim-windows-install-powershell/)
 An interactive tutorial on using vim [https://www.openvim.com/](https://www.openvim.com/)
+
+![vim installation](./vim-1.png)
+
+![vim installation](./vim-2.png)
+
+![vim installation](./vim-3.png)
+
+![vim installation](./vim-4.png)
+
+![vim installation](./vim-5.png)
+
+![vim installation](./vim-6.png)
+
+![vim installation](./vim-7.png)
+
+![vim installation](./vim-8.png)
 
 
 
@@ -91,7 +197,7 @@ and click on Terminal.  The enter: `xcode-select —install` to install the comm
 3. Now at the command line (in Terminal) do `$ brew install git`. [https://brew.sh/](https://brew.sh/)
 6. Install "iTerm 2.x" [https://iterm2.com/](https://iterm2.com/)   Since this terminal will be used during the semester please configure it to be in you tool bar.  
 3. Install Chrome (if you have not already done it)  (Search for "Download Chrome" - follow googles instructions) [https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwyo36BRAXEiwA24CwGSgDDdrI4XOUKv4CPwFQfs7M2HaXiRJ-MMeszA20rC72r-9U13-8jBoCQV4QAvD_BwE&gclsrc=aw.ds)
-5. Bring up this page in the "chrome" browser with [https://github.com/Univ-Wyo-Education/F21-1010/tree/main/lab/lab-01](https://github.com/Univ-Wyo-Education/F21-1010/tree/main/lab/lab-01)   Navigate around in the site - this is where all the lectures, assignments and lab handouts are built.
+5. Bring up this page in the "chrome" browser with [.)   Navigate around in the site - this is where all the lectures, assignments and lab handouts are built.
 4. Install VS Code. Search for "Visual Studio Code" Install.  The add the "Python Package to it".  I also installed the "Python Lint" package.  [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 5. Install Anaconda Python.  Search for  "Mac Install Anaconda Python" - install the anaconda package (Takes a while).  [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
 6. Install "vim" [https://github.com/macvim-dev/macvim/releases/tag/snapshot-171](https://github.com/macvim-dev/macvim/releases/tag/snapshot-171)
