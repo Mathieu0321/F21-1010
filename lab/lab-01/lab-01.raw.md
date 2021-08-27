@@ -181,6 +181,21 @@ to to 'https://github.com' and create a free account on the site.
 1. Install XCode (Apple Store)  On your Apple Mac bring up the Apple Store.  Search for "XCode" - it is free. Install.  Once you install XCode you need to start it
 and accept the license terms for XCode.  XCode is free but it requires the "Accept" before it will allow you to run software.   Open the finder in /Applications/Utilities
 and click on Terminal.  The enter: `xcode-select —install` to install the command line tools.
+
+![xcode installation](./xcode-1.png)
+
+![xcode installation](./xcode-2.png)
+
+![xcode installation](./xcode-3.png)
+
+![xcode installation](./xcode-4.png)
+
+![xcode installation](./xcode-5.png)
+
+![xcode installation](./xcode-6.png)
+
+![xcode installation](./xcode-7.png)
+
 2. Install brew.  Search for "mac brew".  Cut and paste the line.  Bring up a "terminal" - In the finder brows to your /Applications, then in the Utilities you will find a terminal.  Paste the "brew" install line into that.  Run.   
 3. Now at the command line (in Terminal) do `$ brew install git`. [https://brew.sh/](https://brew.sh/)
 6. Install "iTerm 2.x" [https://iterm2.com/](https://iterm2.com/)   Since this terminal will be used during the semester please configure it to be in you tool bar.  
