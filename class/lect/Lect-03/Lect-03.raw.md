@@ -3,6 +3,14 @@ m4_include(../../../setup.m4)
 
 # Lecture 03 - Model of the Solar System
 
+## The Planets
+
+![Planets2008.jpg](Planets2008.jpg)
+
+Image from Wikipedia.org (C) NASA -use with permission- CC-BY-SA license.<br>
+
+<div class="pagebreak"></div>
+
 ## Calculations for the size of Earth, Sun, Moon.
 
 This is your basic data that you can use to verify that 
