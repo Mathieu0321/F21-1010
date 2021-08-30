@@ -9,7 +9,7 @@ IQ Tests measures the first 2
 4. Spacial Reasoning Intelligence - How do you find your away around.
 5. Bodily Anesthetic  - Athletics - Use hands to has to make things.
 6. Interpersonal Intelligence - How you motivate, lead, cooperate with others.
-7. Undersign Yourself - How do you work.  What motivates YOU!
+7. Understanding Yourself - How do you work.  What motivates YOU!
 8. Naturalist Intelligence - Relevant Discrimination about the natural world.  How to choose what is in the world to gain advantage.
 9. Teaching Intelligence - Teach to other people.
 
