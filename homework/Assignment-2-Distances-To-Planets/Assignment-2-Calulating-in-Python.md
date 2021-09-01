@@ -125,18 +125,83 @@ Find in the article where the author describes 35 light years as "close" to us.
 the banner/wyoweb system.
 
 Part 1: 75pts - Write a program that will:
+
+0. Open PowerShell(windows) or Terminal(mac) or iTerm2(mac)
 0. Create a directory/folder for this code
-0. Call the main program in the folder, `main.py`.
+```
+$ mkdir hw2
+$ cd hw2
+```
 0. Create a file with the conversion code in it, `conv.py`.
+```
+$ vi conv.py
+... edit file
+```
 1. use a "def" in `conv.py` for the conversions
 2. Have a test section at the bottom to test the function.
 	- Write automated test code that will check that your conversion is correct.
 	- Make it so that if you just run the conversion code it will run the test.
+0. Call the main program in the folder, `main.py`.
+```
+$ vi main.py
+... edit file
+```
 3. The main program will
 	- Print out a prompt for the value.
 	- Read in from the terminal a value in kilometers.
 	- Apply a conversion from that unit to tennis ball model. (Call the function)
 	- Output a value in miles, kilometers and feet plus inches (or fractions of an inch).
+
+Example Code: from lecture...
+
+main program (main.py)
+```
+
+# Step 5 - with function and a test.
+
+import conv
+
+print ( "Enter Miles" )
+
+miles_str = input()
+miles = int(miles_str)
+
+km = conv.mi_to_km(miles)
+
+print ( "km = {}".format(km) )
+
+```
+
+main program (conv.py)
+```
+
+# mi_to_km converts from miles as an integer or float to kilometers.  
+def mi_to_km ( mi ):
+    conv = 1.60934
+    km = mi * conv
+    return (km)
+
+# Automated Test
+if __name__ == "__main__":
+    n_err = 0
+    x = mi_to_km ( 3 )
+    if x !=  4.82802:
+        n_err = n_err + 1
+        print ( "Error: Test 1: conversion not working, expected {} got {}".
+                format (  4.82802, x ) )
+    x = mi_to_km ( 0 )
+    if x != 0:
+        n_err = n_err + 1
+        print ( "Error: Test 2: conversion not working, expected {} got {}".
+                format ( 0, x ) )
+
+    if n_err == 0 :
+        print ( "PASS" )
+    else:
+        print ( "FAILED" )
+
+
+```
 
 Part 2. 25pts - Write a program that will:
 Use the same technique as the above with different values for reading in

@@ -1,13 +1,14 @@
 
 PP=`pwd`
-FN=Assignment-2-Calulating-in-Python
-# FN1=syllabus-5010
-# DIR=../F20-1015
-DIR=./../../
+FN=Lect-05
+# FN1=simple-func
+DIR=../../../
 IMG=
-PY= conv.py main.py
+PY=
 
-all: ${FN}.html ${FN}.pdf
+all: ${FN}.html ${FN}.pdf 
+
+# ${FN1}.html ${FN}.pdf
 
 #${FN1}.html 
 

@@ -708,270 +708,29 @@ ol {
 
 <div class="markdown-body">
 
-<h1>Homework 2 - Distances to Planets and Stars</h1>
+<h1>Lecture 5 - Testing</h1>
 
-<p>Due: Mon Sep 13</p>
+<h2>Our Sample Chunk of Code</h2>
 
-<p>Points: 200 total.  100pts for Assignment, 100 in lab.</p>
-
-<h1>The Solar system and Exoplanets</h1>
-
-<p>Lots of you have seen models in school of the solar system.</p>
-
-<p><img src="./Planets2013.svg.png" alt="Planets2013.svg.png" /></p>
-
-<p><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Image From Wikipedia!</a>  That is fun!!!</p>
-
-<div class="pagebreak"></div>
-
-<p>But very inaccurate.  Whenever you have a model you have
-inaccuracies.  That is not to say that it is not useful.
-This is useful in showing the relative size and the order
-of the planets in our solar system.</p>
-
-<p>It is way, way, way off in giving you a sence of the scale of
-the solar system.  In our model we will use the size
-of a tennis ball as our model Sun and then calculate
-the sizes of the planets and distances to other
-stars.</p>
-
-<p>For our calculations a tennis ball is 2.75 inches in diameter.
-Note that some of our data is diameter and some is radius.
-Diameter is radius times 2.</p>
-
-<p>All of our calculations need to be carefully checked.  Read:
-<a href="https://www.simscale.com/blog/2017/12/nasa-mars-climate-orbiter-metric/">https://www.simscale.com/blog/2017/12/nasa-mars-climate-orbiter-metric/</a>
-Unit conversion errors are a serious thing.  $125 million probe lost because of a conversion error between metric and English units.</p>
-
-<h2>Sizes</h2>
-
-<p>The sizes of the planets in our solar system:</p>
-
-<table>
-<thead>
-<tr>
-<th>Planet</th>
-<th align="left">Radius</th>
-<th align="left">Description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Mercury</td>
-<td align="left">1,516mi (2,440km)</td>
-<td align="left">about <sup>1</sup>&frasl;<sub>3</sub> the size of Earth</td>
-</tr>
-
-<tr>
-<td>Venus</td>
-<td align="left">3,760mi (6,052km)</td>
-<td align="left">only slightly smaller than Earth</td>
-</tr>
-
-<tr>
-<td>Earth</td>
-<td align="left">3,959mi (6,371km)</td>
-<td align="left">a nice place to live, about the size of Earth</td>
-</tr>
-
-<tr>
-<td>Mars</td>
-<td align="left">2,106mi (3,390km)</td>
-<td align="left">about half the size of Earth</td>
-</tr>
-
-<tr>
-<td>Jupiter</td>
-<td align="left">43,441mi (69,911km)</td>
-<td align="left">11x Earth’s size</td>
-</tr>
-
-<tr>
-<td>Saturn</td>
-<td align="left">36,184mi (58,232km)</td>
-<td align="left">9x larger than Earth</td>
-</tr>
-
-<tr>
-<td>Uranus</td>
-<td align="left">15,759mi (25,362km)</td>
-<td align="left">4x Earth’s size</td>
-</tr>
-
-<tr>
-<td>Neptune</td>
-<td align="left">15,299mi (24,622km)</td>
-<td align="left">only slightly smaller than Uranus</td>
-</tr>
-</tbody>
-</table>
-
-<p>The Sun is 865,370 miles (1,391,400km) in diameter.</p>
-
-<h2>Planet Distances from the Sun</h2>
-
-<table>
-<thead>
-<tr>
-<th>Planet</th>
-<th align="right">Distance from Sun (km)</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Mercury</td>
-<td align="right">57,900,000</td>
-</tr>
-
-<tr>
-<td>Venus</td>
-<td align="right">108,200,000</td>
-</tr>
-
-<tr>
-<td>Earth</td>
-<td align="right">149,600,000</td>
-</tr>
-
-<tr>
-<td>Mars</td>
-<td align="right">227,900,000</td>
-</tr>
-
-<tr>
-<td>Jupiter</td>
-<td align="right">778,600,000</td>
-</tr>
-
-<tr>
-<td>Saturn</td>
-<td align="right">1,433,500,000</td>
-</tr>
-
-<tr>
-<td>Uranus</td>
-<td align="right">2,872,500,000</td>
-</tr>
-
-<tr>
-<td>Neptune</td>
-<td align="right">4,495,100,000</td>
-</tr>
-</tbody>
-</table>
-
-<h2>Miles/Kilometers per Light Year</h2>
-
-<p>5,878,625,352,016,794 miles per light year.</p>
-
-<p>9,460,730,472,580,800 km per light year.</p>
-
-<h2>Conversions</h2>
-
-<p>To convert kilometers to miles multiply the miles by 0.62137119.</p>
-
-<p>To convert from miles to kilometers multiply by 1.60934 .</p>
-
-<p>A mile is 80 chains, a chain is 22 yards.   A yard is 3 feet so a mile is 5280 feet.
-An acre is 10 square chains.  All very convenient.  10 chains is 1 furlong.
-so an acre is 1 furlong by 1 furlong.</p>
-
-<p>Let us do some calculation and fix this misconception.</p>
-
-<p>Read about the TRAPPIST-1 star system.
-<a href="https://exoplanets.nasa.gov/trappist1/">https://exoplanets.nasa.gov/trappist1/</a></p>
-
-<p>There is a set of exoplantes that have been found around
-a star that is 35 light years from our local star (The Sun).
-Read the article: <a href="https://earthsky.org/astronomy-essentials/how-far-is-a-light-year/">https://earthsky.org/astronomy-essentials/how-far-is-a-light-year/</a>
-Find in the article where the author describes 35 light years as &ldquo;close&rdquo; to us.</p>
-
-<h2>Learning Goals</h2>
-
-<ol>
-<li>Read in a value, calculate on it, print out results.</li>
-<li>Testing of a program.</li>
-<li>Printing out of results.</li>
-<li>Debugging.</li>
-<li>Use of a function in Python.</li>
-<li>Editing text files.</li>
-<li>What are files.</li>
-<li>Organization of code.</li>
-<li>Calculation with big numbers.</li>
-<li>Differences between integer and float.  Data Types. String data types.</li>
-<li>A model of how big the solar system is.</li>
-</ol>
-
-<h2>Program</h2>
-
-<p>100pts total - Assignment 2.  Turned in by upland your files as a .zip archive on
-the banner/wyoweb system.</p>
-
-<p>Part 1: 75pts - Write a program that will:</p>
-
-<ol>
-<li>Open PowerShell(windows) or Terminal(mac) or iTerm2(mac)</li>
-
-<li><p>Create a directory/folder for this code</p>
-
-<pre><code>$ mkdir hw2
-$ cd hw2
-</code></pre></li>
-
-<li><p>Create a file with the conversion code in it, <code>conv.py</code>.</p>
-
-<pre><code>$ vi conv.py
-... edit file
-</code></pre></li>
-
-<li><p>use a &ldquo;def&rdquo; in <code>conv.py</code> for the conversions</p></li>
-
-<li><p>Have a test section at the bottom to test the function.</p>
-
-<ul>
-<li>Write automated test code that will check that your conversion is correct.</li>
-<li>Make it so that if you just run the conversion code it will run the test.</li>
-</ul></li>
-
-<li><p>Call the main program in the folder, <code>main.py</code>.</p>
-
-<pre><code>$ vi main.py
-... edit file
-</code></pre></li>
-
-<li><p>The main program will</p>
-
-<ul>
-<li>Print out a prompt for the value.</li>
-<li>Read in from the terminal a value in kilometers.</li>
-<li>Apply a conversion from that unit to tennis ball model. (Call the function)</li>
-<li>Output a value in miles, kilometers and feet plus inches (or fractions of an inch).</li>
-</ul></li>
-</ol>
-
-<p>Example Code: from lecture&hellip;</p>
-
-<p>main program (main.py)</p>
+<p>main.py</p>
 
 <pre><code>
 # Step 5 - with function and a test.
 
-import conv
+import mi_to_km
 
 print ( &quot;Enter Miles&quot; )
 
 miles_str = input()
 miles = int(miles_str)
 
-km = conv.mi_to_km(miles)
+km = mi_to_km.mi_to_km(miles)
 
 print ( &quot;km = {}&quot;.format(km) )
 
 </code></pre>
 
-<p>main program (conv.py)</p>
+<p>mi_to_km.py</p>
 
 <pre><code>
 # mi_to_km converts from miles as an integer or float to kilometers.  
@@ -986,13 +745,11 @@ if __name__ == &quot;__main__&quot;:
     x = mi_to_km ( 3 )
     if x !=  4.82802:
         n_err = n_err + 1
-        print ( &quot;Error: Test 1: conversion not working, expected {} got {}&quot;.
-                format (  4.82802, x ) )
+        print ( &quot;Error: Test 1: conversion not working, expected {} got {}&quot;.format (  4.82802, x ) )
     x = mi_to_km ( 0 )
     if x != 0:
         n_err = n_err + 1
-        print ( &quot;Error: Test 2: conversion not working, expected {} got {}&quot;.
-                format ( 0, x ) )
+        print ( &quot;Error: Test 2: conversion not working, expected {} got {}&quot;.format ( 0, x ) )
 
     if n_err == 0 :
         print ( &quot;PASS&quot; )
@@ -1002,59 +759,15 @@ if __name__ == &quot;__main__&quot;:
 
 </code></pre>
 
-<p>Part 2. 25pts - Write a program that will:
-Use the same technique as the above with different values for reading in
-light years and print out the output in miles and kilometers.  This means
-creating a new directory for this 2nd set of code.  Creating a set of files,
-one with the main program and a file for each of the conversions.  The conversions
-are light-years-to-miles and miles-to-kilometers.
-Read in light years, print out miles and kilometers in the main program.
-Call the conversion from the main program.  Implement test code in
-each of the conversion programs.</p>
+<h2>Importance of Testing</h2>
 
-<h2>Questions: to be answer in lab.</h2>
+<h2>Unit Tests</h2>
 
-<p>Questions are answered by doing a write up as a .md or .markdown (text) file in lab.
-The write-up should be written in Visual Studio Code (VS Code).</p>
+<h2>Testing With State</h2>
 
-<p>Use markdown <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a> for the formatting of your
-text file answers.</p>
+<h2>Code Review</h2>
 
-<p>This portion should be turned in as a part of your lab.</p>
-
-<p>It is worth 100pts.</p>
-
-<ol>
-<li>5pts - What is the closest star to planet Earth?  Think! It shines on you every day.</li>
-<li>10pts - Approximately how many exoplanets have been identified? (Use Google)
-Explain why you think this answer from Google and other sources
-is valid.   Find a list of Kupier belt objects.  How many are there?
-How far is it to the Kupier Belt in miles and kilometers?  How far is it to the Oort Cloud in miles and kilometers?</li>
-<li>10pts - How far is it to the Trappist-1 system In Light Years?
-In miles and kilometers in our model, how far to this system?</li>
-<li>10pts - At the speed of light how far is it from Laramie to Tokyo Japan?  Answer in fractions of a second.</li>
-<li>10pts - If the Sun in our model is the size of a tennis ball, then
-how far is to Proxima Centauri 4.3 light years from us?
-In Miles and in kilometers?   In Feet and meters?<br />
-Calculate for our tennis ball model  the number of miles<br />
-that 4.3 light years represents.  Using Google Maps - find a city
-that is approximately the same number of miles from
-Laramie to that city as our model calculates.   How
-long will it take you to drive from Laramie to that city? Use appriximate number of hours of driving time from Google Maps.
-Will you be able to see the tennis ball from that location? (Yes/No)</li>
-<li>5pts - Using the same calculation, L 95-59 is 35 light years
-from Earth. Use your program to calcualte the number
-of miles and kilometers to L 95-59.   For the tennis ball model calculate the number of miles in our model to L 95-59?</li>
-<li>15pts - If the Sun is a tennis ball, how big are each of the planets - in inches or thousandths of an inch?</li>
-<li>5pts - How big is the Moon in thousandths of inches in our model and how far from Earth in inches?</li>
-<li>5pts -How far is it to the Kupier Belt in miles and kilometers?  How far in miles in the tennis ball model?  If you are in Prixies Pasture at the &ldquo;family&rdquo; statue, put the Sun there - where will the Kupier Belt be?</li>
-<li>5pts - How far is it to the Oort Cloud in miles and kilometers? How far in miles in the tennis ball model? If you are in Prixies Pasture at the &ldquo;family&rdquo; statue, put the Sun there - where will the Oort Cloud be?</li>
-<li>10pts - Cygnus-x-1 is at the center of the Milky Way Galaxy, 29,000 light years from earth.   How many miles is that?</li>
-<li>10pts - Ligo detected a black hole merger <a href="https://www.ligo.caltech.edu/news/ligo20200902">https://www.ligo.caltech.edu/news/ligo20200902</a>
-of gw190521.  How many light years is that away from earth? (See: <a href="https://en.wikipedia.org/wiki/GW190521">https://en.wikipedia.org/wiki/GW190521</a>.  How far away is that in miles?  Use 1,000,000,000 for a billion.</li>
-</ol>
-
-<p>Write up your answers in a text file (not Microsoft Word, or .pdf).</p>
+<h2>Integration Testing</h2>
 
 <h1>Copyright</h1>
 
