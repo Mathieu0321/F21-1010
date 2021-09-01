@@ -784,6 +784,9 @@ used metric.  A mile is not a kilometer and the MRO
 mis-calculated how close to the surface it was.  Boom.
 Years lost and $327 million incest.</p>
 
+<p>The broad picture is that you need to test entire systems
+not just chunks individually.</p>
+
 <h3>Knightb $440 Million Oops&hellip;</h3>
 
 <p>Knight, a middle layer vendor in stock trading, attempted to
@@ -792,6 +795,8 @@ process.  They failed to remove the old software when they
 installed the new.  So the old software kept re-issuing trades
 when the trade had already taken place and they lost $440
 million in under 30 minutes.   This killed the company.</p>
+
+<p>That is exciting - Loosing $440 million in <sup>1</sup>&frasl;<sub>2</sub> hour!</p>
 
 <h2>Unit Tests</h2>
 
@@ -807,11 +812,112 @@ million in under 30 minutes.   This killed the company.</p>
 
 <h2>Testing With State</h2>
 
+<p>Suppose you have a pair of functions:</p>
+
+<pre><code>
+it = 0
+
+def set_it(newit):
+    global it
+    it = newit
+
+def double_it():
+    it = it * 2
+    return it
+
+
+</code></pre>
+
+<p>And we want to test these functions.</p>
+
+<p>First thin is we have to test them together.  Individually makes no rational
+sense.</p>
+
+<p>Second Our test cases have to create the &ldquo;state&rdquo; of the variable &ldquo;it&rdquo;
+first, then use the other function to see if it works.</p>
+
+<pre><code>
+it = 0
+
+def set_it(newit):
+    global it
+    it = newit
+
+def double_it():
+    it = it * 2
+    return it
+
+
+# Automated Test
+if __name__ == &quot;__main__&quot;:
+    n_err = 0
+    x = mi_to_km ( 3 )
+    set_it(5)
+    x = double_it()
+    if x !=  10:
+        n_err = n_err + 1
+        print ( &quot;Error: Test 1: conversion not working, expected {} got {}&quot;.format (  10, x ) )
+
+    # Now 2nd test is dependent on 1st test
+    x = double_it()
+    if x != 20:
+        n_err = n_err + 1
+        print ( &quot;Error: Test 2: conversion not working, expected {} got {}&quot;.format ( 20, x ) )
+
+    if n_err == 0 :
+        print ( &quot;PASS&quot; )
+    else:
+        print ( &quot;FAILED&quot; )
+
+
+</code></pre>
+
+<p>This is going to be really important when we work with things that persist
+state formation like Classes and files.</p>
+
 <h2>Pure Functional Testing</h2>
+
+<p>As long as you build code that takes a set of input, transforms it
+and then returns it - this is a &ldquo;pure functional&rdquo; set of code.   It is
+much easier to test and validate the code.   Our &ldquo;hypotenuse&rdquo; function
+is like this.  Our conversion functions are like this.</p>
+
+<h2>Integration Testing</h2>
+
+<p>This is when you test complete systems all at once.  You are not testing
+a function - you are testing the entire system.  People that work in
+quality assurance (QA) are doing Integration Testing.   This is it&rsquo;s one
+entire field of work in computer science.</p>
 
 <h2>Code Review</h2>
 
-<h2>Integration Testing</h2>
+<p>SO&hellip; With testing being a high-stakes difficult thing.  What can we
+do.   Can we get computers to just do tall the testing for us?</p>
+
+<p>The answer is no - they are not good at testing - the really can only
+test what we provide them with as tests.</p>
+
+<p>What about People - are they any good at testing.</p>
+
+<p>Microsoft did extensive research into this.  The book that they
+published on the subject, &ldquo;Code Complete&rdquo; is now about 20 years old
+but they have subsequently published regular papers showing that
+in the world of testing - not much has changed.</p>
+
+<p>Unit testing finds about 23% of retros.</p>
+
+<p>Integration testing finds about 22% - but the problems overlap with unit testing.</p>
+
+<p>Code Review - this is were you have a 2nd developer go and read through all of your code - line by line - asking questions,
+developing additional tests, asking why things are the way they are - this finds 67% of errors.</p>
+
+<p>Beta user groups - this is sending your code to a small set of users to actually run it will find 89% of errors.
+But this is usually after you have already gotten the code ready to ship to customers - so it is very expensive.</p>
+
+<p>The best, least expensive is code review.
+But this is usually after you have already gotten the code ready to ship to customers - so it is very expensive.</p>
+
+<p>The best, least expensive is code review.</p>
 
 <h1>Copyright</h1>
 
