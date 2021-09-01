@@ -761,9 +761,53 @@ if __name__ == &quot;__main__&quot;:
 
 <h2>Importance of Testing</h2>
 
+<h3>Deadly radiation therapy</h3>
+
+<p>The Therac-25 medical radiation therapy equipment was involved in
+several cases where massive overdoses, often 100x the expected amount, of radiation was administered
+to patients.  This killed at least 3 people.</p>
+
+<p>This was not a one-time event.  IN 2000 in Parama City Florida
+a set of &ldquo;planning&rdquo; software had an error that resulted in
+a large set of patients receiving excessive rations.
+Al teat 5 died.</p>
+
+<p>In both cases tests did not check for all possible inputs
+and these should have been prevented with unit tests.</p>
+
+<h3>Crashed into Mars</h3>
+
+<p>The Mars Climate Orbiter had a contractor that used English
+units in calculating the distance from the orbiter to
+the surface of mars.  The other software on the system
+used metric.  A mile is not a kilometer and the MRO
+mis-calculated how close to the surface it was.  Boom.
+Years lost and $327 million incest.</p>
+
+<h3>Knightb $440 Million Oops&hellip;</h3>
+
+<p>Knight, a middle layer vendor in stock trading, attempted to
+upgrade the system - without testing the software upgrade
+process.  They failed to remove the old software when they
+installed the new.  So the old software kept re-issuing trades
+when the trade had already taken place and they lost $440
+million in under 30 minutes.   This killed the company.</p>
+
 <h2>Unit Tests</h2>
 
+<p>Our Pattern is:</p>
+
+<ol>
+<li>Call some set of code</li>
+<li>Know an expected result</li>
+<li>Compare what we &ldquo;got&rdquo; from the call with &ldquo;expected&rdquo; values.</li>
+<li>If they don&rsquo;t match - then report an error and count up the number of errors</li>
+<li>Do more&hellip;</li>
+</ol>
+
 <h2>Testing With State</h2>
+
+<h2>Pure Functional Testing</h2>
 
 <h2>Code Review</h2>
 
