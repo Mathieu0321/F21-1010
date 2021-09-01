@@ -1,11 +1,14 @@
 
 PP=`pwd`
 FN=Lect-04
+# FN1=simple-func
 DIR=../../../
 IMG=
 PY=
 
-all: ${FN}.html ${FN}.pdf
+all: ${FN}.html ${FN}.pdf 
+
+# ${FN1}.html ${FN}.pdf
 
 #${FN1}.html 
 
