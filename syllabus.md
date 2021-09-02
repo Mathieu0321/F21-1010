@@ -159,29 +159,29 @@ class.
 |             |          |                                         |
 |             |          |                                         |
 | *Week 3*    |          |                                         |
-| Tue Sep 7   | 6        | How important testing is.               |
+| Tue Sep 7   | 5        | How important testing is.               |
 |             |          | Testing Code                            |
 |             |          | Automated Testing                       |
 |             |          | Formal Verification                     |
 |             |          | *Textbook Chapter 11 - Testing*         |
 |             |          |                                         |
-| Thr Sep 9   | 7        | More on Lists, Dictionaries Maps.       |
+| Thr Sep 9   | 6        | More on Lists, Dictionaries Maps.       |
 |             |          | Very basic use of git.                  |
 |             |          | *Textbook Chapter 4*                    |
 |             |          |                                         |
 |             |          |                                         |
 | *Week 4*    |          |                                         |
-| Tue Sep 14  | 8        | Control Flow / If Statements            |
+| Tue Sep 14  | 7        | Control Flow / If Statements            |
 |             |          | *Textbook Chapter 5*                    |
 |             |          |                                         |
-| Tue Sep 16  | 9        | Control Flow / Loops                    |
+| Tue Sep 16  | 8        | Control Flow / Loops                    |
 |             |          | Outside Data - SQLite3                  |
 |             |          | Outside Data - Pandas                   |
 |             |          | *Textbook Chapter 6*                    |
 |             |          |                                         |
 |             |          |                                         |
 | *Week 5*    |          |                                         |
-| Tue Sep 21  | 10       | Dictionaries                            |
+| Tue Sep 21  | 9        | Dictionaries                            |
 |             |          | How DNA encodes proteins.               |
 |             |          | Fetch/Execute cycle and loops.          |
 |             |          | *Textbook Chapter 7 - Loops*            |
@@ -193,84 +193,84 @@ class.
 |             |          |                                         |
 |             |          |                                         |
 | *Week 6*    |          |                                         |
-| Tue Sep 28  | 11       | String Processing.  Representation.     |
+| Tue Sep 28  | 10       | String Processing.  Representation.     |
 |             |          | Searching Genetic Data.                 |
 |             |          | *Textbook Chapter 7 - User Input*       |
 |             |          |                                         |
-| Tue Sep 30  | 12       | Functions / Recursion                   |
+| Tue Sep 30  | 11       | Functions / Recursion                   |
 |             |          | *Textbook Chapter 8*                    |
 |             |          |                                         |
 |             |          |                                         |
 | *Week 7*    |          |                                         |
-| Tue Oct 5   | 13       | Midterm Review.                         |
+| Tue Oct 5   | 12       | Midterm Review.                         |
 |             |          |                                         |
-| Thr Oct 7   | 14       | Midterm Test                            |
+| Thr Oct 7   | 13       | Midterm Test                            |
 |             |          |                                         |
 |             |          |                                         |
 | *Week 8*    |          |                                         |
-| Tue Oct 12  | 15       | Object Oriented Programming.            |
+| Tue Oct 12  | 14       | Object Oriented Programming.            |
 |             |          | *Textbook Chapter 9*                    |
 |             |          |                                         |
-| Thr Oct 14  | 16       | More on Objects.                        |
+| Thr Oct 14  | 15       | More on Objects.                        |
 |             |          | Objects and Testing.                    |
 |             |          | How the web works.                      |
 |             |          | A bit of HTML, CSS, JS.                 |
 |             |          | A bit of bottle.                        |
 |             |          |                                         |
 |             |          |                                         |
-| *Week 9*    | 17       | Understanding data.                     |
+| *Week 9*    | 16       | Understanding data.                     |
 | Tue Oct 19  |          | Data Engineering.                       |
 |             |          | What is TensorFLow (TF) what is a       |
 |             |          | Tensor.                                 |
 |             |          |                                         |
 |             |          |                                         |
-| Thr Oct 21  | 18       | Example of Classification.              |
+| Thr Oct 21  | 17       | Example of Classification.              |
 |             |          | Uses of ML in the real world.           |
 |             |          |                                         |
 |             |          |                                         |
-| *Week 10*   | 19       | Overfit and Underfit.                   |
+| *Week 10*   | 18       | Overfit and Underfit.                   |
 | Tue Oct 26  |          | Using Pandas and NumPy.                 |
 |             |          |                                         |
-| Thr Oct 28  | 20       | Building a data Pipeline.               |
+| Thr Oct 28  | 19       | Building a data Pipeline.               |
 |             |          | Managing data.  Image data.             |
 |             |          | Test data. CSV files.                   |
 |             |          |                                         |
 |             |          |                                         |
-| *Week 11*   | 21       | Limitations of Machine Learning.        |
+| *Week 11*   | 20       | Limitations of Machine Learning.        |
 | Tue Nov 2   |          | "You are a Thing and I Love You"        |
 |             |          | Machine learning and social context.    |
 |             |          | ML and the law.                         |
 |             |          |                                         |
-| Thr Nov 4   | 22       | ML and future of work.                  |
+| Thr Nov 4   | 21       | ML and future of work.                  |
 |             |          |                                         |
 |             |          |                                         |
 |             |          |                                         |
-| *Week 12*   | 23       | Regression with TF.                     |
+| *Week 12*   | 22       | Regression with TF.                     |
 | Tue Nov 9   |          | Predicting Housing Prices.              |
 |             |          |                                         |
-| Thr Nov 11  | 24       | Real world example of ML.               |
+| Thr Nov 11  | 23       | Real world example of ML.               |
 |             |          |                                         |
 |             |          |                                         |
 |             |          |                                         |
-| *Week 13*   | 25       | Text Classification with TF Hub.        |
+| *Week 13*   | 24       | Text Classification with TF Hub.        |
 | Tue Nov 16  |          | Reuse of Models.                        |
 |             |          |                                         |
-| Thr Nov 18  | 26       | ML and Privacy.                         |
+| Thr Nov 18  | 25       | ML and Privacy.                         |
 |             |          |                                         |
 |             |          |                                         |
-| Nov 22-26   | 27       | Thanksgiving Break.                     |
+| Nov 22-26   | 26       | Thanksgiving Break.                     |
 |             |          |                                         |
 |             |          |                                         |
-| *Week 14*   | 28       | Sentiment Analysis.                     |
+| *Week 14*   | 27       | Sentiment Analysis.                     |
 | Tue Nov 30  |          |                                         |
 |             |          |                                         |
-| Thr Dec 3   | 29       | Computer Security / Authentication.     |
+| Thr Dec 3   | 28       | Computer Security / Authentication.     |
 |             |          |                                         |
 |             |          |                                         |
-| *Week 15*   | 30       | Blockchain and economic impact.         |
+| *Week 15*   | 29       | Blockchain and economic impact.         |
 | Tue Dec 7   |          | Future of Computing.                    |
 |             |          |                                         |
-| Thr Dec 9   | 31       | Final Review.                           |
+| Thr Dec 9   | 30       | Final Review.                           |
 |             |          |                                         |
 
 
