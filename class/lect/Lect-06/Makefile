@@ -1,14 +1,12 @@
 
 PP=`pwd`
 FN=Lect-06
-# FN1=simple-func
+FN1=lab-word-count
 DIR=../../../
 IMG=
 PY=
 
-all: ${FN}.html ${FN}.pdf 
-
-# ${FN1}.html ${FN}.pdf
+all: ${FN}.html ${FN}.pdf ${FN1}.html ${FN}.pdf
 
 #${FN1}.html 
 

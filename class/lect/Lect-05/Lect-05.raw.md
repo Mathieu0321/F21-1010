@@ -66,7 +66,8 @@ Our Pattern is:
 2. Know an expected result
 3. Compare what we "got" from the call with "expected" values.
 4. If they don't match - then report an error and count up the number of errors
-5. Do more...
+5. Do more tests... (go back to step 1)
+6. When all tests are complete, then report a cumulative result (PASS or FAIL)
 
 
 

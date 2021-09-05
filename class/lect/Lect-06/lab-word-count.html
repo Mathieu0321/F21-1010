@@ -708,221 +708,81 @@ ol {
 
 <div class="markdown-body">
 
-<h1>Lecture 5 - Testing</h1>
+<h1>Lab XXXXX - word frequency</h1>
 
-<h2>Our Sample Chunk of Code</h2>
+<h2>Requirements</h2>
 
-<p>main.py</p>
+<h3>Input: File Name</h3>
 
-<pre><code>
-# Step 5 - with function and a test.
+<h3>Output: A sorted list of words with the frequency of each word</h3>
 
-import mi_to_km
+<h3>Description of Problem</h3>
 
-print ( &quot;Enter Miles&quot; )
+<p>Prompt for a file name. Then read in a file of text.<br />
+Split the file up into words.
+Remove any punctuation and convert each word to lower case.
+Count how many times each word occurs.  Print out a sorted
+list of the words in the file with the number of occurrences
+of each word.  Sort from the most frequent word to the least.</p>
 
-miles_str = input()
-miles = int(miles_str)
+<h3>Example Run</h3>
 
-km = mi_to_km.mi_to_km(miles)
+<p>With a print in word frequency order:</p>
 
-print ( &quot;km = {}&quot;.format(km) )
-
-</code></pre>
-
-<p>mi_to_km.py</p>
-
-<pre><code>
-# mi_to_km converts from miles as an integer or float to kilometers.  
-def mi_to_km ( mi ):
-    conv = 1.60934
-    km = mi * conv
-    return (km)
-
-# Automated Test
-if __name__ == &quot;__main__&quot;:
-    n_err = 0
-    x = mi_to_km ( 3 )
-    if x !=  4.82802:
-        n_err = n_err + 1
-        print ( &quot;Error: Test 1: conversion not working, expected {} got {}&quot;.format (  4.82802, x ) )
-    x = mi_to_km ( 0 )
-    if x != 0:
-        n_err = n_err + 1
-        print ( &quot;Error: Test 2: conversion not working, expected {} got {}&quot;.format ( 0, x ) )
-
-    if n_err == 0 :
-        print ( &quot;PASS&quot; )
-    else:
-        print ( &quot;FAILED&quot; )
-
-
-</code></pre>
-
-<h2>Importance of Testing</h2>
-
-<h3>Deadly radiation therapy</h3>
-
-<p>The Therac-25 medical radiation therapy equipment was involved in
-several cases where massive overdoses, often 100x the expected amount, of radiation was administered
-to patients.  This killed at least 3 people.</p>
-
-<p>This was not a one-time event.  IN 2000 in Parama City Florida
-a set of &ldquo;planning&rdquo; software had an error that resulted in
-a large set of patients receiving excessive rations.
-Al teat 5 died.</p>
-
-<p>In both cases tests did not check for all possible inputs
-and these should have been prevented with unit tests.</p>
-
-<h3>Crashed into Mars</h3>
-
-<p>The Mars Climate Orbiter had a contractor that used English
-units in calculating the distance from the orbiter to
-the surface of mars.  The other software on the system
-used metric.  A mile is not a kilometer and the MRO
-mis-calculated how close to the surface it was.  Boom.
-Years lost and $327 million incest.</p>
-
-<p>The broad picture is that you need to test entire systems
-not just chunks individually.</p>
-
-<h3>Knightb $440 Million Oops&hellip;</h3>
-
-<p>Knight, a middle layer vendor in stock trading, attempted to
-upgrade the system - without testing the software upgrade
-process.  They failed to remove the old software when they
-installed the new.  So the old software kept re-issuing trades
-when the trade had already taken place and they lost $440
-million in under 30 minutes.   This killed the company.</p>
-
-<p>That is exciting - Loosing $440 million in <sup>1</sup>&frasl;<sub>2</sub> hour!</p>
-
-<h2>Unit Tests</h2>
-
-<p>Our Pattern is:</p>
-
-<ol>
-<li>Call some set of code</li>
-<li>Know an expected result</li>
-<li>Compare what we &ldquo;got&rdquo; from the call with &ldquo;expected&rdquo; values.</li>
-<li>If they don&rsquo;t match - then report an error and count up the number of errors</li>
-<li>Do more tests&hellip; (go back to step 1)</li>
-<li>When all tests are complete, then report a cumulative result (PASS or FAIL)</li>
-</ol>
-
-<h2>Testing With State</h2>
-
-<p>Suppose you have a pair of functions:</p>
-
-<pre><code>
-it = 0
-
-def set_it(newit):
-    global it
-    it = newit
-
-def double_it():
-    it = it * 2
-    return it
-
+<pre><code>C:\&gt; python word-freq.py
+Input File Name
+=&gt; test1.txt
+Enter File Name
+=&gt; Count : Word
+----- : --------------------
+    5 : the
+    4 : file
+    4 : of
+    4 : word
+    3 : a
+    3 : each
+    2 : in
+    2 : words
+    1 : prompt
+    1 : for
+    1 : name
+    1 : then
+    1 : read
+    1 : text
+    1 : split
+    1 : up
+    1 : into
+    1 : remove
+    1 : any
+    1 : punctuation
+    1 : and
+    1 : convert
+    1 : to
+    1 : lower
+    1 : case
+    1 : count
+    1 : how
+    1 : many
+    1 : times
+    1 : occurs
+    1 : print
+    1 : out
+    1 : sorted
+    1 : list
+    1 : with
+    1 : number
+    1 : occurrences
+    1 : sort
+    1 : by
 
 </code></pre>
 
-<p>And we want to test these functions.</p>
+<p>Note the formatting with a header and the widths used so
+that the output is more readable.</p>
 
-<p>First thin is we have to test them together.  Individually makes no rational
-sense.</p>
+<h3>Similar solution on the web</h3>
 
-<p>Second Our test cases have to create the &ldquo;state&rdquo; of the variable &ldquo;it&rdquo;
-first, then use the other function to see if it works.</p>
-
-<pre><code>
-it = 0
-
-def set_it(newit):
-    global it
-    it = newit
-
-def double_it():
-    it = it * 2
-    return it
-
-
-# Automated Test
-if __name__ == &quot;__main__&quot;:
-    n_err = 0
-    x = mi_to_km ( 3 )
-    set_it(5)
-    x = double_it()
-    if x !=  10:
-        n_err = n_err + 1
-        print ( &quot;Error: Test 1: conversion not working, expected {} got {}&quot;.format (  10, x ) )
-
-    # Now 2nd test is dependent on 1st test
-    x = double_it()
-    if x != 20:
-        n_err = n_err + 1
-        print ( &quot;Error: Test 2: conversion not working, expected {} got {}&quot;.format ( 20, x ) )
-
-    if n_err == 0 :
-        print ( &quot;PASS&quot; )
-    else:
-        print ( &quot;FAILED&quot; )
-
-
-</code></pre>
-
-<p>This is going to be really important when we work with things that persist
-state formation like Classes and files.</p>
-
-<h2>Pure Functional Testing</h2>
-
-<p>As long as you build code that takes a set of input, transforms it
-and then returns it - this is a &ldquo;pure functional&rdquo; set of code.   It is
-much easier to test and validate the code.   Our &ldquo;hypotenuse&rdquo; function
-is like this.  Our conversion functions are like this.</p>
-
-<h2>Integration Testing</h2>
-
-<p>This is when you test complete systems all at once.  You are not testing
-a function - you are testing the entire system.  People that work in
-quality assurance (QA) are doing Integration Testing.   This is it&rsquo;s one
-entire field of work in computer science.</p>
-
-<h2>Code Review</h2>
-
-<p>SO&hellip; With testing being a high-stakes difficult thing.  What can we
-do.   Can we get computers to just do tall the testing for us?</p>
-
-<p>The answer is no - they are not good at testing - the really can only
-test what we provide them with as tests.</p>
-
-<p>What about People - are they any good at testing.</p>
-
-<p>Microsoft did extensive research into this.  The book that they
-published on the subject, &ldquo;Code Complete&rdquo; is now about 20 years old
-but they have subsequently published regular papers showing that
-in the world of testing - not much has changed.</p>
-
-<p>Unit testing finds about 23% of retros.</p>
-
-<p>Integration testing finds about 22% - but the problems overlap with unit testing.</p>
-
-<p>Code Review - this is were you have a 2nd developer go and read through all of your code - line by line - asking questions,
-developing additional tests, asking why things are the way they are - this finds 67% of errors.</p>
-
-<p>Beta user groups - this is sending your code to a small set of users to actually run it will find 89% of errors.
-But this is usually after you have already gotten the code ready to ship to customers - so it is very expensive.</p>
-
-<p>The best, least expensive is code review.
-But this is usually after you have already gotten the code ready to ship to customers - so it is very expensive.</p>
-
-<p>The best, least expensive is code review.</p>
-
-<h1>Copyright</h1>
-
-<p>Copyright &copy; University of Wyoming, 2021.</p>
+<p><a href="https://www.geeksforgeeks.org/find-frequency-of-each-word-in-a-string-in-python/">https://www.geeksforgeeks.org/find-frequency-of-each-word-in-a-string-in-python/</a></p>
 
 </div>
 
