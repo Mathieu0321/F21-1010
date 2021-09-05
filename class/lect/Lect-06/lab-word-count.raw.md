@@ -11,7 +11,8 @@ m4_include(../../../setup.m4)
 
 ### Description of Problem
 
-Prompt for a file name. Then read in a file of text.  
+Prompt for a file name. 
+Then read in a file of text.  
 Split the file up into words.
 Remove any punctuation and convert each word to lower case.
 Count how many times each word occurs.  Print out a sorted

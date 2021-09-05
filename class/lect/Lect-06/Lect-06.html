@@ -752,13 +752,49 @@ if __name__ == &quot;__main__&quot;:
 
 </code></pre>
 
-<h2>List Example</h2>
+<h2>Let&rsquo;s remove the punctuation</h2>
 
-<!--
-Read in  A List - of People w/ Phone Numbers
-Search List
-Output A Result
--->
+<pre><code>
+def readNameList(fn):
+
+    f = open(fn,&quot;r&quot;)
+    if f == None:
+        print ( f&quot;Invalid file {fn} - failed to open&quot; )
+        return None
+    dt = f.readlines()
+    f.close()
+    for i in range (len(dt)):
+        s = dt[i].rstrip()
+        dt[i] = s
+
+    return dt
+
+
+# Automated Test
+if __name__ == &quot;__main__&quot;:
+    n_err = 0
+
+    got = readNameList(&quot;2names.txt&quot;)
+    expect = [
+        &quot;\&quot;Gunter, Dolly R\&quot;,(072) 123-4760&quot;,
+        &quot;\&quot;Polk, Hattie S\&quot;,(563) 404-0792&quot;
+        ]
+    if got[0] != expect[0]:
+        n_err = n_err + 1
+        print ( &quot;Error: Test 1: file read error expected {} got {}&quot;.format (  expect[0], got[0] ) )
+    if got[1] != expect[1]:
+        n_err = n_err + 1
+        print ( &quot;Error: Test 2: file read error expected {} got {}&quot;.format (  expect[1], got[1] ) )
+
+    if n_err == 0 :
+        print ( &quot;PASS&quot; )
+    else:
+        print ( &quot;FAILED&quot; )
+
+
+</code></pre>
+
+<h2>List Example</h2>
 
 <pre><code>
 def readNameList(fn):
@@ -790,8 +826,6 @@ if not found:
 
 <h2>Dictionary</h2>
 
-<!-- Explain Dictionary -->
-
 <p>A dictionary is an association between a &ldquo;key&rdquo; value and a set of data
 that is efficient for looking thins up by the key.</p>
 
@@ -808,39 +842,116 @@ that is efficient for looking thins up by the key.</p>
 
 <p>Now changing our phone search to use a  dictionary:</p>
 
-<pre><code>
-import csv
+<pre><code>#!/Users/philip/opt/anaconda3/bin/python
 
-def readNameList(fn):
+from readNameListCSV import readNameListCSV
 
-    f = open(fn,&quot;r&quot;)
-    if f == None:
-        print ( f&quot;Invalid file {fn} - failed to open&quot; )
-        return None
-    csvR = csv.reader(f)
-    dt = {}
-    for row in csvR:
-        dt[row[0]] = row[1]
-    f.close()
-    return dt
+phone_list = readNameListCSV(&quot;50000phone.csv&quot;)
 
-phone_list = readNameList(&quot;50000phone.csv&quot;)
-
-print ( &quot;Enter a Name to Lookup&quot; )
+print ( &quot;Enter a Name to Lookup\n=&gt; &quot;, end=&quot;&quot; )
 lookFor = input()
 
-print ( &quot;Found {}&quot;.format(phone_list[lookFor]) )
-
+if lookFor in phone_list:
+    print ( &quot;Found {}&quot;.format(phone_list[lookFor]) )
+else:
+    print ( &quot;{} not found&quot;.format(lookFor) )
 
 
 </code></pre>
+
+<h3>Requirements</h3>
+
+<p>Prompt for a file name.
+Then read in a file of text.<br />
+Split the file up into words.
+Remove any punctuation and convert each word to lower case.
+Count how many times each word occurs.
+Print out a sorted list of the words in the file with the number of occurrences of each word.  Sort from the most frequent word to the least.</p>
+
+<h3>Requirements Broken Down</h3>
+
+<ol>
+<li>Prompt for a file name.</li>
+<li>Then read in a file of text.<br /></li>
+<li>Split the file up into words.</li>
+<li>Remove any punctuation and convert each word to lower case.</li>
+<li>Count how many times each word occurs.</li>
+<li>Print out a sorted list
+
+<ul>
+<li>Print out a sorted list of the words in the file with the number of occurrences of each word.</li>
+<li>Sort from the most frequent word to the least.</li>
+</ul></li>
+</ol>
 
 <h3>Let&rsquo;s count some words</h3>
 
-<pre><code>
+<pre><code>#!/Users/philip/opt/anaconda3/bin/python
+
+from readNameList import readNameList
+from removePunctuation import removePunctuation
+
+def main():
+
+    print ( &quot;Enter File Name\n=&gt; &quot;, end=&quot;&quot; )
+    fn = input()
+    # read in file to a list of lines
+    data = readNameList(fn)
+
+    # create an empty dictionary, the key will be the word 
+    #the value will be the count.
+    freq = {}
+
+    for line in data:
+
+        # Split line up into a set of words
+        words = line.split()
+
+        for word in words:
+
+            word = word.lower()
+            word = removePunctuation(word)
+
+            if word in freq:
+                freq[word] += 1
+            else:
+                freq[word] = 1
+
+    # Prints that woudl just print out in word sorted order.
+    #for key in sorted(freq.keys()):
+    #    cnt = freq[key]
+    #    print ( f&quot;{key} = {cnt}&quot; )
+
+    print ( &quot;{name:5s} : {word}&quot;.format(name=&quot;Count&quot;,word=&quot;Word&quot;) )
+    print ( &quot;{name:5s} : {word}&quot;.format(name=&quot;-----&quot;,word=&quot;--------------------&quot;) )
+    x = sorted(freq.items(), key=lambda x: x[1], reverse=True)
+    for p in x:
+        print ( f&quot;{p[1]:5d} : {p[0]}&quot; )
+
+
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+
+
 </code></pre>
 
 <h2>Git</h2>
+
+<p>Basics - git is a way to keep a set of files and all the changes to those files.
+It lets you get back to any previous set of changes.
+You can control who changes the files and share files between people.</p>
+
+<!-- =========================== TODO =========================== -->
+
+<!-- =========================== TODO =========================== -->
+
+<!-- =========================== TODO =========================== -->
+
+<!-- =========================== TODO =========================== -->
+
+<!-- =========================== TODO =========================== -->
 
 <h1>Copyright</h1>
 

@@ -6,24 +6,24 @@ m4_include(../../../setup.m4)
 ## First let's read in a file
 
 ```
-m4_include(read-file.py)
+m4_include(readNameList.py)
+```
+
+## Let's remove the punctuation
+
+```
+m4_include(readNameList.py)
 ```
 
 ## List Example
-
-<!--
-Read in  A List - of People w/ Phone Numbers
-Search List
-Output A Result
--->
 
 ```
 m4_include(search-list.py)
 ```
 
+
 ## Dictionary
 
-<!-- Explain Dictionary -->
 A dictionary is an association between a "key" value and a set of data
 that is efficient for looking thins up by the key.
 
@@ -46,20 +46,50 @@ m4_include(search-dict.py)
 ```
 
 
+
+### Requirements
+
+Prompt for a file name. 
+Then read in a file of text.  
+Split the file up into words.
+Remove any punctuation and convert each word to lower case.
+Count how many times each word occurs. 
+Print out a sorted list of the words in the file with the number of occurrences of each word.  Sort from the most frequent word to the least.
+
+### Requirements Broken Down
+
+1. Prompt for a file name. 
+2. Then read in a file of text.  
+3. Split the file up into words.
+4. Remove any punctuation and convert each word to lower case.
+5. Count how many times each word occurs. 
+6. Print out a sorted list
+	- Print out a sorted list of the words in the file with the number of occurrences of each word. 
+	- Sort from the most frequent word to the least.
+
+
 ### Let's count some words
 
 ```
-m4_include(word-count.py)
+m4_include(word-freq.py)
 ```
 
 
 
 ## Git
 
+Basics - git is a way to keep a set of files and all the changes to those files.
+It lets you get back to any previous set of changes.
+You can control who changes the files and share files between people.
 
 
 
 
+<!-- =========================== TODO =========================== -->
+<!-- =========================== TODO =========================== -->
+<!-- =========================== TODO =========================== -->
+<!-- =========================== TODO =========================== -->
+<!-- =========================== TODO =========================== -->
 
 
 

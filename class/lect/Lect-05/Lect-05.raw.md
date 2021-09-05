@@ -56,6 +56,21 @@ million in under 30 minutes.   This killed the company.
 That is exciting - Loosing $440 million in 1/2 hour!
 
 
+### Airbus Flight A333, China airlines
+
+
+"Incident: China Airlines A333 at Taipei on Jun 14th 2020, all primary computers, reversers and autobrakes failed on touchdown
+
+"A China Airlines Airbus A330-300, registration B-18302 performing
+flight CI-202 from Shanghai Pudong (China) to Taipei Songshan
+(Taiwan) with 87 passengers and 11 crew, landed on Songshan's wet
+runway 10, when upon touchdown all three primary flight computers,
+thrust reversers and autobrake systems failed affecting the stopping
+distance of the aircraft. The crew applied maximum manual braking
+and managed to stop the aircraft 10 meters/33 feet ahead of the
+runway end ..."
+
+From: https://avherald.com/h?article=4d97ca46&opt=0, The Aviation Herald, Sep 4, 2021
 
 
 ## Unit Tests
