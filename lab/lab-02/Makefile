@@ -1,13 +1,13 @@
 
 PP=`pwd`
 FN=lab-02
-# FN1=syllabus-5010
+FN1=process
 # DIR=../F20-1015
 DIR=./../../
 IMG=
 PY=
 
-all: ${FN}.html ${FN}.pdf
+all: ${FN}.html ${FN}.pdf ${FN1}.html ${FN1}.pdf
 
 #${FN1}.html 
 
