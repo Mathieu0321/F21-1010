@@ -32,6 +32,10 @@ Note the formatting with a header and the widths used so
 that the output is more readable.
 
 
+## Links to get the function readNameList
+
+[https://github.com/Univ-Wyo-Education/F21-1010/blob/main/class/lect/Lect-06/readNameList.py](https://github.com/Univ-Wyo-Education/F21-1010/blob/main/class/lect/Lect-06/readNameList.py)
+
 ## Turn in
 
 1. Your .py file
