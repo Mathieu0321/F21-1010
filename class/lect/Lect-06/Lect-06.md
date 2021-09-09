@@ -712,102 +712,107 @@ ol {
 
 <h2>First let&rsquo;s read in a file</h2>
 
-<pre><code>
-def readNameList(fn):
-
-    f = open(fn,&quot;r&quot;)
-    if f == None:
-        print ( f&quot;Invalid file {fn} - failed to open&quot; )
-        return None
-    dt = f.readlines()
-    f.close()
-    for i in range (len(dt)):
-        s = dt[i].rstrip()
-        dt[i] = s
-
-    return dt
-
-
-# Automated Test
-if __name__ == &quot;__main__&quot;:
-    n_err = 0
-
-    got = readNameList(&quot;2names.txt&quot;)
-    expect = [
-        &quot;\&quot;Gunter, Dolly R\&quot;,(072) 123-4760&quot;,
-        &quot;\&quot;Polk, Hattie S\&quot;,(563) 404-0792&quot;
-        ]
-    if got[0] != expect[0]:
-        n_err = n_err + 1
-        print ( &quot;Error: Test 1: file read error expected {} got {}&quot;.format (  expect[0], got[0] ) )
-    if got[1] != expect[1]:
-        n_err = n_err + 1
-        print ( &quot;Error: Test 2: file read error expected {} got {}&quot;.format (  expect[1], got[1] ) )
-
-    if n_err == 0 :
-        print ( &quot;PASS&quot; )
-    else:
-        print ( &quot;FAILED&quot; )
-
+<pre><code>  1: 
+  2: def readNameList(fn):
+  3: 
+  4:     f = open(fn,&quot;r&quot;)
+  5:     if f == None:
+  6:         print ( f&quot;Invalid file {fn} - failed to open&quot; )
+  7:         return None
+  8:     dt = f.readlines()
+  9:     f.close()
+ 10:     for i in range (len(dt)):
+ 11:         s = dt[i].rstrip()
+ 12:         dt[i] = s
+ 13: 
+ 14:     return dt
+ 15: 
+ 16: 
+ 17: # Automated Test
+ 18: if __name__ == &quot;__main__&quot;:
+ 19:     n_err = 0
+ 20: 
+ 21:     got = readNameList(&quot;2names.txt&quot;)
+ 22:     expect = [
+ 23:         &quot;\&quot;Gunter, Dolly R\&quot;,(072) 123-4760&quot;,
+ 24:         &quot;\&quot;Polk, Hattie S\&quot;,(563) 404-0792&quot;
+ 25:         ]
+ 26:     if got[0] != expect[0]:
+ 27:         n_err = n_err + 1
+ 28:         print ( &quot;Error: Test 1: file read error expected {} got {}&quot;.
+ 29:                 format (  expect[0], got[0] ) )
+ 30:     if got[1] != expect[1]:
+ 31:         n_err = n_err + 1
+ 32:         print ( &quot;Error: Test 2: file read error expected {} got {}&quot;.
+ 33:                 format (  expect[1], got[1] ) )
+ 34: 
+ 35:     if n_err == 0 :
+ 36:         print ( &quot;PASS&quot; )
+ 37:     else:
+ 38:         print ( &quot;FAILED&quot; )
+ 39: 
 
 </code></pre>
 
+<div class="pagebreak"></div>
+
 <h2>Let&rsquo;s remove the punctuation</h2>
 
-<pre><code>
-import string
-
-def removePunctuation(txt):
-    for c in string.punctuation:
-        txt = txt.replace(c,&quot;&quot;)
-    return txt
-
-
-# Automated Test
-if __name__ == &quot;__main__&quot;:
-    n_err = 0
-
-    got = removePunctuation(&quot;this, and: that&quot;)
-    expect = &quot;this and that&quot;
-    if got != expect:
-        n_err = n_err + 1
-        print ( &quot;Error: Test 1: file read error expected {} got {}&quot;.format (  expect, got ) )
-
-    if n_err == 0 :
-        print ( &quot;PASS&quot; )
-    else:
-        print ( &quot;FAILED&quot; )
-
+<pre><code>  1: 
+  2: import string
+  3: 
+  4: def removePunctuation(txt):
+  5:     for c in string.punctuation:
+  6:         txt = txt.replace(c,&quot;&quot;)
+  7:     return txt
+  8: 
+  9: 
+ 10: # Automated Test
+ 11: if __name__ == &quot;__main__&quot;:
+ 12:     n_err = 0
+ 13: 
+ 14:     got = removePunctuation(&quot;this, and: that&quot;)
+ 15:     expect = &quot;this and that&quot;
+ 16:     if got != expect:
+ 17:         n_err = n_err + 1
+ 18:         print ( &quot;Error: Test 1: file read error expected {} got {}&quot;.
+ 19:                 format (  expect, got ) )
+ 20: 
+ 21:     if n_err == 0 :
+ 22:         print ( &quot;PASS&quot; )
+ 23:     else:
+ 24:         print ( &quot;FAILED&quot; )
+ 25: 
 
 </code></pre>
 
 <h2>List Example</h2>
 
-<pre><code>
-def readNameList(fn):
-    f = open(fn,&quot;r&quot;)
-    if f == None:
-        print ( f&quot;Invalid file {fn} - failed to open&quot; )
-        return None
-    dt = f.readlines()
-    f.close()
-    for i in range (len(dt)):
-        s = dt[i].rstrip()
-        dt[i] = s
-    return dt
-
-phone_list = readNameList(&quot;50000phone.csv&quot;)
-
-print ( &quot;Enter a Name to Lookup&quot; )
-lookFor = input()
-found = False
-for i in range(len(phone_list)):
-    if lookFor in phone_list[i]:
-        found = True
-        print ( &quot;Found {}&quot;.format(phone_list[i]) )
-if not found:
-    print ( &quot;no names found&quot; )
-
+<pre><code>  1: 
+  2: def readNameList(fn):
+  3:     f = open(fn,&quot;r&quot;)
+  4:     if f == None:
+  5:         print ( f&quot;Invalid file {fn} - failed to open&quot; )
+  6:         return None
+  7:     dt = f.readlines()
+  8:     f.close()
+  9:     for i in range (len(dt)):
+ 10:         s = dt[i].rstrip()
+ 11:         dt[i] = s
+ 12:     return dt
+ 13: 
+ 14: phone_list = readNameList(&quot;50000phone.csv&quot;)
+ 15: 
+ 16: print ( &quot;Enter a Name to Lookup&quot; )
+ 17: lookFor = input()
+ 18: found = False
+ 19: for i in range(len(phone_list)):
+ 20:     if lookFor in phone_list[i]:
+ 21:         found = True
+ 22:         print ( &quot;Found {}&quot;.format(phone_list[i]) )
+ 23: if not found:
+ 24:     print ( &quot;no names found&quot; )
+ 25: 
 
 </code></pre>
 
@@ -829,20 +834,20 @@ that is efficient for looking thins up by the key.</p>
 
 <p>Now changing our phone search to use a  dictionary:</p>
 
-<pre><code>#!/Users/philip/opt/anaconda3/bin/python
-
-from readNameListCSV import readNameListCSV
-
-phone_list = readNameListCSV(&quot;50000phone.csv&quot;)
-
-print ( &quot;Enter a Name to Lookup\n=&gt; &quot;, end=&quot;&quot; )
-lookFor = input()
-
-if lookFor in phone_list:
-    print ( &quot;Found {}&quot;.format(phone_list[lookFor]) )
-else:
-    print ( &quot;{} not found&quot;.format(lookFor) )
-
+<pre><code>  1: #!/Users/philip/opt/anaconda3/bin/python
+  2: 
+  3: from readNameListCSV import readNameListCSV
+  4: 
+  5: phone_list = readNameListCSV(&quot;50000phone.csv&quot;)
+  6: 
+  7: print ( &quot;Enter a Name to Lookup\n=&gt; &quot;, end=&quot;&quot; )
+  8: lookFor = input()
+  9: 
+ 10: if lookFor in phone_list:
+ 11:     print ( &quot;Found {}&quot;.format(phone_list[lookFor]) )
+ 12: else:
+ 13:     print ( &quot;{} not found&quot;.format(lookFor) )
+ 14: 
 
 </code></pre>
 
@@ -873,54 +878,54 @@ Print out a sorted list of the words in the file with the number of occurrences 
 
 <h3>Let&rsquo;s count some words</h3>
 
-<pre><code>#!/Users/philip/opt/anaconda3/bin/python
-
-from readNameList import readNameList
-from removePunctuation import removePunctuation
-
-def main():
-
-    print ( &quot;Enter File Name\n=&gt; &quot;, end=&quot;&quot; )
-    fn = input()
-    # read in file to a list of lines
-    data = readNameList(fn)
-
-    # create an empty dictionary, the key will be the word 
-    #the value will be the count.
-    freq = {}
-
-    for line in data:
-
-        # Split line up into a set of words
-        words = line.split()
-
-        for word in words:
-
-            word = word.lower()
-            word = removePunctuation(word)
-
-            if word in freq:
-                freq[word] += 1
-            else:
-                freq[word] = 1
-
-    # Prints that woudl just print out in word sorted order.
-    #for key in sorted(freq.keys()):
-    #    cnt = freq[key]
-    #    print ( f&quot;{key} = {cnt}&quot; )
-
-    print ( &quot;{name:5s} : {word}&quot;.format(name=&quot;Count&quot;,word=&quot;Word&quot;) )
-    print ( &quot;{name:5s} : {word}&quot;.format(name=&quot;-----&quot;,word=&quot;--------------------&quot;) )
-    x = sorted(freq.items(), key=lambda x: x[1], reverse=True)
-    for p in x:
-        print ( f&quot;{p[1]:5d} : {p[0]}&quot; )
-
-
-
-
-if __name__ == &quot;__main__&quot;:
-    main()
-
+<pre><code>  1: #!/Users/philip/opt/anaconda3/bin/python
+  2: 
+  3: from readNameList import readNameList
+  4: from removePunctuation import removePunctuation
+  5: 
+  6: def main():
+  7: 
+  8:     print ( &quot;Enter File Name\n=&gt; &quot;, end=&quot;&quot; )
+  9:     fn = input()
+ 10:     # read in file to a list of lines
+ 11:     data = readNameList(fn)
+ 12: 
+ 13:     # create an empty dictionary, the key will be the word 
+ 14:     #the value will be the count.
+ 15:     freq = {}
+ 16: 
+ 17:     for line in data:
+ 18: 
+ 19:         # Split line up into a set of words
+ 20:         words = line.split()
+ 21: 
+ 22:         for word in words:
+ 23: 
+ 24:             word = word.lower()
+ 25:             word = removePunctuation(word)
+ 26: 
+ 27:             if word in freq:
+ 28:                 freq[word] += 1
+ 29:             else:
+ 30:                 freq[word] = 1
+ 31: 
+ 32:     # Prints that woudl just print out in word sorted order.
+ 33:     #for key in sorted(freq.keys()):
+ 34:     #    cnt = freq[key]
+ 35:     #    print ( f&quot;{key} = {cnt}&quot; )
+ 36: 
+ 37:     print ( &quot;{name:5s} : {word}&quot;.format(name=&quot;Count&quot;,word=&quot;Word&quot;) )
+ 38:     print ( &quot;{name:5s} : {word}&quot;.format(name=&quot;-----&quot;,word=&quot;--------------------&quot;) )
+ 39:     x = sorted(freq.items(), key=lambda x: x[1], reverse=True)
+ 40:     for p in x:
+ 41:         print ( f&quot;{p[1]:5d} : {p[0]}&quot; )
+ 42: 
+ 43: 
+ 44: 
+ 45: 
+ 46: if __name__ == &quot;__main__&quot;:
+ 47:     main()
+ 48: 
 
 </code></pre>
 

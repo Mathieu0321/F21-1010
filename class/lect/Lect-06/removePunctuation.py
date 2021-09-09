@@ -15,7 +15,8 @@ if __name__ == "__main__":
     expect = "this and that"
     if got != expect:
         n_err = n_err + 1
-        print ( "Error: Test 1: file read error expected {} got {}".format (  expect, got ) )
+        print ( "Error: Test 1: file read error expected {} got {}".
+                format (  expect, got ) )
 
     if n_err == 0 :
         print ( "PASS" )

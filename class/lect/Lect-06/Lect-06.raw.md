@@ -6,19 +6,21 @@ m4_include(../../../setup.m4)
 ## First let's read in a file
 
 ```
-m4_include(readNameList.py)
+m4_include(readNameList.py.nu)
 ```
+
+<div class="pagebreak"></div>
 
 ## Let's remove the punctuation
 
 ```
-m4_include(removePunctuation.py)
+m4_include(removePunctuation.py.nu)
 ```
 
 ## List Example
 
 ```
-m4_include(search-list.py)
+m4_include(search-list.py.nu)
 ```
 
 
@@ -42,7 +44,7 @@ let's do an "age" one...
 Now changing our phone search to use a  dictionary:
 
 ```
-m4_include(search-dict.py)
+m4_include(search-dict.py.nu)
 ```
 
 
@@ -71,7 +73,7 @@ Print out a sorted list of the words in the file with the number of occurrences 
 ### Let's count some words
 
 ```
-m4_include(word-freq.py)
+m4_include(word-freq.py.nu)
 ```
 
 

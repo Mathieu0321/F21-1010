@@ -25,10 +25,12 @@ if __name__ == "__main__":
         ]
     if got[0] != expect[0]:
         n_err = n_err + 1
-        print ( "Error: Test 1: file read error expected {} got {}".format (  expect[0], got[0] ) )
+        print ( "Error: Test 1: file read error expected {} got {}".
+                format (  expect[0], got[0] ) )
     if got[1] != expect[1]:
         n_err = n_err + 1
-        print ( "Error: Test 2: file read error expected {} got {}".format (  expect[1], got[1] ) )
+        print ( "Error: Test 2: file read error expected {} got {}".
+                format (  expect[1], got[1] ) )
 
     if n_err == 0 :
         print ( "PASS" )

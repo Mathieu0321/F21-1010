@@ -5,10 +5,24 @@ FN1=lab-word-count
 FN2=git
 DIR=../../../
 IMG=
-PY=
+PY= \
+	gen-name-list.py \
+	readNameList.py \
+	readNameListCSV.py \
+	removePunctuation.py \
+	s2.py \
+	search-dict.py \
+	search-list.py \
+	shuffle.py \
+	word-count.py \
+	word-freq.py
 
-# all: ${FN}.html ${FN}.pdf ${FN1}.html ${FN1}.pdf ${FN2}.html ${FN2}.pdf
-all: ${FN}.html ${FN1}.html ${FN2}.html 
+all: setup all2
+
+setup:
+	./mk_all_nu.sh
+
+all2: ${FN}.html ${FN1}.html ${FN2}.html 
 
 %.html: %.raw.md
 	./mk_html.sh $< $@ 

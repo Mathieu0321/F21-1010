@@ -28,7 +28,8 @@ if __name__ == "__main__":
         }
     if got["Polk, Hattie S"] != expect["Polk, Hattie S"]:
         n_err = n_err + 1
-        print ( "Error: Test 1: file read error expected {} got {}".format (  expect["Polk, Hattie S"], got["Polk, Hattie S"] ) )
+        print ( "Error: Test 1: file read error expected {} got {}".
+           format (  expect["Polk, Hattie S"], got["Polk, Hattie S"] ) )
 
     if n_err == 0 :
         print ( "PASS" )
