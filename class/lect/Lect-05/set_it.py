@@ -6,6 +6,7 @@ def set_it(newit):
     it = newit
 
 def double_it():
+    global it
     it = it * 2
     return it
 

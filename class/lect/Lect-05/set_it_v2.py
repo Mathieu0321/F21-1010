@@ -6,14 +6,17 @@ def set_it(newit):
     it = newit
 
 def double_it():
+    global it
     it = it * 2
     return it
 
 
+print ( "ya this file is changed....." )
+
 # Automated Test
 if __name__ == "__main__":
     n_err = 0
-    x = mi_to_km ( 3 )
+    x = set_it ( 3 )
     set_it(5)
     x = double_it()
     if x !=  10:

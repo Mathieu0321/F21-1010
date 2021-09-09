@@ -1,42 +1,35 @@
 
 m4_include(../../../setup.m4)
 
-# Lab XXXXX - word frequency
+# Lab 3 - count lines, words, characters
 
 ## Requirements
 
 ### Input: File Name
 
-### Output: A sorted list of words with the frequency of each word
+### Output: The number of lines and words in the file
 
 ### Description of Problem
 
 Prompt for a file name. 
 Then read in a file of text.  
 Split the file up into words.
-Remove any punctuation and convert each word to lower case.
-Count how many times each word occurs.  Print out a sorted
-list of the words in the file with the number of occurrences
-of each word.  Sort from the most frequent word to the least.
+Count the number of words and the number of lines.
 
 ### Example Run
 
 With a print in word frequency order:
 
 ```
-C:\> python word-freq.py
+C:\> python count-lines-words.py
 Input File Name
-=> test1.txt
-m4_include(test1.out2)
+=> test3.txt
+Lines: 4
+Words: 10
 ```
 
 Note the formatting with a header and the widths used so 
 that the output is more readable.
-
-
-### Similar solution on the web
-
-[https://www.geeksforgeeks.org/find-frequency-of-each-word-in-a-string-in-python/](https://www.geeksforgeeks.org/find-frequency-of-each-word-in-a-string-in-python/)
 
 
 

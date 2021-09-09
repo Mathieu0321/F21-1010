@@ -708,7 +708,7 @@ ol {
 
 <div class="markdown-body">
 
-<h1>Lecture 6 - Lists / Dictionaries / Git</h1>
+<h1>Lecture 6 - Lists / Dictionaries</h1>
 
 <h2>First let&rsquo;s read in a file</h2>
 
@@ -755,36 +755,23 @@ if __name__ == &quot;__main__&quot;:
 <h2>Let&rsquo;s remove the punctuation</h2>
 
 <pre><code>
-def readNameList(fn):
+import string
 
-    f = open(fn,&quot;r&quot;)
-    if f == None:
-        print ( f&quot;Invalid file {fn} - failed to open&quot; )
-        return None
-    dt = f.readlines()
-    f.close()
-    for i in range (len(dt)):
-        s = dt[i].rstrip()
-        dt[i] = s
-
-    return dt
+def removePunctuation(txt):
+    for c in string.punctuation:
+        txt = txt.replace(c,&quot;&quot;)
+    return txt
 
 
 # Automated Test
 if __name__ == &quot;__main__&quot;:
     n_err = 0
 
-    got = readNameList(&quot;2names.txt&quot;)
-    expect = [
-        &quot;\&quot;Gunter, Dolly R\&quot;,(072) 123-4760&quot;,
-        &quot;\&quot;Polk, Hattie S\&quot;,(563) 404-0792&quot;
-        ]
-    if got[0] != expect[0]:
+    got = removePunctuation(&quot;this, and: that&quot;)
+    expect = &quot;this and that&quot;
+    if got != expect:
         n_err = n_err + 1
-        print ( &quot;Error: Test 1: file read error expected {} got {}&quot;.format (  expect[0], got[0] ) )
-    if got[1] != expect[1]:
-        n_err = n_err + 1
-        print ( &quot;Error: Test 2: file read error expected {} got {}&quot;.format (  expect[1], got[1] ) )
+        print ( &quot;Error: Test 1: file read error expected {} got {}&quot;.format (  expect, got ) )
 
     if n_err == 0 :
         print ( &quot;PASS&quot; )
@@ -872,7 +859,7 @@ Print out a sorted list of the words in the file with the number of occurrences 
 
 <ol>
 <li>Prompt for a file name.</li>
-<li>Then read in a file of text.<br /></li>
+<li>Read in a file of text.<br /></li>
 <li>Split the file up into words.</li>
 <li>Remove any punctuation and convert each word to lower case.</li>
 <li>Count how many times each word occurs.</li>
@@ -936,22 +923,6 @@ if __name__ == &quot;__main__&quot;:
 
 
 </code></pre>
-
-<h2>Git</h2>
-
-<p>Basics - git is a way to keep a set of files and all the changes to those files.
-It lets you get back to any previous set of changes.
-You can control who changes the files and share files between people.</p>
-
-<!-- =========================== TODO =========================== -->
-
-<!-- =========================== TODO =========================== -->
-
-<!-- =========================== TODO =========================== -->
-
-<!-- =========================== TODO =========================== -->
-
-<!-- =========================== TODO =========================== -->
 
 <h1>Copyright</h1>
 

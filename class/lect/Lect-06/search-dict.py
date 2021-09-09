@@ -1,24 +1,14 @@
+#!/Users/philip/opt/anaconda3/bin/python
 
-import csv
+from readNameListCSV import readNameListCSV
 
-def readNameList(fn):
+phone_list = readNameListCSV("50000phone.csv")
 
-    f = open(fn,"r")
-    if f == None:
-        print ( f"Invalid file {fn} - failed to open" )
-        return None
-    csvR = csv.reader(f)
-    dt = {}
-    for row in csvR:
-        dt[row[0]] = row[1]
-    f.close()
-    return dt
-
-phone_list = readNameList("50000phone.csv")
-
-print ( "Enter a Name to Lookup" )
+print ( "Enter a Name to Lookup\n=> ", end="" )
 lookFor = input()
 
-print ( "Found {}".format(phone_list[lookFor]) )
-
+if lookFor in phone_list:
+    print ( "Found {}".format(phone_list[lookFor]) )
+else:
+    print ( "{} not found".format(lookFor) )
 

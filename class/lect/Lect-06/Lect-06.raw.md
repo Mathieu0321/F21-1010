@@ -1,7 +1,7 @@
 
 m4_include(../../../setup.m4)
 
-# Lecture 6 - Lists / Dictionaries / Git
+# Lecture 6 - Lists / Dictionaries 
 
 ## First let's read in a file
 
@@ -12,7 +12,7 @@ m4_include(readNameList.py)
 ## Let's remove the punctuation
 
 ```
-m4_include(readNameList.py)
+m4_include(removePunctuation.py)
 ```
 
 ## List Example
@@ -59,7 +59,7 @@ Print out a sorted list of the words in the file with the number of occurrences 
 ### Requirements Broken Down
 
 1. Prompt for a file name. 
-2. Then read in a file of text.  
+2. Read in a file of text.  
 3. Split the file up into words.
 4. Remove any punctuation and convert each word to lower case.
 5. Count how many times each word occurs. 
@@ -75,21 +75,6 @@ m4_include(word-freq.py)
 ```
 
 
-
-## Git
-
-Basics - git is a way to keep a set of files and all the changes to those files.
-It lets you get back to any previous set of changes.
-You can control who changes the files and share files between people.
-
-
-
-
-<!-- =========================== TODO =========================== -->
-<!-- =========================== TODO =========================== -->
-<!-- =========================== TODO =========================== -->
-<!-- =========================== TODO =========================== -->
-<!-- =========================== TODO =========================== -->
 
 
 

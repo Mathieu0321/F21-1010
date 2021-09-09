@@ -2,11 +2,12 @@
 PP=`pwd`
 FN=Lect-06
 FN1=lab-word-count
+FN2=git
 DIR=../../../
 IMG=
 PY=
 
-all: ${FN}.html ${FN}.pdf ${FN1}.html ${FN}.pdf
+all: ${FN}.html ${FN}.pdf ${FN1}.html ${FN1}.pdf ${FN2}.html ${FN2}.pdf
 
 #${FN1}.html 
 
