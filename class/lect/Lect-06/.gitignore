@@ -5,3 +5,4 @@ gen-name-list.py
 word-count.py
 ans3.zip
 output.txt
+__pycache__
