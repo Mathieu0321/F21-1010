@@ -32,4 +32,15 @@ Note the formatting with a header and the widths used so
 that the output is more readable.
 
 
+## Turn in
+
+1. Your .py file
+2. A single test file for running it (a few lines, hand count the words)
+3. The output from running it as a .txt file.  You can get the output by:
+```
+$ python your-program.py >output.txt
+```
+The prompt for the file name will go to ouptut.txt so remember to type in
+your file name.
+
 

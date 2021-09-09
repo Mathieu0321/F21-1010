@@ -714,5 +714,57 @@ ol {
 It lets you get back to any previous set of changes.
 You can control who changes the files and share files between people.</p>
 
+<h2>You can create your own local repository.</h2>
+
+<pre><code>$ git init
+</code></pre>
+
+<p>Then edit a file called test.txt</p>
+
+<p>Find out what is not in the repository.</p>
+
+<pre><code>$ git status
+</code></pre>
+
+<p>Add the file to it.  Create the file test.txt</p>
+
+<pre><code>$ git add test.txt
+$ git status
+$ git commit -m &quot;A Test of Git&quot;
+</code></pre>
+
+<h2>You can get copies of other poles repositories</h2>
+
+<p>For this class:</p>
+
+<pre><code>$ mkdir class1010
+$ cd class1010
+$ git clone git@github.com:Univ-Wyo-Education/F21-1010.git
+$ cd F21-1010
+</code></pre>
+
+<h2>You can create remote repositories and share files</h2>
+
+<ol>
+<li>Create a repository on github.com</li>
+<li>It will give you instructions on how to &ldquo;clone&rdquo; it locally</li>
+<li>Add a file</li>
+<li>Commit the file</li>
+
+<li><p>Push your local copy to github.com</p>
+
+<pre><code>$ git push
+</code></pre></li>
+</ol>
+
+<h2>You can get changes</h2>
+
+<pre><code>$ git pull
+</code></pre>
+
+<h2>An article for beginners with Git</h2>
+
+<p><a href="https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners">https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners</a></p>
+
 </div>
 
